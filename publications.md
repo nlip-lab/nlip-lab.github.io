@@ -5,7 +5,6 @@ years: [2022, 2021, 2020]
 
 ---
 
-
 <html>
 <head>
 <style>
@@ -16,16 +15,13 @@ years: [2022, 2021, 2020]
   padding: 8px 16px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 12px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
+  transition-duration: 0.5s;
   cursor: pointer;
 }
 .button1 {
   color: #008CBA; 
-  border: 2px solid #008CBA;
+  border: 1px solid #008CBA;
   border-radius: 5px;
 }
 .button1:hover {
@@ -48,48 +44,35 @@ years: [2022, 2021, 2020]
 }
 </style>
 </head>
-<body>
-
+</html>
 
 For those interested in numbers, see Konrad's <a href="https://scholar.google.com/citations?user=MiFqJGcAAAAJ"> google scholar citations profile</a>
-
 <hr>
 
-
-{% for publi in site._bibliography.references %}
-{{publi.title}}
-{% endfor %}
-
-
-
 <h3>Highlighted publications</h3>
+<br>
 
-{% assign number_printed = 0 %}
 {% for publi in site.data.publications %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
 {% if publi.highlight == 1 %}
-
-
 <div class="row">
 <div class="col-sm-12 clearfix">
-<div class="well">
+<div class="well well-lg">
+
 <p style="text-align:left"><b>{{ publi.title }}</b></p>
-<div class="row" style="padding-left: 10px; padding-right:10px"> 
+
+<div class="row"> 
   {% if publi.img %}
-  <img src="{{ site.url }}{{ site.baseurl }}/publications/images/{{ publi.img }}" class="img-responsive" width="35%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/publications/images/{{ publi.img }}" class="img-responsive" width="40%" style="float:left; padding-right:20px; margin-top:15px" />
   {% endif %}
-  <p style="text-align:justify padding: 10px">{{ publi.description }}</p>
-</div>
-<div>
-  <b>{{ publi.authors }}</b>
-  <br><br>
-  {{publi.journal}}
+  <p style="text-align:justify; padding:10px">{{ publi.description }}</p>
+
+  <p><b>{{ publi.authors }}</b></p>
+
+  <p>{{publi.journal}}</p>
 </div>
 
 <div class="row">
   <ul class="nav nav-pills">
-
   <!-- URL -->
   {% if publi.url %}
     <li>
@@ -134,38 +117,25 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
 {% endif %}
 
 {% if publi.bibtex %}
-<p id="{{publi.key}}-bibtex" class="collapse" style="border-style: dashed">
-<object data="{{ site.url }}{{ site.baseurl }}/publications/references/{{publi.bibtex}}" width="100%"></object>
+<p id="{{publi.key}}-bibtex" class="collapse" style="border-style: dashed;">
+
+<object data="{{ site.url }}{{ site.baseurl }}/publications/references/{{publi.bibtex}}" width="100%" style="overflow: auto;"></object>
 </p>
 {% endif %}
-
 </div>
 </div>
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-{% if even_odd == 1 %}
-
 </div>
-
-{% endif %}
 {% endif %}
 {% endfor %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
 
 
 <h3>Full List of publications</h3>
 <ol>
 {% for publi in site.data.publications %}
-{% if publi.highlight == 0 %}
 <div>
   <li>{{publi.apa}}</li>
-  <br>
 </div>
-{% endif %}
 {% endfor %}
 </ol>
 
@@ -186,5 +156,3 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-</body>
-</html>

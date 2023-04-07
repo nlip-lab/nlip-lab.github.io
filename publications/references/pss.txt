@@ -1,0 +1,18 @@
+@inproceedings{10.1145/2959100.2959145,
+author = {Dey, Suvodip and Mitra, Pabitra and Gupta, Kratika},
+title = {Recommending Repeat Purchases Using Product Segment Statistics},
+year = {2016},
+isbn = {9781450340359},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2959100.2959145},
+doi = {10.1145/2959100.2959145},
+abstract = {Repeat Purchases have become increasingly important in measuring customer's satisfaction and loyalty to e-commerce websites in regard to online shopping. In this paper, we first propose a model for estimating repeat purchase frequency in a given time period from a given product category using Poisson/Gamma model. Second, we estimate the purchase probabilities of different product types in a product category for each customer using Dirichlet model. Experimental results on data collected by a real-world e-commerce website show that it can predict a user's average repeat purchase frequency along with their product types with decent accuracy. We also argue that the output of our models can be used as prior information to enhance the performance of time-sensitive recommendation.},
+booktitle = {Proceedings of the 10th ACM Conference on Recommender Systems},
+pages = {357–360},
+numpages = {4},
+keywords = {dirichlet model, repeat purchase, poisson/gamma model},
+location = {Boston, Massachusetts, USA},
+series = {RecSys '16}
+}
+

@@ -22,16 +22,16 @@ highlighter:        rouge
 
 # Navigation
 nav:
-  - name:           "home"
-    href:           "/"
+  - name:           "research"
+    href:           "/research"
   - name:           "about"
     href:           "/about"
   - name:           "publications"
     href:           "/publication"
   - name:           "people"
     href:           "/people"
-  - name:           "blog"
-    href:           "/blog"
+  # - name:           "blog"
+  #   href:           "/blog"
   - name:           "resources"
     href:           "/resources"
 
@@ -66,6 +66,9 @@ collections:
     output: true
     permalink: /people/:title/index.html
 
+footer_name: NLP Lab
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 
 plugins:

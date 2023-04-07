@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3501247.3531561,
+author = {Ghosh, Samujjwal and Maji, Subhadeep and Desarkar, Maunendra Sankar},
+title = {GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification},
+year = {2022},
+isbn = {9781450391917},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3501247.3531561},
+doi = {10.1145/3501247.3531561},
+booktitle = {14th ACM Web Science Conference 2022},
+pages = {55–65},
+numpages = {11},
+keywords = {Text Classification, Natural Language Processing, Multilingual Learning, Graph Neural Networks, Disaster Management},
+location = {Barcelona, Spain},
+series = {WebSci '22}
+}
+

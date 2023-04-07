@@ -1,0 +1,16 @@
+@inproceedings{10.1145/3397536.3422233,
+author = {Dubey, Manisha and Srijith, P.K. and Desarkar, Maunendra Sankar},
+title = {HAP-SAP: Semantic Annotation in LBSNs Using Latent Spatio-Temporal Hawkes Process},
+year = {2020},
+isbn = {9781450380195},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3397536.3422233},
+doi = {10.1145/3397536.3422233},
+booktitle = {Proceedings of the 28th International Conference on Advances in Geographic Information Systems},
+pages = {377–380},
+numpages = {4},
+keywords = {Location-based Social Networks, Semantic Annotation, Spatio-Temporal Hawkes Process},
+location = {Seattle, WA, USA},
+series = {SIGSPATIAL '20}
+}

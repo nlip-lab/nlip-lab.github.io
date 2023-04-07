@@ -1,0 +1,15 @@
+@article{DBLP:journals/corr/abs-2112-11389,
+  author    = {Samujjwal Ghosh and
+               Subhadeep Maji and
+               Maunendra Sankar Desarkar},
+  title     = {Supervised Graph Contrastive Pretraining for Text Classification},
+  journal   = {CoRR},
+  volume    = {abs/2112.11389},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2112.11389},
+  eprinttype = {arXiv},
+  eprint    = {2112.11389},
+  timestamp = {Tue, 04 Jan 2022 15:59:27 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2112-11389.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}

@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3477314.3507194,
+author = {Ghosh, Samujjwal and Maji, Subhadeep and Desarkar, Maunendra Sankar},
+title = {Effective Utilization of Labeled Data from Related Tasks Using Graph Contrastive Pretraining: Application to Disaster Related Text Classification},
+year = {2022},
+isbn = {9781450387132},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3477314.3507194},
+doi = {10.1145/3477314.3507194},
+booktitle = {Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing},
+pages = {875–878},
+numpages = {4},
+keywords = {contrastive learning, zero-shot classification, graph neural network, text representation, disaster response, text classification},
+location = {Virtual Event},
+series = {SAC '22}
+}
+

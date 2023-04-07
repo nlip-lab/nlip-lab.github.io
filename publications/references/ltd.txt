@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3340531.3411997,
+author = {Maurya, Kaushal Kumar and Desarkar, Maunendra Sankar},
+title = {Learning to Distract: A Hierarchical Multi-Decoder Network for Automated Generation of Long Distractors for Multiple-Choice Questions for Reading Comprehension},
+year = {2020},
+isbn = {9781450368599},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3340531.3411997},
+doi = {10.1145/3340531.3411997},
+booktitle = {Proceedings of the 29th ACM International Conference on Information & Knowledge Management},
+pages = {1115–1124},
+numpages = {10},
+keywords = {distractor generation, question-answering, natural language generation},
+location = {Virtual Event, Ireland},
+series = {CIKM '20}
+}
+

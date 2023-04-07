@@ -1,18 +1,60 @@
+- key: "hapsap"
+  authors: "Manisha Dubey, P.K Srijith and Maunendra Sankar Desarkar"
+  title: "HAP-SAP: Semantic Annotation in LBSNs using Latent Spatio-Temporal Hawkes Process"
+  journal: "SIGSPATIAL '20: Proceedings of the 28th International Conference on Advances in Geographic Information Systems"
+  date: "13 November 2020"
+  code: 
+  url: https://dl.acm.org/doi/10.1145/3397536.3422233
+  eprint: 
+  apa: Get me the best predicting best answerers in community question answering sites"
+  highlight: 1
+  img: "hapsap.png"
+  bibtex: "hapsap.txt"
+  description: "In this paper, we simultaneously address the problem of semantic annotation of locations and location adoption dynamics of users. We propose our model HAP-SAP, a latent spatio-temporal multivariate Hawkes process, which considers latent semantic category influences, and temporal and spatial mobility patterns of users. The inferred semantic categories can supplement our model on predicting the next check-in events by users."
+
+- key: "hcn"
+  authors: "Manisha Dubey, P.K Srijith and Maunendra Sankar Desarkar"
+  title: "Multi-view Hypergraph Convolution Network for Semantic Annotation in LBSNs"
+  journal: "ASONAM '21: Proceedings of the 2021 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining"
+  date: "19 January 2022"
+  code: https://dl.acm.org/doi/10.1145/3487351.3488341 
+  url: https://dl.acm.org/doi/pdf/10.1145/3487351.3488341
+  eprint: 
+  apa: Get me the best predicting best answerers in community question answering sites"
+  highlight: 1
+  img: hcn.png
+  bibtex: "hcn.txt"
+  description: "We propose a Multi-view Hypergraph Convolution Network (Multi-HGCN) where we learn POI representations by considering multiple hypergraphs across multiple views of the data. We build a comprehensive model to learn the POI representation capturing temporal, spatial and trajectory-based patterns among POIs by employing hypergraphs."
+
 - key: "getmethebest"
   authors: Rohan Tondulkar, Manisha Dubey and Maunendra Sankar Desarkar
   title: "Get me the best: predicting best answerers in community question answering sites"
   journal: "RecSys '18: Proceedings of the 12th ACM Conference on Recommender Systems"
-  abstract: "RecSys '18: Proceedings of the 12th ACM Conference on Recommender Systems"
   date: "27 September 2018"
   code: 
   url: https://dl.acm.org/doi/10.1145/3240323.3240346
   eprint: https://dl.acm.org/doi/pdf/10.1145/3240323.3240346
-  apa: 
+  apa: Get me the best predicting best answerers in community question answering sites"
   highlight: 1
   img: getmethebest.png
   bibtex: "getmethebest.txt"
+  abstract: This paper addresses the challenging problem of predicting the best answerer for a new question and thereby recommending the best expert for the same. Although there are work in the literature that aim to find possible answerers for questions posted in CQA, very few algorithms exist for finding the best answerer whose answer will satisfy the information need of the original Poster. 
   description: This paper addresses the challenging problem of predicting the best answerer for a new question and thereby recommending the best expert for the same. Although there are work in the literature that aim to find possible answerers for questions posted in CQA, very few algorithms exist for finding the best answerer whose answer will satisfy the information need of the original Poster. 
 
+- key: "hcn"
+  authors: "Manisha Dubey, P.K Srijith and Maunendra Sankar Desarkar"
+  title: "Multi-view Hypergraph Convolution Network for Semantic Annotation in LBSNs"
+  journal: "ASONAM '21: Proceedings of the 2021 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining"
+  date: "19 January 2022"
+  code: https://dl.acm.org/doi/10.1145/3487351.3488341 
+  url: https://dl.acm.org/doi/pdf/10.1145/3487351.3488341
+  eprint: 
+  apa: Get me the best predicting best answerers in community question answering sites"
+  highlight: 1
+  img: hcn.png
+  bibtex: "hcn.txt"
+  description: "We propose a Multi-view Hypergraph Convolution Network (Multi-HGCN) where we learn POI representations by considering multiple hypergraphs across multiple views of the data. We build a comprehensive model to learn the POI representation capturing temporal, spatial and trajectory-based patterns among POIs by employing hypergraphs."
+  abstract: This paper addresses the challenging problem of predicting the best answerer for a new question and thereby recommending the best expert for the same. Although there are work in the literature that aim to find possible answerers for questions posted in CQA, very few algorithms exist for finding the best answerer whose answer will satisfy the information need of the original Poster. 
 
 - key: "getmethebest"
   authors: Rohan Tondulkar, Manisha Dubey and Maunendra Sankar Desarkar

@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3487351.3488341,
+author = {Dubey, Manisha and Srijith, P. K. and Desarkar, Maunendra Sankar},
+title = {Multi-View Hypergraph Convolution Network for Semantic Annotation in LBSNs},
+year = {2022},
+isbn = {9781450391283},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3487351.3488341},
+doi = {10.1145/3487351.3488341},
+booktitle = {Proceedings of the 2021 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining},
+pages = {219–227},
+numpages = {9},
+keywords = {location-based social networks, semantic annotation, hypergraphs},
+location = {Virtual Event, Netherlands},
+series = {ASONAM '21}
+}
+

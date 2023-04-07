@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3184558.3191621,
+author = {Ghosh, Samujjwal and Desarkar, Maunendra Sankar},
+title = {Class Specific TF-IDF Boosting for Short-Text Classification: Application to Short-Texts Generated During Disasters},
+year = {2018},
+isbn = {9781450356404},
+publisher = {International World Wide Web Conferences Steering Committee},
+address = {Republic and Canton of Geneva, CHE},
+url = {https://doi.org/10.1145/3184558.3191621},
+doi = {10.1145/3184558.3191621},
+booktitle = {Companion Proceedings of the The Web Conference 2018},
+pages = {1629–1637},
+numpages = {9},
+keywords = {entropy-based feature generation, information retrieval, feature engineering, short-text classification},
+location = {Lyon, France},
+series = {WWW '18}
+}
+

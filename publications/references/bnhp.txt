@@ -1,0 +1,8 @@
+@misc{dubey2022bayesian,
+      title={Bayesian Neural Hawkes Process for Event Uncertainty Prediction}, 
+      author={Manisha Dubey and Ragja Palakkadavath and P. K. Srijith},
+      year={2022},
+      eprint={2112.14474},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
