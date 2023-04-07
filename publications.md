@@ -131,13 +131,13 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
 
 
 <h3>Full List of publications</h3>
-<ol>
+<ul>
 {% for publi in site.data.publications %}
 <div>
   <li>{{publi.apa}}</li>
 </div>
 {% endfor %}
-</ol>
+</ul>
 
 
 <script>

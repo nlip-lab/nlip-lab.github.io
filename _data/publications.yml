@@ -12,6 +12,20 @@
   bibtex: "hapsap.txt"
   description: "In this paper, we simultaneously address the problem of semantic annotation of locations and location adoption dynamics of users. We propose our model HAP-SAP, a latent spatio-temporal multivariate Hawkes process, which considers latent semantic category influences, and temporal and spatial mobility patterns of users. The inferred semantic categories can supplement our model on predicting the next check-in events by users."
 
+- key: "hapsap"
+  authors: "Manisha Dubey, P.K Srijith and Maunendra Sankar Desarkar"
+  title: "HAP-SAP: Semantic Annotation in LBSNs using Latent Spatio-Temporal Hawkes Process"
+  journal: "SIGSPATIAL '20: Proceedings of the 28th International Conference on Advances in Geographic Information Systems"
+  date: "13 November 2020"
+  code: 
+  url: https://dl.acm.org/doi/10.1145/3397536.3422233
+  eprint: 
+  apa: Get me the best predicting best answerers in community question answering sites"
+  highlight: 1
+  img: "hapsap.png"
+  bibtex: "hapsap.txt"
+  description: "In this paper, we simultaneously address the problem of semantic annotation of locations and location adoption dynamics of users. We propose our model HAP-SAP, a latent spatio-temporal multivariate Hawkes process, which considers latent semantic category influences, and temporal and spatial mobility patterns of users. The inferred semantic categories can supplement our model on predicting the next check-in events by users."
+
 - key: "hcn"
   authors: "Manisha Dubey, P.K Srijith and Maunendra Sankar Desarkar"
   title: "Multi-view Hypergraph Convolution Network for Semantic Annotation in LBSNs"
