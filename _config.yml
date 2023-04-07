@@ -24,8 +24,8 @@ highlighter:        rouge
 nav:
   - name:           "research"
     href:           "/research"
-  - name:           "about"
-    href:           "/about"
+  # - name:           "about"
+  #   href:           "/about"
   - name:           "publications"
     href:           "/publication"
   - name:           "people"
@@ -34,7 +34,8 @@ nav:
   #   href:           "/blog"
   - name:           "resources"
     href:           "/resources"
-
+  - name:           "contact"
+    href:           "/contact"
 # Sass
 sass:
   style:            :compressed
