@@ -1,0 +1,16 @@
+@inproceedings{10.1145/3240323.3240346,
+author = {Tondulkar, Rohan and Dubey, Manisha and Desarkar, Maunendra Sankar},
+title = {Get Me the Best: Predicting Best Answerers in Community Question Answering Sites},
+year = {2018},
+isbn = {9781450359016},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3240323.3240346},
+doi = {10.1145/3240323.3240346},
+booktitle = {Proceedings of the 12th ACM Conference on Recommender Systems},
+pages = {251–259},
+numpages = {9},
+keywords = {learning to rank, expert recommendation, community question answering},
+location = {Vancouver, British Columbia, Canada},
+series = {RecSys '18}
+}
