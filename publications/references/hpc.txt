@@ -1,8 +1,0 @@
-@misc{tondulkar2020hawkes,
-      title={Hawkes Process Classification through Discriminative Modeling of Text}, 
-      author={Rohan Tondulkar and Manisha Dubey and P. K. Srijith and Michal Lukasik},
-      year={2020},
-      eprint={2010.11851},
-      archivePrefix={arXiv},
-      primaryClass={cs.SI}
-}

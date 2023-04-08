@@ -1,7 +1,7 @@
 ---
 title: Publication
 permalink: /publication/
-years: [2022, 2021, 2020]
+years: [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012]
 
 ---
 
@@ -53,6 +53,9 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
 <br>
 
 {% for publi in site.data.publications %}
+{%if publi.key%}
+
+
 {% if publi.highlight == 1 %}
 <div class="row">
 <div class="col-sm-12 clearfix">
@@ -64,20 +67,45 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
   {% if publi.img %}
   <img src="{{ site.url }}{{ site.baseurl }}/publications/images/{{ publi.img }}" class="img-responsive" width="40%" style="float:left; padding-right:20px; margin-top:15px" />
   {% endif %}
-  <p style="text-align:justify; padding:10px">{{ publi.description }}</p>
 
-  <p><b>{{ publi.authors }}</b></p>
+  {% if publi.summary %}
+  <p style="text-align:justify; padding:10px">{{ publi.summary }}</p>
+  {%else%}  
+  <p style="text-align:justify; padding:10px"><u>Missing Summary</u></p>
+  {% endif %}
 
-  <p>{{publi.journal}}</p>
+
+  <p style="padding-left:15px;"><b>{{ publi.authors }}</b></p>
+
+  <p style="padding-left:15px;">{{publi.journal}}</p>
 </div>
 
 <div class="row">
   <ul class="nav nav-pills">
+
+  <!-- ABSTRACT -->
+  {% if publi.abstract %}
+  <li>
+    <a data-toggle="collapse" href="#{{publi.key}}-abstract">
+    <button class="button button1"><b>ABSTRACT</b></button>
+    </a>
+  </li>
+  {% endif %}
+
   <!-- URL -->
   {% if publi.url %}
     <li>
       <a href="{{publi.url}}">
         <button class="button button1"><b>URL</b></button>
+      </a>
+    </li>
+  {% endif %}
+
+  <!-- URL -->
+  {% if publi.pdf %}
+    <li>
+      <a href="{{publi.pdf}}">
+        <button class="button button1"><b>PDF</b></button>
       </a>
     </li>
   {% endif %}
@@ -92,7 +120,7 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
   {% endif %}
 
   <!-- BIBTEX -->
-  {% if publi.bibtex %}
+  {% if publi.key %}
     <li>
       <a data-toggle="collapse" href="#{{publi.key}}-bibtex">
         <button class="button button1"><b>BIBTEX</b></button>
@@ -102,24 +130,25 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
     </li>
   {% endif %}
 
-  <!-- ABSTRACT -->
-  {% if publi.abstract %}
-  <li>
-    <a data-toggle="collapse" href="#{{publi.key}}-abstract">
-    <button class="button button1"><b>ABSTRACT</b></button>
-    </a>
-  </li>
+  <!-- VIDEO -->
+  {% if publi.video %}
+    <li>
+      <a href="{{publi.video}}">
+        <button class="button button1"><b>VIDEO</b></button>
+      </a>
+    </li>
   {% endif %}
+
   </ul>
 
 {% if publi.abstract %}
 <p id="{{publi.key}}-abstract" class="collapse" style="border-style: dashed">{{publi.abstract}}</p>
 {% endif %}
 
-{% if publi.bibtex %}
+{% if publi.key %}
 <p id="{{publi.key}}-bibtex" class="collapse" style="border-style: dashed;">
 
-<object data="{{ site.url }}{{ site.baseurl }}/publications/references/{{publi.bibtex}}" width="100%" style="overflow: auto;"></object>
+<object data="{{ site.url }}{{ site.baseurl }}/publications/references/{{publi.key}}.txt" width="100%" style="overflow: auto;"></object>
 </p>
 {% endif %}
 </div>
@@ -127,17 +156,34 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
 </div>
 </div>
 {% endif %}
+{% endif %}
 {% endfor %}
 
+<hr>
 
 <h3>Full List of publications</h3>
-<ul>
-{% for publi in site.data.publications %}
-<div>
-  <li>{{publi.apa}}</li>
-</div>
+{%- for y in page.years %}
+<h4 class="year">{{y}}</h4>
+  {% for publi in site.data.publications %}
+
+  {% if publi.year==y%}
+  <div style="text-align:justify;">
+
+  {%if publi.url%}
+    <a href="{{publi.url}}" style="text-decoration:none;"> {{publi.cite}}</a>
+  {%else%}
+  {{publi.cite}}
+  {% endif %}
+
+  </div>
+  <br>
+  {%endif%}
+
+  {% endfor %}
 {% endfor %}
-</ul>
+
+
+
 
 
 <script>

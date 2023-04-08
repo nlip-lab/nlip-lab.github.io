@@ -22,6 +22,8 @@ highlighter:        rouge
 
 # Navigation
 nav:
+  - name:           "home"
+    href:           "/"
   - name:           "research"
     href:           "/research"
   # - name:           "about"

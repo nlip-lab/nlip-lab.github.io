@@ -1,7 +1,0 @@
-@inproceedings{bagora2022hostility,
-  title={Hostility Detection in Online Hindi-English Code-Mixed Conversations},
-  author={Bagora, Aditi and Shrestha, Kamal and Maurya, Kaushal and Desarkar, Maunendra Sankar},
-  booktitle={14th ACM Web Science Conference 2022},
-  pages={390--400},
-  year={2022}
-}

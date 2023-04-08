@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  color: #515151;
+  color: #000000;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-family: Serif  ;
   line-height: 1.1;
-  color: #333;
+  color: #000000;
   letter-spacing: -.025rem;
 }
 
@@ -156,14 +156,14 @@ hr {
 }
 
 strong {
-  color: #333;
+  color: #000000;
   font-weight: 600;
 }
 
 abbr {
   font-size: 80%;
   font-weight: bold;
-  color: #555;
+  color: #000000;
   text-transform: uppercase;
 }
 
@@ -300,7 +300,7 @@ tbody tr:nth-child(odd) th {
     font-weight: 300;
 
     a {
-      color: #333;
+      color: #000000;
 
       &:hover,
       &:focus {
@@ -321,7 +321,7 @@ tbody tr:nth-child(odd) th {
     text-transform: uppercase;
 
     a {
-      color: #333;
+      color: #000000;
 
       &:hover,
       &:focus {
@@ -334,7 +334,7 @@ tbody tr:nth-child(odd) th {
     margin-bottom: 2rem;
 
     a {
-      color: #aaa;
+      color: #000000;
       font-weight: 300;
       text-transform: lowercase;
       -webkit-transition: all .2s ease;
@@ -343,7 +343,7 @@ tbody tr:nth-child(odd) th {
 
       &:hover,
       &:focus {
-        color: #333;
+        color: #000000;
         text-decoration: none;
       }
 
@@ -498,7 +498,7 @@ tbody tr:nth-child(odd) th {
 
 .list-detail {
   font-size: 15px;
-  color: #838383;
+  color: #000000;
 }
 
 .list-item a:hover, .list-post-title:hover .name, .list-post-title .name:hover {
@@ -511,13 +511,14 @@ tbody tr:nth-child(odd) th {
 
 .navbar-brand {
   //font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 300;
 }
 
 // change font for navbar
 .navbar, .navbar-nav>li>a {
   background-color: white;
+  // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
   font-family: Serif  ;
   text-transform: uppercase;
   font-weight: 400;
@@ -540,6 +541,11 @@ tbody tr:nth-child(odd) th {
 // fix spacing
 .navbar-nav>li {
   margin-bottom: 0;
+}
+
+// set font-weight to be bold for hovering on menu
+.navbar-nav>li>a:hover {
+  font-weight: bold;
 }
 
 // fix menu button for mobile
