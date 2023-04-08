@@ -1,0 +1,8 @@
+@misc{narasimhan2022robust,
+      title={Towards Robust and Semantically Organised Latent Representations for Unsupervised Text Style Transfer}, 
+      author={Sharan Narasimhan and Suvodip Dey and Maunendra Sankar Desarkar},
+      year={2022},
+      eprint={2205.02309},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}

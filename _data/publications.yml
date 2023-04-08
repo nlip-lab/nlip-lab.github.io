@@ -7,7 +7,6 @@
   month: 05
   url: https://aclanthology.org/2022.findings-acl.24
   pdf: https://aclanthology.org/2022.findings-acl.24.pdf
-  doi: "10.18653/v1/2022.findings-acl.24" 
   cite: "Kaushal Maurya and Maunendra Desarkar. 2022. Meta-XNLG: A Meta-Learning Approach Based on Language Clustering for Zero-Shot Cross-Lingual Transfer and Generation. In Findings of the Association for Computational Linguistics: ACL 2022, pages 269–284, Dublin, Ireland. Association for Computational Linguistics"
   code: https://github.com/kaushal0494/Meta_XNLG 
   highlight: 1
@@ -15,6 +14,331 @@
   video: https://aclanthology.org/2022.findings-acl.24.mp4 
   summary: "We propose a novel meta-learning framework (called Meta-XNLG) to learn shareable structures from typologically diverse languages based on meta-learning and language clustering. This is a step towards uniform cross-lingual transfer for unseen languages. We first cluster the languages based on language representations and identify the centroid language of each cluster. Then, a meta-learning algorithm is trained with all centroid languages and evaluated on the other languages in the zero-shot setting."
 
+- key: "maurya-etal-2021-zmbart"
+  authors: "Kaushal Kumar Maurya, Maunendra Sankar Desarkar, Yoshinobu Kano, and Kumari Deepshikha"
+  title: "ZmBART: An Unsupervised Cross-lingual Transfer Framework for Language Generation"
+  journal: "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021"
+  abstract: "Despite the recent advancement in NLP research, cross-lingual transfer for natural language generation is relatively understudied. In this work, we transfer supervision from high resource language (HRL) to multiple lowresource languages (LRLs) for natural language generation (NLG). We consider four NLG tasks (text summarization, question generation, news headline generation, and distractor generation) and three syntactically diverse languages, i.e., English, Hindi, and Japanese. We propose an unsupervised crosslingual language generation framework (called ZmBART) that does not use any parallel or pseudo-parallel/back-translated data. In this framework, we further pre-train mBART sequence-to-sequence denoising auto-encoder model with an auxiliary task using monolingual data of three languages. The objective function of the auxiliary task is close to the target tasks which enriches the multi-lingual latent representation of mBART and provides good initialization for target tasks. Then, this model is fine-tuned with task-specific supervised English data and directly evaluated with low-resource languages in the Zero-shot setting. To overcome catastrophic forgetting and spurious correlation issues, we applied freezing model component and data argumentation approaches respectively. This simple modeling approach gave us promising results. We experimented with few-shot training (with 1000 supervised data-points) which boosted the model performance further. We performed several ablations and cross-lingual transferability analysis to demonstrate the robustness of ZmBART."
+  year: 2021
+  month: 08
+  url: https://aclanthology.org/2021.findings-acl.248/ 
+  pdf: https://aclanthology.org/2021.findings-acl.248.pdf 
+  cite: "Kaushal Kumar Maurya, Maunendra Sankar Desarkar, Yoshinobu Kano, and Kumari Deepshikha. 2021. ZmBART: An Unsupervised Cross-lingual Transfer Framework for Language Generation. In Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021, pages 2804–2818, Online. Association for Computational Linguistics."
+  code: "https://github.com/kaushal0494/ZmBART"
+  highlight: 1
+  img: "maurya-etal-2021-zmbart.png"
+  video: "https://aclanthology.org/2021.findings-acl.248.mp4"
+  summary: "We propose an unsupervised crosslingual language generation framework (called ZmBART) that does not use any parallel or pseudo-parallel/back-translated data. In this framework, we further pre-train mBART sequence-to-sequence denoising auto-encoder model with an auxiliary task using monolingual data of three languages. The objective function of the auxiliary task is close to the target tasks which enriches the multi-lingual latent representation of mBART and provides good initialization for target tasks. Then, this model is fine-tuned with task-specific supervised English data and directly evaluated with low-resource languages in the Zero-shot setting."
+
+- key: "learningtodistract"
+  authors: "Kaushal Kumar Maurya and Maunendra Sankar Desarkar"
+  title: "Learning to Distract: A Hierarchical Multi-Decoder Network for Automated Generation of Long Distractors for Multiple-Choice Questions for Reading Comprehension."
+  journal: "CIKM '20: Proceedings of the 29th ACM International Conference on Information & Knowledge Management"
+  abstract: "The task of generating incorrect options for multiple-choice questions is termed as distractor generation problem. The task requires high cognitive skills and is extremely challenging to automate. Existing neural approaches for the task leverage encoder-decoder architecture to generate long distractors. However, in this process two critical points are ignored - firstly, many methods use Jaccard similarity over a pool of candidate distractors to sample the distractors. This often makes the generated distractors too obvious or not relevant to the question context. Secondly, some approaches did not consider the answer in the model, which caused the generated distractors to be either answer-revealing or semantically equivalent to the answer. In this paper, we propose a novel Hierarchical Multi-Decoder Network (HMD-Net) consisting of one encoder and three decoders, where each decoder generates a single distractor. To overcome the first problem mentioned above, we include multiple decoders with a dis-similarity loss in the loss function. To address the second problem, we exploit richer interaction between the article, question, and answer with a SoftSel operation and a Gated Mechanism. This enables the generation of distractors that are in context with questions but semantically not equivalent to the answers. The proposed model outperformed all the previous approaches significantly in both automatic and manual evaluations. In addition, we also consider linguistic features and BERT contextual embedding with our base model which further push the model performance."
+  year: 2020
+  month: 10
+  url: "https://dl.acm.org/doi/abs/10.1145/3340531.3411997"
+  pdf: "https://dl.acm.org/doi/pdf/10.1145/3340531.3411997"
+  cite: "Kaushal Kumar Maurya and Maunendra Sankar Desarkar. 2020. Learning to Distract: A Hierarchical Multi-Decoder Network for Automated Generation of Long Distractors for Multiple-Choice Questions for Reading Comprehension. In Proceedings of the 29th ACM International Conference on Information & Knowledge Management (CIKM '20). Association for Computing Machinery, New York, NY, USA, 1115–1124. https://doi.org/10.1145/3340531.3411997"
+  code: "https://github.com/kaushal0494/HMD_Network"
+  highlight: 1
+  img: "learningtodistract.png"
+  video: 
+  summary: "In this paper, we propose a novel Hierarchical Multi-Decoder Network (HMD-Net) consisting of one encoder and three decoders, where each decoder generates a single distractor. To overcome the first problem mentioned above, we include multiple decoders with a dis-similarity loss in the loss function. To address the second problem, we exploit richer interaction between the article, question, and answer with a SoftSel operation and a Gated Mechanism."
+
+- key: "pericles_1468039438"
+  authors: "Sreekanth Madisetty, Kaushal Kumar Maurya, Akiko Aizawa, and Maunendra Sankar Desarkar,"
+  title: "A Neural Approach for Detecting Inline Mathematical Expressions from Scientific Documents"
+  journal: ""
+  abstract: "Scientific documents generally contain multiple mathematical expressions in them. Detecting inline mathematical expressions are one of the most important and challenging tasks in scientific text mining. Recent works that detect inline mathematical expressions in scientific documents have looked at the problem from an image processing perspective. There is little work that has targeted the problem from NLP perspective. Towards this, we define a few features and applied Conditional Random Fields (CRF) to detect inline mathematical expressions in scientific documents. Apart from this feature based approach, we also propose a hybrid algorithm that combines Bidirectional Long Short Term Memory networks (Bi-LSTM) and feature-based approach for this task. Experimental results suggest that this proposed hybrid method outperforms several baselines in the literature and also individual methods in the hybrid approach."
+  year: 2020
+  month: 05
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12576
+  pdf: https://doi.org/10.1111/exsy.12576
+  cite: "Madisetty, S., Maurya, K. K., Aizawa, A., & Desarkar, M. S. (2021). A neural approach for detecting inline mathematical expressions from scientific documents. Expert Systems, 38(4), e12576."
+  code: 
+  highlight: 0
+  img: "pericles_1468039438.png"
+  video: 
+  summary: 
+
+- key: "hostility"
+  authors: "Arkadipta De, Venkatesh E, Kaushal Kumar Maurya, and Maunendra Sankar Desarkar"
+  title: "Coarse and Fine-Grained Hostility Detection in Hindi Posts using Fine Tuned Multilingual Embeddings"
+  journal: CONSTRAIN 2021 (Workshop on Combating Online Hostile Posts in Regional Languages during Emergency Situation)
+  abstract: "Due to the wide adoption of social media platforms like Facebook, Twitter, etc., there is an emerging need of detecting online posts that can go against the community acceptance standards. The hostility detection task has been well explored for resource-rich languages like English, but is unexplored for resource-constrained languages like Hindi due to the unavailability of large suitable data. We view this hostility detection as a multi-label multi-class classification problem. We propose an effective neural network-based technique for hostility detection in Hindi posts. We leverage pre-trained multilingual Bidirectional Encoder Representations of Transformer (mBERT) to obtain the contextual representations of Hindi posts. We have performed extensive experiments including different pre-processing techniques, pre-trained models, neural architectures, hybrid strategies, etc. Our best performing neural classifier model includes One-vs-the-Rest approach where we obtained 92.60%, 81.14%, 69.59%, 75.29% and 73.01% F1 scores for hostile, fake, hate, offensive, and defamation labels respectively. The proposed model (https://​github.​com/​Arko98/​Hostility-Detection-in-Hindi-Constraint-2021) outperformed the existing baseline models and emerged as the state-of-the-art model for detecting hostility in the Hindi posts."
+  year: 2021
+  month: 
+  url: https://www.springerprofessional.de/en/coarse-and-fine-grained-hostility-detection-in-hindi-posts-using/19047892
+  pdf: "https://arxiv.org/pdf/2101.04998.pdf"
+  cite: "De, A., Elangovan, V., Maurya, K. K., & Desarkar, M. S. (2021). Coarse and fine-grained hostility detection in Hindi posts using fine tuned multilingual embeddings. In Combating Online Hostile Posts in Regional Languages during Emergency Situation: First International Workshop, CONSTRAINT 2021, Collocated with AAAI 2021, Virtual Event, February 8, 2021, Revised Selected Papers 1 (pp. 201-212). Springer International Publishing."
+  code: https://github.com/Arko98/Hostility-Detection-in-Hindi-Constraint-2021
+  highlight: 0
+  img: "hostility.png"
+  video: 
+  summary: "We propose an effective neural network-based technique for hostility detection in Hindi posts. We leverage pre-trained multilingual Bidirectional Encoder Representations of Transformer (mBERT) to obtain the contextual representations of Hindi posts. We have performed extensive experiments including different pre-processing techniques, pre-trained models, neural architectures, hybrid strategies, etc. Our best performing neural classifier model includes One-vs-the-Rest approach where we obtained 92.60%, 81.14%, 69.59%, 75.29% and 73.01% F1 scores for hostile, fake, hate, offensive, and defamation labels respectively."
+
+- key: "recsys18"
+  authors: "Rohan Tondulkar, Manisha Dubey and Maunendra Sankar Desarkar"
+  title: "Get me the best: predicting best answerers in community question answering sites"
+  journal: "RecSys '18: Proceedings of the 12th ACM Conference on Recommender Systems"
+  abstract: "There has been a massive rise in the use of Community Question and Answering (CQA) forums to get solutions to various technical and non-technical queries. One common problem faced in CQA is the small number of experts, which leaves many questions unanswered. This paper addresses the challenging problem of predicting the best answerer for a new question and thereby recommending the best expert for the same. Although there are work in the literature that aim to find possible answerers for questions posted in CQA, very few algorithms exist for finding the best answerer whose answer will satisfy the information need of the original Poster. For finding answerers, existing approaches mostly use features based on content and tags associated with the questions. There are few approaches that additionally consider the users' history. In this paper, we propose an approach that considers a comprehensive set of features including but not limited to text representation, tag based similarity as well as multiple user-based features that target users' availability, agility as well as expertise for predicting the best answerer for a given question. We also include features that give incentives to users who answer less but more important questions over those who answer a lot of questions of less importance. A learning to rank algorithm is used to find the weight of each feature. Experiments conducted on a real dataset from Stack Exchange show the efficacy of the proposed method in terms of multiple evaluation metrics for accuracy, robustness and real time performance."
+  year: 2018
+  month: 09
+  url: https://dl.acm.org/doi/10.1145/3240323.3240346
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3240323.3240346
+  cite: "Rohan Tondulkar, Manisha Dubey, and Maunendra Sankar Desarkar. 2018. Get me the best: predicting best answerers in community question answering sites. In Proceedings of the 12th ACM Conference on Recommender Systems (RecSys '18). Association for Computing Machinery, New York, NY, USA, 251–259. https://doi.org/10.1145/3240323.3240346"
+  code: 
+  highlight: 0
+  img: "recsys18.png"
+  video: 
+  summary: "In this paper, we propose an approach that considers a comprehensive set of features including but not limited to text representation, tag based similarity as well as multiple user-based features that target users' availability, agility as well as expertise for predicting the best answerer for a given question. We also include features that give incentives to users who answer less but more important questions over those who answer a lot of questions of less importance." 
+
+- key: "hapsap"
+  authors: "Manisha Dubey, P.K Srijith and Maunendra Sankar Desarkar" 
+  title: "HAP-SAP: Semantic Annotation in LBSNs using Latent Spatio-Temporal Hawkes Process"
+  journal: "SIGSPATIAL '20: Proceedings of the 28th International Conference on Advances in Geographic Information Systems"
+  abstract: "The prevalence of location-based social networks (LBSNs) has eased the understanding of human mobility patterns. However, categories which act as semantic characterization of the location, might be missing for some check-ins and can adversely affect modelling the mobility dynamics of users. At the same time, mobility patterns provide cues on the missing semantic categories. In this paper, we simultaneously address the problem of semantic annotation of locations and location adoption dynamics of users. We propose our model HAP-SAP, a latent spatio-temporal multivariate Hawkes process, which considers latent semantic category influences, and temporal and spatial mobility patterns of users. The inferred semantic categories can supplement our model on predicting the next check-in events by users. Our experiments on real datasets demonstrate the effectiveness of the proposed model for the semantic annotation and location adoption modelling tasks."
+  year: 2020
+  month: 11
+  url: https://dl.acm.org/doi/10.1145/3397536.3422233
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3397536.3422233
+  cite: "Manisha Dubey, P.K. Srijith, and Maunendra Sankar Desarkar. 2020. HAP-SAP: Semantic Annotation in LBSNs using Latent Spatio-Temporal Hawkes Process. In Proceedings of the 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL '20). Association for Computing Machinery, New York, NY, USA, 377–380. https://doi.org/10.1145/3397536.3422233"
+  code: 
+  highlight: 1
+  img: "hapsap.png"
+  video: 
+  summary: "We propose our model HAP-SAP, a latent spatio-temporal multivariate Hawkes process, which considers latent semantic category influences, and temporal and spatial mobility patterns of users. The inferred semantic categories can supplement our model on predicting the next check-in events by users. Our experiments on real datasets demonstrate the effectiveness of the proposed model for the semantic annotation and location adoption modelling tasks."
+
+- key: "multi-view-hypergraph"
+  authors: "Manisha Dubey, P.K Srijith and Maunendra Sankar Desarkar"
+  title: "Multi-view Hypergraph Convolution Network for Semantic Annotation in LBSNs"
+  journal: "ASONAM '21: Proceedings of the 2021 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining"
+  abstract: "Semantic characterization of the Point-of-Interest (POI) plays an important role for modeling location-based social networks and various related applications like POI recommendation, link prediction etc. However, semantic categories are not available for many POIs which makes this characterization difficult. Semantic annotation aims to predict such missing categories of POIs. Existing approaches learn a representation of POIs using graph neural networks to predict semantic categories. However, LBSNs involve complex and higher order mobility dynamics. These higher order relations can be captured effectively by employing hypergraphs. Moreover, visits to POIs can be attributed to various reasons like temporal characteristics, spatial context etc. Hence, we propose a Multi-view Hypergraph Convolution Network (Multi-HGCN) where we learn POI representations by considering multiple hypergraphs across multiple views of the data. We build a comprehensive model to learn the POI representation capturing temporal, spatial and trajectorybased patterns among POIs by employing hypergraphs. We use hypergraph convolution to learn better POI representation by using spectral properties of hypergraph. Experiments conducted on three real-world datasets show that the proposed approach outperforms the state-of-the-art approaches."
+  year: 2021
+  month: 11
+  url: https://dl.acm.org/doi/10.1145/3487351.3488341
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3487351.3488341
+  cite: "Manisha Dubey, P. K. Srijith, and Maunendra Sankar Desarkar. 2022. Multi-view hypergraph convolution network for semantic annotation in LBSNs. In Proceedings of the 2021 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM '21). Association for Computing Machinery, New York, NY, USA, 219–227. https://doi.org/10.1145/3487351.3488341"
+  code: 
+  highlight: 1
+  img: "multi-view-hypergraph.png" 
+  video: 
+  summary: "We propose a Multi-view Hypergraph Convolution Network (Multi-HGCN) where we learn POI representations by considering multiple hypergraphs across multiple views of the data. We build a comprehensive model to learn the POI representation capturing temporal, spatial and trajectory-based patterns among POIs by employing hypergraphs. We use hypergraph convolution to learn better POI representation by using spectral properties of hypergraph. Experiments conducted on three real-world datasets show that the proposed approach outperforms the state-of-the-art approaches."
+
+- key: "hidst"
+  authors: "Suvodip Dey, Maunendra Sankar Desarkar"
+  title: "Hi-DST: A Hierarchical Approach for Scalable and Extensible Dialogue State Tracking"
+  journal: "Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue"
+  abstract: "Dialogue State Tracking (DST) is a sub-task of task-based dialogue systems where the user intention is tracked through a set of (domain, slot, slot-value) triplets. Existing DST models can be difficult to extend for new datasets with larger domains/slots mainly due to either of the two reasons- i) prediction of domain-slot as a pair, and ii) dependency of model parameters on the number of slots and domains. In this work, we propose to address these issues using a Hierarchical DST (Hi-DST) model. At a given turn, the model first detects a change in domain followed by domain prediction if required. Then it decides suitable action for each slot in the predicted domains and finds their value accordingly. The model parameters of Hi-DST are independent of the number of domains/slots. Due to the hierarchical modeling, it achieves O(|M|+|N|) belief state prediction for a single turn where M and N are the set of unique domains and slots respectively. We argue that the hierarchical structure helps in the model explainability and makes it easily extensible to new datasets. Experiments on the MultiWOZ dataset show that our proposed model achieves comparable joint accuracy performance to state-of-the-art DST models."
+  year: 2021
+  month: 07
+  url: https://aclanthology.org/2021.sigdial-1.23/
+  pdf: https://aclanthology.org/2021.sigdial-1.23.pdf
+  cite: "Suvodip Dey and Maunendra Sankar Desarkar. 2021. Hi-DST: A Hierarchical Approach for Scalable and Extensible Dialogue State Tracking. In Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue, pages 218–227, Singapore and Online. Association for Computational Linguistics."
+  code: https://github.com/suvodipdey/hi-dst
+  highlight: 1
+  img: "hidst.png"
+  video: "https://www.youtube.com/watch?v=ldnP2Cn_7F0"
+  summary: "In this work, we propose to address these issues using a Hierarchical DST (Hi-DST) model. At a given turn, the model first detects a change in domain followed by domain prediction if required. Then it decides suitable action for each slot in the predicted domains and finds their value accordingly. The model parameters of Hi-DST are independent of the number of domains/slots. Due to the hierarchical modeling, it achieves O(|M|+|N|) belief state prediction for a single turn where M and N are the set of unique domains and slots respectively."
+
+- key: "eval-dst-performance"
+  authors: "Suvodip Dey, Ramamohan Kummara, Maunendra Sankar Desarkar"
+  title: "Towards Fair Evaluation of Dialogue State Tracking by Flexible Incorporation of Turn-level Performances"
+  journal: "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)"
+  abstract: "Dialogue State Tracking (DST) is primarily evaluated using Joint Goal Accuracy (JGA) defined as the fraction of turns where the ground-truth dialogue state exactly matches the prediction. Generally in DST, the dialogue state or belief state for a given turn contain all the intents shown by the user till that turn. Due to this cumulative nature of the belief state, it is difficult to get a correct prediction once a misprediction has occurred. Thus, although being a useful metric, it can be harsh at times and underestimate the true potential of a DST model. Moreover, an improvement in JGA can sometimes decrease the performance of turn-level or non-cumulative belief state prediction due to inconsistency in annotations. So, using JGA as the only metric for model selection may not be ideal for all scenarios. In this work, we discuss various evaluation metrics used for DST along with their shortcomings. To address the existing issues, we propose a new evaluation metric named Flexible Goal Accuracy (FGA). FGA is a generalized version of JGA. But unlike JGA, it tries to give penalized rewards to mispredictions that are locally correct i.e. the root cause of the error is an earlier turn. By doing so, FGA considers the performance of both cumulative and turn-level prediction flexibly and provides a better insight than the existing metrics. We also show that FGA is a better discriminator of DST model performance."
+  year: 2022
+  month: 05
+  url: https://aclanthology.org/2022.acl-short.35/
+  pdf: https://aclanthology.org/2022.acl-short.35.pdf
+  cite: "Suvodip Dey, Ramamohan Kummara, and Maunendra Desarkar. 2022. Towards Fair Evaluation of Dialogue State Tracking by Flexible Incorporation of Turn-level Performances. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), pages 318–324, Dublin, Ireland. Association for Computational Linguistics."
+  code: https://github.com/suvodipdey/fga
+  highlight: 1
+  img: "eval-dst-performance.png"
+  video: 
+  summary: "We propose a new evaluation metric named Flexible Goal Accuracy (FGA). FGA is a generalized version of JGA. But unlike JGA, it tries to give penalized rewards to mispredictions that are locally correct i.e. the root cause of the error is an earlier turn. By doing so, FGA considers the performance of both cumulative and turn-level prediction flexibly and provides a better insight than the existing metrics. We also show that FGA is a better discriminator of DST model performance."
+
+- key: "hasoc2021"
+  authors: "Aditi Bagora, Kamal Shrestha, Kaushal Maurya, and Maunendra Sankar Desarkar."
+  title: "Hostility Detection in Online Hindi-English Code-Mixed Conversations"
+  journal: "WebSci '22: 14th ACM Web Science Conference 2022"
+  abstract: "With the rise in accessibility and popularity of various social media platforms, people have started expressing and communicating their ideas, opinions, and interests online. While these platforms are active sources of entertainment and idea-sharing, they also attract hostile and offensive content equally. Identification of hostile posts is an essential and challenging task. In particular, Hindi-English Code-Mixed online posts of conversational nature (which have a hierarchy of posts, comments, and replies) have escalated the challenges. There are two major challenges: (1) the complex structure of Code-Mixed text and (2) filtering the relevant previous context for a given utterance. To overcome these challenges, in this paper, we propose a novel hierarchical neural network architecture to identify hostile posts/comments/replies in online Hindi-English Code-Mixed conversations. We leverage large multilingual pre-trained (mLPT) models like mBERT, XLMR, and MuRIL. The mLPT models provide a rich representation of code-mix text and hierarchical modeling leads to a natural abstraction and selection of the relevant context. The propose model consistently outperformed all the baselines and emerged as a state-of-the-art performing model. We conducted multiple analyses and ablation studies to prove the robustness of the proposed model."
+  year: 2022
+  month: 06
+  url: https://dl.acm.org/doi/10.1145/3501247.3531579
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3501247.3531579
+  cite: "Aditi Bagora, Kamal Shrestha, Kaushal Maurya, and Maunendra Sankar Desarkar. 2022. Hostility Detection in Online Hindi-English Code-Mixed Conversations. In 14th ACM Web Science Conference 2022 (WebSci '22). Association for Computing Machinery, New York, NY, USA, 390–400. https://doi.org/10.1145/3501247.3531579"
+  code: https://github.com/AditiBagora/Hasoc2021CodeMix
+  highlight: 1
+  img: "hasoc2021.png"
+  video: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3501247.3531579&file=WS22_S7_114.mp4
+  summary: "We propose a novel hierarchical neural network architecture to identify hostile posts/comments/replies in online Hindi-English Code-Mixed conversations. We leverage large multilingual pretrained (mLPT) models like mBERT, XLMR, and MuRIL. The mLPT models provide a rich representation of code-mix text and hierarchical modeling leads to a natural abstraction and selection of the relevant context. The propose model consistently outperformed all the baselines and emerged as a state-of-the-art performing model. We conducted multiple analyses and ablation studies to prove the robustness of the proposed model."
+
+
+- key: "unsupervised-text-style-transfer"
+  authors: "Sharan Narasimhan, Suvodip Dey, Maundendra Sankar Desarkar"
+  title: "Towards Robust and Semantically Organised Latent Representations for Unsupervised Text Style Transfer"
+  journal: "arXiv preprint arXiv:2205.02309."
+  abstract: Recent studies show that auto-encoder based approaches successfully perform language generation, smooth sentence interpolation, and style transfer over unseen attributes using unlabelled datasets in a zero-shot manner. The latent space geometry of such models is organised well enough to perform on datasets where the style is 'coarse-grained' i.e. a small fraction of words alone in a sentence are enough to determine the overall style label. A recent study uses a discrete token-based perturbation approach to map 'similar' sentences ('similar' defined by low Levenshtein distance/ high word overlap) close by in latent space. This definition of 'similarity' does not look into the underlying nuances of the constituent words while mapping latent space neighbourhoods and therefore fails to recognise sentences with different style-based semantics while mapping latent neighbourhoods. We introduce EPAAEs (Embedding Perturbed Adversarial AutoEncoders) which completes this perturbation model, by adding a finely adjustable noise component on the continuous embeddings space. We empirically show that this (a) produces a better organised latent space that clusters stylistically similar sentences together, (b) performs best on a diverse set of text style transfer tasks than similar denoising-inspired baselines, and (c) is capable of fine-grained control of Style Transfer strength. We also extend the text style transfer tasks to NLI datasets and show that these more complex definitions of style are learned best by EPAAE. To the best of our knowledge, extending style transfer to NLI tasks has not been explored before.
+  year: 2022
+  month: 05
+  url: https://arxiv.org/abs/2205.02309
+  pdf: https://arxiv.org/pdf/2205.02309.pdf
+  cite: "Narasimhan, S., Dey, S., & Desarkar, M. S. (2022). Towards Robust and Semantically Organised Latent Representations for Unsupervised Text Style Transfer. arXiv preprint arXiv:2205.02309."
+  code: https://github.com/sharan21/EPAAE 
+  highlight: 1
+  img: "unsupervised-text-style-transfer.png"
+  video: 
+  summary: "We introduce EPAAEs (Embedding Perturbed Adversarial AutoEncoders) which completes this perturbation model, by adding a finely adjustable noise component on the continuous embeddings space. We empirically show that this (a) produces a better organised latent space that clusters stylistically similar sentences together, (b) performs best on a diverse set of text style transfer tasks than similar denoising-inspired baselines, and (c) is capable of fine-grained control of Style Transfer strength."
+
+
+- key: "gnom"
+  authors: "Ghosh, Samujjwal and Maji, Subhadeep and Desarkar, Maunendra Sankar"
+  title: "GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification"
+  journal: "WebSci '22: 14th ACM Web Science Conference 2022"
+  abstract: "Online social media works as a source of various valuable and actionable information during disasters. These information might be available in multiple languages due to the nature of user generated content. An effective system to automatically identify and categorize these actionable information should be capable to handle multiple languages and under limited supervision. However, existing works mostly focus on English language only with the assumption that sufficient labeled data is available. To overcome these challenges, we propose a multilingual disaster related text classification system which is capable to work undervmonolingual, cross-lingual and multilingual lingual scenarios and under limited supervision. Our end-to-end trainable framework combines the versatility of graph neural networks, by applying over the corpus, with the power of transformer based large language models, over examples, with the help of cross-attention between the two. We evaluate our framework over total nine English, Non-English and monolingual datasets invmonolingual, cross-lingual and multilingual lingual classification scenarios. Our framework outperforms state-of-the-art models in disaster domain and multilingual BERT baseline in terms of Weighted F1 score. We also show the generalizability of the proposed model under limited supervision."
+  year: 2022
+  month: 06
+  url: https://dl.acm.org/doi/abs/10.1145/3501247.3531561
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3501247.3531561
+  cite: "Samujjwal Ghosh, Subhadeep Maji, and Maunendra Sankar Desarkar. 2022. GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification. In 14th ACM Web Science Conference 2022 (WebSci '22). Association for Computing Machinery, New York, NY, USA, 55–65. https://doi.org/10.1145/3501247.3531561"
+  code: 
+  highlight: 1
+  img: "gnom.png"
+  video: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3501247.3531561&file=WS22_S1_65.mp4
+  summary: "We propose a multilingual disaster related text classification system which is capable to work undervmonolingual, cross-lingual and multilingual lingual scenarios and under limited supervision. Our end-to-end trainable framework combines the versatility of graph neural networks, by applying over the corpus, with the power of transformer based large language models, over examples, with the help of cross-attention between the two. We evaluate our framework over total nine English, Non-English and monolingual datasets invmonolingual, cross-lingual and multilingual lingual classification scenarios."
+
+
+- key: "unspuervised-domain-gnn"
+  authors: "S. Ghosh, S. Maji and M. S. Desarkar"
+  title: "Unsupervised Domain Adaptation With Global and Local Graph Neural Networks Under Limited Supervision and Its Application to Disaster Response"
+  journal: "IEEE Transactions on Computational Social Systems ( Volume: 10, Issue: 2, April 2023)"
+  abstract: "Identification and categorization of social media posts generated during disasters are crucial to reduce the suffering of the affected people. However, the lack of labeled data is a significant bottleneck in learning an effective categorization system for a disaster. This motivates us to study the problem as unsupervised domain adaptation (UDA) between a previous disaster with labeled data (source) and a current disaster (target). However, if the amount of labeled data available is limited, it restricts the learning capabilities of the model. To handle this challenge, we use limited labeled data along with abundantly available unlabeled data, generated during a source disaster to propose a novel two-part graph neural network (GNN). The first part extracts domain-agnostic global information by constructing a token-level graph across domains and the second part preserves local instance-level semantics. In our experiments, we show that the proposed method outperforms state-of-the-art techniques by 2.74% weighted F1 score on average on two standard public datasets in the area of disaster management. We also report experimental results for granular actionable multilabel classification datasets in disaster domain for the first time, on which we outperform BERT by 3.00% on average w.r.t. weighted F1. Additionally, we show that our approach can retain performance when minimal labeled data are available."
+  year: 2022
+  month: 03
+  url: https://ieeexplore.ieee.org/document/9744724
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9744724
+  cite: "S. Ghosh, S. Maji and M. S. Desarkar, 'Unsupervised Domain Adaptation With Global and Local Graph Neural Networks Under Limited Supervision and Its Application to Disaster Response,' in IEEE Transactions on Computational Social Systems, vol. 10, no. 2, pp. 551-562, April 2023, doi: 10.1109/TCSS.2022.3159109."
+  code: 
+  highlight: 1
+  img: unspuervised-domain-gnn.png
+  video: 
+  summary: "In our experiments, we show that the proposed method outperforms state-of-the-art techniques by 2.74% weighted F1 score on average on two standard public datasets in the area of disaster management. We also report experimental results for granular actionable multilabel classification datasets in disaster domain for the first time, on which we outperform BERT by 3.00% on average w.r.t. weighted F1."
+
+- key: "time-event-modeling"
+  authors: "Manisha Dubey, PK Srijith, Maunendra Sankar Desarkar"
+  title: "Continual Learning for Time-to-Event Modeling"
+  journal: "Continual Lifelong Learning Workshop at ACML 2022"
+  abstract: "Temporal point process serves as an essential tool for modeling time-to-event data in continuous time space. Despite having massive amounts of event sequence data from various domains like social media, healthcare etc., real world application of temporal point process are not capable of thriving in continually evolving environment with minimal supervision while retaining previously learnt knowledge. To tackle this, we propose HyperHawkes, a hypernetwork based continually learning temporal point process for continuous modeling of time-to-event sequences with minimal forgetting. We demonstrate the application of the proposed framework through our experiments on two real-world datasets."
+  year: 2022
+  month: 10
+  url: https://openreview.net/forum?id=1OHWaKZOub
+  pdf: https://openreview.net/pdf?id=1OHWaKZOub
+  cite: "Dubey, M., Srijith, P. K., & Desarkar, M. S. (2022). Continual Learning for Time-to-Event Modeling. In Continual Lifelong Learning Workshop at ACML 2022."
+  code: 
+  highlight: 0
+  img: "time-event-modeling.png"
+  video: 
+  summary: "We propose HyperHawkes, a hypernetwork based continually learning temporal point process for continuous modeling of time-to-event sequences with minimal forgetting."
+
+
+- key: "hyperhawkes"
+  authors: "Manisha Dubey, PK Srijith, Maunendra Sankar Desarkar"
+  title: "HyperHawkes: Hypernetwork based Neural Temporal Point Process"
+  journal: "arXiv preprint arXiv:2205.02309."
+  abstract: "Temporal point process serves as an essential tool for modeling time-to-event data in continuous time space. Despite having massive amounts of event sequence data from various domains like social media, healthcare etc., real world application of temporal point process faces two major challenges: 1) it is not generalizable to predict events from unseen sequences in dynamic environment 2) they are not capable of thriving in continually evolving environment with minimal supervision while retaining previously learnt knowledge. To tackle these issues, we propose \textit{HyperHawkes}, a hypernetwork based temporal point process framework which is capable of modeling time of occurrence of events for unseen sequences. Thereby, we solve the problem of zero-shot learning for time-to-event modeling. We also develop a hypernetwork based continually learning temporal point process for continuous modeling of time-to-event sequences with minimal forgetting. In this way, \textit{HyperHawkes} augments the temporal point process with zero-shot modeling and continual learning capabilities. We demonstrate the application of the proposed framework through our experiments on two real-world datasets. Our results show the efficacy of the proposed approach in terms of predicting future events under zero-shot regime for unseen event sequences. We also show that the proposed model is able to predict sequences continually while retaining information from previous event sequences, hence mitigating catastrophic forgetting for time-to-event data."
+  year: 2022
+  month: 8
+  url: https://arxiv.org/abs/2210.00213
+  pdf: https://arxiv.org/pdf/2210.00213.pdf
+  cite: "Dubey, M., Srijith, P. K., & Desarkar, M. S. (2022). HyperHawkes: Hypernetwork based Neural Temporal Point Process. arXiv preprint arXiv:2210.00213."
+  code: 
+  highlight: 0
+  img: "hyperhawkes.png"
+  video: 
+  summary: "we propose HyperHawkes, a hypernetwork based temporal point process framework which is capable of modeling time of occurrence of events for unseen sequences. Thereby, we solve the problem of zero-shot learning for time-to-event modeling. We also develop a hypernetwork based continually learning temporal point process for continuous modeling of time-to-event sequences with minimal forgetting. In this way, HyperHawkes augments the temporal point process with zero-shot modeling and continual learning capabilities"
+
+
+- key: "graph-contrastive-pretraining"
+  authors: "Samujjwal Ghosh, Subhadeep Maji, and Maunendra Sankar Desarkar"
+  title: "Effective utilization of labeled data from related tasks using graph contrastive pretraining: application to disaster related text classification"
+  journal: "SAC '22: Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing"
+  abstract: "Contrastive pretraining techniques for text classification has been largely studied in an unsupervised setting. However, oftentimes labeled data from related past datasets which share label semantics with current task is available. We hypothesize that using this labeled data effectively can lead to better generalization on current task. In this paper, we propose a novel way to effectively utilize labeled data from related tasks with a graph based supervised contrastive learning approach. We formulate a token-graph by extrapolating the supervised information from examples to tokens. Our experiments with 8 disaster datasets show our method outperforms baselines and also example-level contrastive learning based formulation. In addition, we show cross-domain effectiveness of our method in a zero-shot setting."
+  year: 2022
+  month: 06
+  url: https://dl.acm.org/doi/10.1145/3477314.3507194
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3477314.3507194
+  cite: "Samujjwal Ghosh, Subhadeep Maji, and Maunendra Sankar Desarkar. 2022. Effective utilization of labeled data from related tasks using graph contrastive pretraining: application to disaster related text classification. In Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing (SAC '22). Association for Computing Machinery, New York, NY, USA, 875–878. https://doi.org/10.1145/3477314.3507194"
+  code: 
+  highlight: 0
+  img: "graph-contrastive-pretraining.png"
+  video: 
+  summary: "In this paper, we propose a novel way to effectively utilize labeled data from related tasks with a graph based supervised contrastive learning approach. We formulate a token-graph by extrapolating the supervised information from examples to tokens. Our experiments with 8 disaster datasets show our method outperforms baselines and also example-level contrastive learning based formulation"
+
+
+- key: "supervised-graph-contrastive"
+  authors: "Samujjwal Ghosh, Subhadeep Maji, Maunendra Sankar Desarkar"
+  title: "Supervised Graph Contrastive Pretraining for Text Classification"
+  journal: "In Proceedings of ACM SAC Conference (SAC’22)"
+  abstract: "Contrastive pretraining techniques for text classification has been largely studied in an unsupervised setting. However, oftentimes labeled data from related tasks which share label semantics with current task is available. We hypothesize that using this labeled data effectively can lead to better generalization on current task. In this paper, we propose a novel way to effectively utilize labeled data from related tasks with a graph based supervised contrastive learning approach. We formulate a token-graph by extrapolating the supervised information from examples to tokens. Our formulation results in an embedding space where tokens with high/low probability of belonging to same class are near/further-away from one another. We also develop detailed theoretical insights which serve as a motivation for our method. In our experiments with 13 datasets, we show our method outperforms pretraining schemes by 2.5% and also example-level contrastive learning based formulation by 1.8% on average. In addition, we show cross-domain effectiveness of our method in a zero-shot setting by 3.91% on average. Lastly, we also demonstrate our method can be used as a noisy teacher in a knowledge distillation setting to significantly improve performance of transformer based models in low labeled data regime by 4.57% on average."
+  year: 2021
+  month: 12
+  url: https://arxiv.org/abs/2112.11389
+  pdf: https://arxiv.org/pdf/2112.11389.pdf
+  cite: "Ghosh, S., Maji, S., & Desarkar, M. S. (2021). Supervised Graph Contrastive Pretraining for Text Classification. arXiv preprint arXiv:2112.11389."
+  code: 
+  highlight: 0
+  img: "supervised-graph-contrastive.png"
+  video: 
+  summary: "We hypothesize that using this labeled data effectively can lead to better generalization on current task. In this paper, we propose a novel way to effectively utilize labeled data from related tasks with a graph based supervised contrastive learning approach. We formulate a token-graph by extrapolating the supervised information from examples to tokens. Our formulation results in an embedding space where tokens with high/low probability of belonging to same class are near/further-away from one another."
+
+- key: "granular-classification-framework"
+  authors: "Samujjwal Ghosh and Maunendra Sankar Desarkar"
+  title: "Semi-Supervised Granular Classification Framework for Resource Constrained Short-texts: Towards Retrieving Situational Information During Disaster Events"
+  journal: "WebSci '20: 12th ACM Conference on Web Science"
+  abstract: "During the time of disasters, lots of short-texts are generated containing crucial situational information. Proper extraction and identification of situational information might be useful for various rescue and relief operations. Few specific types of infrequent situational information might be critical. However, obtaining labels for those resource-constrained classes is challenging as well as expensive. Supervised methods pose limited usability in such scenarios. To overcome this challenge, we propose a semi-supervised learning framework which utilizes abundantly available unlabelled data by self-learning. The proposed framework improves the performance of the classifier for resource-constrained classes by selectively incorporating highly confident samples from unlabelled data for self-learning. Incremental incorporation of unlabelled data, as and when they become available, is suitable for ongoing disaster mitigation. Experiments on three disaster-related datasets show that such improvement results in overall performance increase over standard supervised approach."
+  year: 2020
+  month: 07
+  url: https://dl.acm.org/doi/10.1145/3394231.3397892
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3394231.3397892
+  cite: "Samujjwal Ghosh and Maunendra Sankar Desarkar. 2020. Semi-Supervised Granular Classification Framework for Resource Constrained Short-texts: Towards Retrieving Situational Information During Disaster Events. In 12th ACM Conference on Web Science (WebSci '20). Association for Computing Machinery, New York, NY, USA, 29–38. https://doi.org/10.1145/3394231.3397892"
+  code: 
+  highlight: 0
+  img: "granular-classification-framework.png"
+  video: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3394231.3397892&file=3394231.3397892.mp4
+  summary: "We propose a semi-supervised learning framework which utilizes abundantly available unlabelled data by self-learning. The proposed framework improves the performance of the classifier for resource-constrained classes by selectively incorporating highly confident samples from unlabelled data for self-learning. Incremental incorporation of unlabelled data, as and when they become available, is suitable for ongoing disaster mitigation."
+
+- key: "class-specific-tfidf"
+  authors: ""
+  title: "Class Specific TF-IDF Boosting for Short-text Classification: Application to Short-texts Generated During Disasters"
+  journal: "WWW '18: Companion Proceedings of the The Web Conference 2018"
+  abstract: "Proper formulation of features plays an important role in short-text classification tasks as the amount of text available is very little. In literature, Term Frequency - Inverse Document Frequency (TF-IDF) is commonly used to create feature vectors for such tasks. However, TF-IDF formulation does not utilize the class information available in supervised learning. For classification problems, if it is possible to identify terms that can strongly distinguish among classes, then more weight can be given to those terms during feature construction phase. This may result in improved classifier performance with the incorporation of extra class label related information. We propose a supervised feature construction method to classify tweets, based on the actionable information that might be present, posted during different disaster scenarios. Improved classifier performance for such classification tasks can be helpful in the rescue and relief operations. We used three benchmark datasets containing tweets posted during Nepal and Italy earthquakes in 2015 and 2016 respectively. Experimental results show that the proposed method obtains better classification performance on these benchmark datasets."
+  year: 2018
+  month: 04
+  url: https://dl.acm.org/doi/10.1145/3184558.3191621
+  pdf: 
+  cite: "Samujjwal Ghosh and Maunendra Sankar Desarkar. 2018. Class Specific TF-IDF Boosting for Short-text Classification: Application to Short-texts Generated During Disasters. In Companion Proceedings of the The Web Conference 2018 (WWW '18). International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE, 1629–1637. https://doi.org/10.1145/3184558.3191621"
+  code: 
+  highlight: 0
+  img: "class-specific-tfidf.png"
+  video: 
+  summary: "We propose a supervised feature construction method to classify tweets, based on the actionable information that might be present, posted during different disaster scenarios. Improved classifier performance for such classification tasks can be helpful in the rescue and relief operations. We used three benchmark datasets containing tweets posted during Nepal and Italy earthquakes in 2015 and 2016 respectively. "
+
+- key: "classifying-actionable-insights"
+  authors: "Samujjwal Ghosh, PK Srijith, Maunendra Sankar Desarkar"
+  title: "Using social media for classifying actionable insights in disaster scenario"
+  journal: "International Journal of Advances in Engineering Sciences and Applied Mathematics volume 9, pages224–237"
+  abstract: "Micro-blogging sites are important source of real-time situational information during disasters such as earthquakes, hurricanes, wildfires, flood etc. Such disasters cause miseries in the lives of affected people. Timely identification of steps needed to help the affected people in such situations can mitigate those miseries to a large extent. In this paper, we focus on the problem of automated classification of disaster related tweets to a set of predefined categories. Some example categories considered are resource availability, resource requirement, infrastructure damage etc. Proper annotation of the tweets with these class information can help in timely determination of the steps needed to be taken to address the concerns of the people in the affected areas. Depending on the information category, different feature sets might be useful for proper identification of posts belonging to that category. In this work, we define multiple feature sets and use them with various supervised classification algorithms from literature to study the effectiveness of our approach in annotating the tweets with their appropriate information categories."
+  year: 2017
+  month: 12
+  url: "https://link.springer.com/article/10.1007/s12572-017-0197-2"
+  pdf: https://link.springer.com/article/10.1007/s12572-017-0197-2
+  cite: "Ghosh, S., Srijith, P.K. & Desarkar, M.S. Using social media for classifying actionable insights in disaster scenario. Int J Adv Eng Sci Appl Math 9, 224–237 (2017). https://doi.org/10.1007/s12572-017-0197-2"
+  code: 
+  highlight: 0
+  img: 
+  video: 
+  summary: "We focus on the problem of automated classification of disaster related tweets to a set of predefined categories. Some example categories considered are resource availability, resource requirement, infrastructure damage etc. Proper annotation of the tweets with these class information can help in timely determination of the steps needed to be taken to address the concerns of the people in the affected areas. Depending on the information category, different feature sets might be useful for proper identification of posts belonging to that category."
 
 - key: 
   authors: 
@@ -25,7 +349,38 @@
   month: 
   url: 
   pdf: 
-  doi: 
+  cite: 
+  code: 
+  highlight:
+  img: 
+  video: 
+  summary: 
+
+- key: 
+  authors: 
+  title: 
+  journal:
+  abstract: 
+  year: 
+  month: 
+  url: 
+  pdf: 
+  cite: 
+  code: 
+  highlight:
+  img: 
+  video: 
+  summary: 
+
+- key: 
+  authors: 
+  title: 
+  journal:
+  abstract: 
+  year: 
+  month: 
+  url: 
+  pdf: 
   cite: 
   code: 
   highlight:

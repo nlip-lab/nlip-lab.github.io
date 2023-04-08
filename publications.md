@@ -1,7 +1,7 @@
 ---
 title: Publication
 permalink: /publication/
-years: [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012]
+years: [2022, 2021, 2020, 2019, 2018, 2017]
 
 ---
 
@@ -59,19 +59,16 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
 {% if publi.highlight == 1 %}
 <div class="row">
 <div class="col-sm-12 clearfix">
-<div class="well well-lg">
+<div class="well well-lg" style="background-color: #fcfbfb;">
 
 <p style="text-align:left"><b>{{ publi.title }}</b></p>
-
 <div class="row"> 
   {% if publi.img %}
-  <img src="{{ site.url }}{{ site.baseurl }}/publications/images/{{ publi.img }}" class="img-responsive" width="40%" style="float:left; padding-right:20px; margin-top:15px" />
+  <img src="{{ site.url }}{{ site.baseurl }}/publications/images/{{ publi.img }}" class="img-responsive" width="40%" style="float:left; padding-right:20px;" />
   {% endif %}
 
   {% if publi.summary %}
-  <p style="text-align:justify; padding:10px">{{ publi.summary }}</p>
-  {%else%}  
-  <p style="text-align:justify; padding:10px"><u>Missing Summary</u></p>
+  <p style="text-align:justify; padding-left:10px; padding-right:10px">{{ publi.summary }}</p>
   {% endif %}
 
 
@@ -142,7 +139,7 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
   </ul>
 
 {% if publi.abstract %}
-<p id="{{publi.key}}-abstract" class="collapse" style="border-style: dashed">{{publi.abstract}}</p>
+<p id="{{publi.key}}-abstract" class="collapse" style="border-style: dashed; text-align:justify;">{{publi.abstract}}</p>
 {% endif %}
 
 {% if publi.key %}
@@ -162,26 +159,30 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
 <hr>
 
 <h3>Full List of publications</h3>
+
 {%- for y in page.years %}
-<h4 class="year">{{y}}</h4>
+
+  <h4 class="year">{{y}}</h4>
+
   {% for publi in site.data.publications %}
 
-  {% if publi.year==y%}
-  <div style="text-align:justify;">
-
-  {%if publi.url%}
-    <a href="{{publi.url}}" style="text-decoration:none;"> {{publi.cite}}</a>
-  {%else%}
-  {{publi.cite}}
-  {% endif %}
-
-  </div>
-  <br>
-  {%endif%}
+  <ul style="padding-left: 20px">
+    {% if publi.year==y%}
+      <div style="text-align:justify; padding-left: 20px">
+        {%if publi.url%}
+          <li>
+            <a href="{{publi.url}}" style="text-decoration:none; color:black;"> {{publi.cite}}</a>
+          </li>
+        {%else%}
+        <li>{{publi.cite}}</li>
+        {% endif %}
+      </div>
+    {%endif%}
+  </ul>
+  <span style="display: block; margin-bottom: 1 em"></span>
 
   {% endfor %}
 {% endfor %}
-
 
 
 
