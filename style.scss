@@ -15,7 +15,7 @@ body {
 }
 
 html {
-  font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Serif  ;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  color: #000000;
+  color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
   font-weight: 600;
-  font-family: "Open Sans", "Source Sans Pro";
+  font-family: Serif  ;
   line-height: 1.1;
   color: #333;
   letter-spacing: -.025rem;
@@ -73,14 +73,14 @@ h4, h5, h6 {
 }
 
 p {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica;
+  font-family: Serif  ;
   font-weight: 300;
   margin: 0 0 1rem;
   font-size: 0.8rem;
 }
 
 ul, ol, dl {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica;
+  font-family: Serif  ;
   font-weight: 300;
   font-size: 0.8rem;
   margin-top: 0;
@@ -100,7 +100,7 @@ dd {
 }
 
 ul {
-  /*font-family: Helvetica, 'Ubuntu Mono';*/
+  /*font-family: Serif , 'Ubuntu Mono';*/
   font-size: 0.8rem;
   list-style: inside circle;
   padding-left: 0;
@@ -185,7 +185,7 @@ blockquote {
 
 code,
 pre {
-  font-family: Monaco, "Courier New", monospace;
+  font-family: Monaco, Serif  ;
 }
 
 code {
@@ -228,7 +228,7 @@ pre code {
 }
 
 .gist .gist-file {
-  font-family: Monaco, "Courier New", monospace !important;
+  font-family: Monaco, Serif  ;
 }
 
 .gist .markdown-body {
@@ -518,7 +518,7 @@ tbody tr:nth-child(odd) th {
 // change font for navbar
 .navbar, .navbar-nav>li>a {
   background-color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Serif  ;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 80%;
