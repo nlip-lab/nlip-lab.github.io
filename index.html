@@ -122,13 +122,17 @@ layout: default
               
               {%assign count = 0%}
               {% for new in site.data.news %}
-                
+
+                {%if new.details%}
+
                 {%assign count = count | plus: 1%}
                   {%if count > site.number_of_news_in_homepage%}
                     {%break%}
                   {%endif%}
 
                   <li><b>({{new.year}}/{{new.month}}/{{new.day}})</b>: <span>{{ new.details }}</span></li>
+
+                  {%endif%}
               {% endfor %}
             </ul>
             <!-- if count is more than 3 then  -->

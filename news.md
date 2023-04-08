@@ -22,7 +22,11 @@ permalink: /news/
 {%if new.month==12%}{%assign month="December"%}{%endif%}
 
 {%if new.year==y%}
-    <p style="padding-left:30px"><b>({{month}}, {{new.day}}):</b> <span>{{ new.details }}</span></p>
+<div class="row">
+<column style="float:left; width:180px; text-align:right; padding-right:20px"><p><b>({{month}}, {{new.day}})</b></p></column>
+<column style="float:left; width:600px; text-align:justify"><p>{{ new.details }}</p></column>
+</div>
+    
 {%endif%}
 
 {% endfor %}

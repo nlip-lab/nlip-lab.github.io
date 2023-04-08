@@ -1,25 +1,89 @@
-- details: "Richard gave a lab teaching on neural tangent kernels: <a href='https://docs.google.com/presentation/d/1YARbyIXu3VQA0gLaqEgHa2GTdX71_fPTIXkxQMUEZho/edit#slide=id.p'> WTH is NTK? </a>"
-  year: 2023
-  month: 04
-  day: 05
-  
-- details: "Richard gave a lab teaching on neural tangent kernels: <a href='https://docs.google.com/presentation/d/1YARbyIXu3VQA0gLaqEgHa2GTdX71_fPTIXkxQMUEZho/edit#slide=id.p'> WTH is NTK? </a>"
-  year: 2023
-  month: 04
+- details: <a href="https://sites.google.com/iith.ac.in/manisha-dubey">Manisha Dubey</a> defends her PhD thesis. Congratulations, Dr. Manisha.
+  year: 2022
+  month: 12
+  day: 10
+
+- details: Samujjwal defends his PhD thesis. Congratulations Samujjwal!
+  year: 2022
+  month: 12
   day: 01
 
-- details: "Richard gave a lab teaching on neural tangent kernels: <a href='https://docs.google.com/presentation/d/1YARbyIXu3VQA0gLaqEgHa2GTdX71_fPTIXkxQMUEZho/edit#slide=id.p'> WTH is NTK? </a>"
-  year: 2023
-  month: 02
-  day: 19
-
-- details: "Richard gave a lab teaching on neural tangent kernels: <a href='https://docs.google.com/presentation/d/1YARbyIXu3VQA0gLaqEgHa2GTdX71_fPTIXkxQMUEZho/edit#slide=id.p'> WTH is NTK? </a>"
-  year: 2023
-  month: 01
-  day: 06
-
-- details: "Richard gave a lab teaching on neural tangent kernels: <a href='https://docs.google.com/presentation/d/1YARbyIXu3VQA0gLaqEgHa2GTdX71_fPTIXkxQMUEZho/edit#slide=id.p'> WTH is NTK? </a>"
+- details: Appointed as the Head of the Department of AI department at IIT Hyderabad.
   year: 2022
-  month: 03
+  month: 11
   day: 25
 
+- details: Sharan has a publication in NAACL now. Towards Robust and Semantically Organised Latent Representations for Unsupervised Text Transfer by Sharan and Suvodip is accepted in NAACL main conference.
+  year: 2022
+  month: 8
+  day: 8
+
+- details: Hostility Detection in Online Hindi-English code-mixed Conversations by Kamal, Aditi and Kaushal is accepted in WebSci 2022.
+  year: 2022
+  month: 07
+  day: 05
+
+- details: GNoM, Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification - Samujjwal's last piece of PhD work is accepted in WebSci 2022.
+  year: 2022
+  month: 06
+  day: 03
+
+- details: Suvodip's paper is accepted in ACL 2022 main. Kaushal's work is accepted in Findings of ACL. Congratulations to both.
+  year: 2022
+  month: 05
+  day: 02
+
+- details: Samujjwal's work on unsupervised domain adaptation for disaster related post classification is used in IEEE Transactions on Computational Social Systems. The work uses limited labeled data along with abundantly available unlabeled data generated during a source disaster to propose a novel two-part graph neural network. Congratulations Samujjwal.
+  year: 2022
+  month: 04
+  day: 05
+
+- details: Sreekanth's work on retrieving social media posts related to planned events is published in Springer WWW Journal. The journal is ranked A in CORE. The work identifies additional querying/matching components based on limited event metadata. Proper identification and use of these cues help in determining the final ranking. The work took more than 1.5 years to mature and one more year to get accepted. Congratulations Sreekanth.
+  year: 2022
+  month: 04
+  day: 02
+
+- details: Manisha gets her work on Semantic Annotation in LBSNs accepted in ASONAM 2021. The proposed method uses multi-view Hypergraph GCNs on spatio-temporal data. Congratulations Manisha!
+  year: 2021
+  month: 12
+  day: 13
+
+- details: Suvodip's work on Dialog State Tracking gets accepted in SIGDIAL 2021. Paper title- "Hi-DST- A Hierarchical Approach for Scalable and Extensible Dialogue State Tracking". Congratulations to Suvodip.
+  year: 2021
+  month: 12
+  day: 01
+
+- details: Kaushal's work on Zero-shot Cross lingual transfer for Natural Language Generation will appear in Findings of ACL 2021. Congratulations to Kaushal.
+  year: 2021
+  month: 10
+  day: 05
+
+- details: Sreekanth Madisetty defends his thesis. Thesis title - "Towards Event Recommendation using Social Media -Content Identification, Characterization, and Future Popularity Estimation". Congratulations Dr. Sreekanth.
+  year: 2020
+  month: 05
+  day: 06
+
+- details: Manisha's work on semantic annotations for LBSNs is accepted in ACM SIGSPATIAL. Manisha is a PhD student jointly supervised by Dr. Srijithand myself. Congratulations to Manisha!!!
+  year: 2020
+  month: 04
+  day: 16
+
+- details: Work done by Swapnil in his MTech is accepted in The 19th ACM Symposium on Document Engineering (ACM DocEng 2019). Title of the paper is - "Multi-Context Information for Word Representation Learning". Congratulations Swapnil.
+  year: 2019
+  month: 05
+  day: 16
+
+- details: 
+  year: 
+  month: 
+  day: 
+
+- details: 
+  year: 
+  month: 
+  day: 
+
+- details: 
+  year: 
+  month: 
+  day: 
