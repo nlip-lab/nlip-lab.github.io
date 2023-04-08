@@ -2,40 +2,27 @@
 <head>
 <style>
 footer.sticky-bottom {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  max-height: fit-content;
   text-align: center;
   font-size: 0.6rem;
   background-color: rgb(228, 228, 228);
 }
 </style>
-
 </head>
 
-
-</html>
-
-
 <footer class="sticky-bottom mt-5">
-  <span style="display: block; margin-bottom: 3em"></span>
-
-  Natural Language Processing Lab, Academic Block-C, Lab C-309 <br>
-  <a href="https://cse.iith.ac.in/">Department of Computer Science and Engineering</a>, Indian Institude of Technology Hyderabad (IITH)<br>
+  {{site.title}}, Academic Block-C, Lab C-309 <br>
+  <a href="https://cse.iith.ac.in/">Department of Computer Science and Engineering</a> <br>Indian Institude of Technology Hyderabad (IITH),
   Kandi, Sangareddy, Telangana, India
-  <span style="display: block; margin-bottom: 1em"></span>
+  <span style="display: block; margin-bottom: 2em"></span>
 
   <div class="container">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.footer_name }}.
-    {%- if site.impressum_path -%}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-    {%- endif -%}
+    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.footer_name }}, All Rights Reserved.
+    <br>
     {%- if site.last_updated -%}
     Last updated: {{ "now" | date: '%B %d, %Y' }}.
     {%- endif %}
   </div>
-  <span style="display: block; margin-bottom: 3em"></span>
 
 </footer>
+
+</html>
