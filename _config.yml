@@ -1,10 +1,6 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
-
 # Basic
 name:               "NLP Lab"
-title:              "Kording Lab at the University of Pennsylvania"
+title:              "NLP Lab IITH"
 description:        "The Kording Lab is a computational neuroscience and causality research group at the University of Pennsylvania."
 
 
@@ -19,6 +15,10 @@ markdown:           kramdown
 
 # Highlighter
 highlighter:        rouge
+
+news_years: [2023, 2022, 2021]
+publications_years: [2022, 2021, 2020, 2019, 2018, 2017]
+number_of_news_in_homepage: 4
 
 # Navigation
 nav:
@@ -62,7 +62,6 @@ defaults:
       type:         "people"
     values:
       layout:       "profile"
-
 
 collections:
   people:

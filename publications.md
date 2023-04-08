@@ -1,8 +1,6 @@
 ---
 title: Publication
 permalink: /publication/
-years: [2022, 2021, 2020, 2019, 2018, 2017]
-
 ---
 
 <html>
@@ -160,7 +158,7 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
 
 <h3>Full List of publications</h3>
 
-{%- for y in page.years %}
+{%- for y in site.publications_years %}
 
   <h4 class="year">{{y}}</h4>
 

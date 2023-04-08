@@ -511,15 +511,15 @@ tbody tr:nth-child(odd) th {
 
 .navbar-brand {
   //font-weight: bold;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 300;
 }
 
 // change font for navbar
 .navbar, .navbar-nav>li>a {
-  background-color: white;
-  // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
-  font-family: Serif  ;
+  background-color: rgb(238, 238, 238);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+  // font-family: Serif  ;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 80%;
