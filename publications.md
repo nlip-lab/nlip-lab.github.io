@@ -158,28 +158,26 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
 
 <h3>Full List of publications</h3>
 
-{%- for y in site.publications_years %}
+{% for y in site.publications_years %}
 
-  <h4 class="year">{{y}}</h4>
+<h4 class="year">{{y}}</h4>
 
-  {% for publi in site.data.publications %}
+{% for publi in site.data.publications %}
+{% if publi.year==y%}
 
-  <ul style="padding-left: 20px">
-    {% if publi.year==y%}
-      <div style="text-align:justify; padding-left: 20px">
-        {%if publi.url%}
-          <li>
-            <a href="{{publi.url}}" style="text-decoration:none; color:black;"> {{publi.cite}}</a>
-          </li>
-        {%else%}
-        <li>{{publi.cite}}</li>
-        {% endif %}
-      </div>
-    {%endif%}
-  </ul>
-  <span style="display: block; margin-bottom: 1 em"></span>
+<div style="text-align:justify; padding-left: 20px">
+  {%if publi.url%}
+    <p><a href="{{publi.url}}" style="text-decoration:none; color:black;">{{publi.cite}}</a></p>
+  {%else%}
+    {{publi.cite}}
+  {% endif %}
+</div>
 
-  {% endfor %}
+{%endif%}
+<span style="display: block; margin-bottom: 1 em"></span>
+{% endfor %}
+
+
 {% endfor %}
 
 
