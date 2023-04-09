@@ -3,54 +3,53 @@ title: Reference
 permalink: /resources/
 ---
 
-### Upcoming lab teachings
+## Lab Resources
 
-Every Friday at 13:30 EST, we get together (mix of virtual and in person) for lab teachings. 
-On a rotating basis, each member of the lab speaks and teaches about something they know. 
-Anything, really. Relevant and interesting topics, good skills to know, nice Python packages,
-neuroscientific princples, new findings and literature reviews... whatever!
+<table>
+  <thead>
+    <tr>
+      <th>Resource Name</th>
+      <th>Resource Name</th>
+      <th>Short Details</th>
+      <th>Download</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dataset</td>
+      <td>HiDG</td>
+      <td>This is first dataset for Hindi Distraction generation task</td>
+      <td><a href="https://iith-my.sharepoint.com/personal/cs18resch11003_iith_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcs18resch11003%5Fiith%5Fac%5Fin%2FDocuments%2FZmBART%2FZmBART%5Frelease%2FHi%5FDG%5Fdataset&ga=1">Download</a></td>
+    </tr>
+    <tr>
+      <td>Dataset</td>
+      <td>MR-Head</td>
+      <td>This is dataset for news headline generation task which has multiple references</td>
+      <td><a href="https://drive.google.com/drive/u/0/folders/1HcKvtgCvFItnUJBtcJJy7zJSwhiKfRJF">Download</a></td>
+    </tr>
+  </tbody>
+</table>
 
-Get on the listserve for announcements: https://groups.google.com/forum/#!forum/kording-lab-teachings
 
-[Click here for current topics (as of summer 2021)](http://kordinglab.com/2021/01/01/upcoming-lab-teaching.html)
 
-{% assign reference_types = "scientists|students" | split: "|" %}
+## Community Resources
+### General Suggestions for PhD Students
 
-{% for type in reference_types %}
 
-{% if type == 'scientists' %}
-### **For scientists**
- {% elsif type == 'students' %}
-### **For students, lab members**
-{% endif %}
+### Top NLP Courses
 
-<div class="content list">
-  {% for post in site.posts %}
-    {% if post.categories contains type %}
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="{{ site.baseurl }}{{ post.url }}">- {{ post.title }}</a>
-      </p>
-    </div>
-    {% endif %}
-  {% endfor %}
-</div>
 
-<hr>
-{% endfor %}
+### Top ML and DL Courses
 
-### **Older Blog posts from the lab**
 
-<div class="content list">
-  {% for post in site.posts %}
-    {% if post.categories contains 'blog' %}
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="{{ site.baseurl }}{{ post.url }}">- {{ post.title }}</a> (<small>{{post.date | date: "%m/%d/%y" }}</small>)
-      </p>
-    </div>
-    {% endif %}
-  {% endfor %}
-</div>
+### Code-First Resources for NLP
 
-<hr>
+
+
+### Popular NLP Blogs
+
+
+### Popular NLP Notebooks
+
+
+
