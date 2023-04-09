@@ -44,8 +44,8 @@ permalink: /publication/
 </head>
 </html>
 
-For those interested in numbers, see Konrad's <a href="https://scholar.google.com/citations?user=MiFqJGcAAAAJ"> google scholar citations profile</a>
-<hr>
+<p><i>Jump to the full list of publications, <a href="#full-list"> here</a></i></p>
+
 
 <h3>Highlighted publications</h3>
 <br>
@@ -154,9 +154,12 @@ For those interested in numbers, see Konrad's <a href="https://scholar.google.co
 {% endif %}
 {% endfor %}
 
-<hr>
+<hr id="full-list">
+
+
 
 <h3>Full List of publications</h3>
+<span style="display: block; margin-bottom: 3 em"></span>
 
 {% for y in site.publications_years %}
 
