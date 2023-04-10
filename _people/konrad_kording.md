@@ -1,6 +1,6 @@
 ---
-name: Konrad Kording
-position: pi
+name: Maunendra Sankar Desarkar
+position: professor
 avatar: konrad_profile_3.jpg
 twitter: KordingLab
 ---
