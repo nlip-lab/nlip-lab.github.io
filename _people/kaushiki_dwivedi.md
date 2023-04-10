@@ -1,7 +1,7 @@
 ---
 name: Kaushiki Dwivedi
 position: masters
-avatar: kaushiki.jpeg
+avatar: kd.jpeg
 twitter: kaushiki03iith
 linkedin: www.linkedin.com/in/kaushiki-dwivedi-10k6
 joined: 2021
@@ -12,23 +12,26 @@ joined: 2021
 ### Contact
 
 <i class="fa fa-envelope-o"></i>  `ai21mtech14003.iith.ac.in`<br>
-
 <i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?user=gE8MOhwAAAAJ&hl=en) <br>
- [Homepage](http://ilennaj.github.io) <br>
+<a href="https://github.com/Kaushiki111111"><i class="fa fa-github"></i> Github</a><br>
+<a href="www.linkedin.com/in/kaushiki-dwivedi-10k6"><i class="fa fa-linkedin"></i> LinkedIn</a> <br>
+<a href="https://twitter.com/Kaushiki03iith"><i class="fa fa-twitter"></i> Twitter</a><br>
+ <!--[Homepage]() <br> -->
+[Homepage](https://Kaushiki111111.github.io/)
 
 <hr>
 
 ### Bio
-Currently pursuing M.Tech in Artificial Intelligence at Indian Institute of Technology,Hyderabad.Primary research focuses on Hate Speech Diffusion in Online Social Networks.
-Kaushiki did her Bachelors in Computer Science and Engineering from UIT,RGPV(Bhopal) 
 
+M. Tech.,Artificial Intelligence  (TA), 2021-2023<br>
+Bachelors in Computer Science and Engineering, UIT-RGPV <br>
 <hr>
 
 ### Research Interests
+* Primary research focuses on Hate Speech Diffusion in Online Social Networks.
 * Information propagation in social Networks.
 * Graph Neural Networks.
 
-<hr>
 
 <!--### Publications
 
