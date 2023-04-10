@@ -14,6 +14,51 @@ box-sizing: border-box;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     }
+.gallery {
+  width: 800px;
+  margin: auto;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.img-c {
+  width: 200px;
+  height: 200px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.img-w {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.img-w img {
+  display: none;
+}
+.img-c {
+    transition: None
+}
+.img-c:hover .img-w {
+  transform: scale(1.08);
+}
+.img-c.active {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  z-index: 2;
+}
+.img-c.postactive {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
+.img-c.active.positioned {
+  left: 0 !important;
+  top: 0 !important;
+}
 </style>
 </head>
 
@@ -21,42 +66,33 @@ box-sizing: border-box;
 
 <h3> {{site.name}} Gallery </h3>
 
-<span style="display: block; margin-bottom: 3em"></span>
-
-<div class="wrapper">
-    {%for img in site.data.gallery%}
-    <div>
-    <a target="_blank" href="/images/gallery/{{img.img}}">
-        <img class="expand" src="/images/gallery/{{img.img}}" width="100%" height="auto" style="border-radius:15px;">
-    </a>
-    </div>
-    {%endfor%}
+<div class="gallery">
+  {%for img in site.data.gallery%}
+  <div class="img-w">
+    <img src="/images/gallery/{{img.img}}" alt="">
+  </div>
+  {%endfor%}
 </div>
+
 
 <hr>
 
-<h3> Contact Us </h3>
+<h3 id="#contact"> Contact Us </h3>
 <span style="display: block; margin-bottom: 3em"></span>
 
 <!-- CONTACT -->
 <div class="row" style="margin-top:50px">
-    <div class="column" style="float:left; width:250px; text-align:right; padding-right:10px">
+    <div class="column" style="float:left; width:250px; text-align:center; padding-right:10px">
         <h4>Address</h4>
-        <p>Research Laboratory<br>
-            999 Fake Street Avenue<br>
-            City, State<br>
-            Country ZIP
-        </p>
+        <p>{{site.address}}</p>
     </div>
-    <div class="column" style="float:left; width:250px; text-align:right; padding-right:10px">
+    <div class="column" style="float:left; width:250px; text-align:center; padding-right:10px">
         <h4>Phone</h4>
-        <p>Phone : 999-999-9999<br>
-            Cell : 999-999-9999
-        </p>
+        <p>{{site.phone}}</p>
     </div>
-    <div class="column" style="float:left; width:250px; text-align:right; padding-right:10px">
+    <div class="column" style="float:left; width:250px; text-align:center; padding-right:10px">
         <h4>Office Hours:</h4>
-        <p>Monday-Friday (8.00am - 5.00pm)</p>
+        <p>{{site.office_hours}}</p>
     </div>
 </div>
 
@@ -72,6 +108,44 @@ box-sizing: border-box;
 </div>
 
 <span style="display: block; margin-bottom: 3em"></span>
+
+
+<script>
+$(function() {
+  $(".img-w").each(function() {
+    $(this).wrap("<div class='img-c'></div>")
+    let imgSrc = $(this).find("img").attr("src");
+     $(this).css('background-image', 'url(' + imgSrc + ')');
+  })
+            
+  $(".img-c").click(function() {
+    let w = $(this).outerWidth()
+    let h = $(this).outerHeight()
+    let x = $(this).offset().left
+    let y = $(this).offset().top
+    
+    $(".active").not($(this)).remove()
+    let copy = $(this).clone();
+    copy.insertAfter($(this)).height(h).width(w).addClass("active")
+    $(".active").css('top', y - 8);
+    $(".active").css('left', x - 8);
+    
+      setTimeout(function() {
+    copy.addClass("positioned")
+  }, 0)
+    
+  }) 
+
+})
+$(document).on("click", ".img-c.active", function() {
+  let copy = $(this)
+  copy.removeClass("positioned active").addClass("postactive")
+  setTimeout(function() {
+    copy.remove();
+  }, 500)
+})
+</script>
+
 
 </body>
 </html>

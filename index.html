@@ -4,16 +4,19 @@ layout: default
 
 <html>
   <head>
+    <title>
+      {{site.acronym}}
+    </title>
   <style>
-  .carousel {
-      border-radius: 10px 10px 10px 10px;
-      overflow: hidden;
-  }
-  .grid-container {
-  display: grid;
-  gap: 5px;
-  grid-template-columns: auto auto auto auto;
-  padding: 10px;
+.carousel {
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+.grid-container {
+display: grid;
+gap: 5px;
+grid-template-columns: auto auto auto auto;
+padding: 10px;
 }
 .grid-item {
   padding: 10px;
@@ -21,27 +24,19 @@ layout: default
 }
 
   </style>
+
 </head>
 
 <body>
 
 <div class='container'>
   <div style="text-align: center;">
-    <h2>Natural Language Processing Lab</h2>
+    <h2>{{site.title}}</h2>
     </div>
     <span style="display: block; margin-bottom: 3em"></span>
 
-    <!-- <div>
-    <h6>About us</h6>
-    <p style="text-align: justify;">We are a group of data scientists with interest in brains and, more general, 
-      biomedical research. Our research is more diverse than most labs, and also changes much more quickly! 
-      Right at the moment, much of the research in the lab is about deep learning and its 
-      applications. We also do a good bit of neural data analysis. Right now we are also very much interested in causality and its links with machine learning.
-    </p>
-    
-    </div> -->
-
-    <div class="container-fluid">
+    <!-- CAROUSEL -->
+    <div class="container-fluid" style="width: 100%;">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
         <ol class="carousel-indicators">
@@ -49,60 +44,42 @@ layout: default
 
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
         </ol>
     
         <div class="carousel-inner">
+
+          <!-- Carausel 0 -->
           <div class="item active">
             <img src="images/carousel/la.jpg" alt="Los Angeles" style="width:100%;">
-            <div class="carousel-caption">
-              <h3>Los Angeles</h3>
-              <p>LA is always so much fun!</p>
-            </div>
           </div>
+
           <!-- Carausel 1 -->
           <div class="item">
             <img src="images/carousel/chicago.jpg" alt="Chicago" style="width:100%;">
-            <div class="carousel-caption">
-              <h3>Chicago</h3>
-              <p>Thank you, Chicago!</p>
-            </div>
           </div>
+
           <!-- Carausel 2 -->
           <div class="item">
             <img src="images/carousel/ny.jpg" alt="New York" style="width:100%;">
-            <div class="carousel-caption">
-              <h3>New York</h3>
-              <p>We love the Big Apple!</p>
-            </div>
           </div>
-          <!-- Carausel 3 -->
 
+          <!-- Carausel 3 -->
           <div class="item">
             <img src="images/carousel/ny.jpg" alt="New York" style="width:100%;">
-            <div class="carousel-caption">
-              <h3>New York</h3>
-              <p>We love the Big Apple!</p>
-            </div>
           </div>
           <!-- Carausel 4 -->
           <div class="item">
             <img src="images/carousel/ny.jpg" alt="New York" style="width:100%;">
-            <div class="carousel-caption">
-              <h3>New York</h3>
-              <p>We love the Big Apple!</p>
-            </div>
           </div>
+
           <!-- Carausel 5 -->
           <div class="item">
             <img src="images/carousel/ny.jpg" alt="New York" style="width:100%;">
-            <div class="carousel-caption">
-              <h3>New York</h3>
-              <p>We love the Big Apple!</p>
-            </div>
           </div>
+
         </div>
     
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -128,9 +105,10 @@ layout: default
     <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
       <div style="text-align:left">
         <h3> Recent News </h3>
+        <span style="display: block; margin-bottom: 2em"></span>
+
         <div class="news">
-            <ul style="list-style-position:outside;padding-top:10px;padding-left:20px;text-align:justify" >
-              
+
               {%assign count = 0%}
               {% for new in site.data.news %}
 
@@ -141,14 +119,21 @@ layout: default
                     {%break%}
                   {%endif%}
 
-                  <li><b>({{new.year}}/{{new.month}}/{{new.day}})</b>: <span>{{ new.details }}</span></li>
+                  <div class="row"></div>
+                  <column style="float:left; width:75px; text-align:left; padding-right:5px">
+                    <b>{{new.year}}/{{new.month}}/{{new.day}}</b>
+                  </column>
+                  <column style="float:left; width:10px; text-align:right; padding-right:15px">
+                    <b>:</b>
+                  </column>
+                  <column style="float:left; width:600px; text-align:justify"><p>{{ new.details }}</p></column>
 
                   {%endif%}
               {% endfor %}
-            </ul>
+            <!-- </ul> -->
             <!-- if count is more than 3 then  -->
             {%if count > 3%}
-              <a href="{{site.baseurl}}/news" style="text-align: left;">More News</a>
+              <a href="{{site.baseurl}}/news" style="text-align: left;"><u>More News</u></a>
             {%endif%}
         </div>
         
@@ -174,7 +159,7 @@ layout: default
       We also strive to make our research accessible and impactful by publishing our findings in top-tier conferences and journals, 
       and by open-sourcing our software and datasets. Join us in our pursuit of advancing the state-of-the-art in NLP and IR Research! </p>
 
-      <p> 
+      <p style="text-align: justify;"> 
       We are located near the beautiful city of Hyderabad, which was established in 1591 by Muhammad Quli Qutb Shah, a ruler of the Qutb Shahi 
       dynasty. The city's rich cultural and architectural heritage is renowned, having been predominantly governed by the Nizams throughout 
       its history. The city's unique blend of modern infrastructure and traditional charm make it a must-visit destination for anyone looking to 

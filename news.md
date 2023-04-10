@@ -23,7 +23,7 @@ permalink: /news/
 
 {%if new.year==y%}
 <div class="row">
-<column style="float:left; width:180px; text-align:right; padding-right:20px"><p><b>({{month}}, {{new.day}})</b></p></column>
+<column style="float:left; width:180px; text-align:right; padding-right:20px"><p><b>{{month}}, {{new.day}}</b></p></column>
 <column style="float:left; width:600px; text-align:justify"><p>{{ new.details }}</p></column>
 </div>
     
