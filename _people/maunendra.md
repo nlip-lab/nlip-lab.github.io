@@ -20,11 +20,13 @@ twitter:
 <hr>
 
 #### Research Interests:
+<ul>
 <li>Recommender Systems</li>
 <li>Information Retrieval</li>
 <li>Machine Learning</li>
 <li>Data Mining</li>
 <li>AI/ML</li>
+</ul>
 
 <br>
 **Office**<br>

@@ -11,9 +11,10 @@ joined: 2021
 
 ### Contact
 
-<i class="fa fa-envelope-o"></i>  `kamalandshrestha@gmail.com`<br>
-<a href="https://github.com/shresthakamal"><i class="fa fa-github"></i> Github</a><br>
-<a href="https://www.linkedin.com/in/kamalshrest/"><i class="fa fa-linkedin"></i> LinkedIn</a><br>
+<a href="mailto:kamalandshrestha@gmail.com"><i class="fa fa-envelope-o"></i>  `kamalandshrestha@gmail.com`</a>
+<a href="https://github.com/shresthakamal"><i class="fa fa-github"></i></a>
+<a href="https://www.linkedin.com/in/kamalshrest/"><i class="fa fa-linkedin"></i></a>
+<br>
 [Homepage](https://shresthakamal.com.np/)
 ### Bio
 M. Tech., CSE (TA), 2021-2023<br>

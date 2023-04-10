@@ -4,7 +4,7 @@ permalink: /people/
 ---
 
 {% assign people_sorted = site.people | sort: 'joined' %}
-{% assign role_array = "professor|postdoc|masters|phd|researchstaff|visiting|others|alumni" | split: "|" %}
+{% assign role_array = "professor|postdoc|phd|masters|researchstaff|visiting|others|alumni" | split: "|" %}
 
 {% for role in role_array %}
 
@@ -17,7 +17,7 @@ permalink: /people/
 
 <div class="pos_header">
 {% if role == 'phd' %}
-<h3>PHD Students</h3>
+<h3>PhD Students</h3>
  {% elsif role == 'professor' %}
 <h3>Professor</h3>
  {% elsif role == 'masters' %}
@@ -38,7 +38,7 @@ permalink: /people/
       <div class="list-item-people">
         <p class="list-post-title">
           {% if profile.avatar %}
-            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
+            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}" style="border: 1px solid #e6e6e6"></a>
           {% else %}
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
           {% endif %}
