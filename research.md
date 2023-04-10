@@ -15,6 +15,7 @@ permalink: /research/
 <div style="text-align: justify;">
     <p>Our research group is dedicated to advancing the state-of-the-art in Natural Language Processing (NLP) and Information Retrieval (IR) by exploring various research directions. These directions include, but are not limited to, language modeling, text classification, natural language generation, multilingual NLP, code-mix modeling, machine translation, conversational AI, information retrieval, social network analysis, graph neural networks, image captioning, and other related domains. In the following section, we provide an overview of the research topics that we have worked previously or focused currently:<p>
 
+<a href="/images/word-cloud.png"><img src="/images/word-cloud.png"></a>
 
 <div style="text-align: justify;">
 <h3>Natural Language Processing (NLP)</h3>
