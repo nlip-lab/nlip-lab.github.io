@@ -4,7 +4,7 @@ permalink: /people/
 ---
 
 {% assign people_sorted = site.people | sort: 'joined' %}
-{% assign role_array = "professor|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
+{% assign role_array = "professor|postdoc|masters|phd|researchstaff|visiting|others|alumni" | split: "|" %}
 
 {% for role in role_array %}
 
@@ -16,20 +16,18 @@ permalink: /people/
 {% endif %}
 
 <div class="pos_header">
-{% if role == 'postdoc' %}
-<h3>Postdoctoral Fellows</h3>
+{% if role == 'phd' %}
+<h3>PHD Students</h3>
  {% elsif role == 'professor' %}
 <h3>Professor</h3>
- {% elsif role == 'gradstudent' %}
-<h3>Graduate Students</h3>
+ {% elsif role == 'masters' %}
+<h3>M.Tech Students</h3>
  {% elsif role == 'researchstaff' %}
 <h3>Research Staff</h3>
  {% elsif role == 'visiting' %}
 <h3>Visiting Scholars</h3>
  {% elsif role == 'others' %}
-<h3>Honorary Members</h3>
- {% elsif role == 'alumni' %}
-<h3>Alumni</h3>
+<h3>Alumni students</h3>
 {% endif %}
 </div>
 
@@ -55,7 +53,7 @@ permalink: /people/
 {% else %}
 
 <br>
-
+<!--
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :-----------|
 | [Ari Benjamin](https://ari-benjamin.com/) | Graduate student (2016-2022) | Postdoc with Tony Zador at Cold Spring Harbor Laboratory |
@@ -117,6 +115,6 @@ permalink: /people/
 | Taro Kiritani | Rotation Student (Winter 2007) | ExaWizards Inc. in Tokyo |
 | Rashmi Sarnaik | Rotation Student (Winter 2007) | Scientific Editor at Neuron |
 | Emily Oby | Rotation Student (Fall 2006) | Postdoc w/ Aaron Batista at University of Pittsburgh |
-
+-->
 {% endif %}
 {% endfor %}
