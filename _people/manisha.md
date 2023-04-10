@@ -1,5 +1,5 @@
 ---
-name: Manisha Dubey
+name: Dr.Manisha Dubey
 position: others
 avatar: manisha.png
 twitter: 
