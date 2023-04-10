@@ -1,8 +1,7 @@
 ---
 name: Kaushiki Dwivedi
 position: masters
-avatar: kd.jpeg
-twitter: kaushiki03iith
+avatar: kdd.jpeg
 linkedin: www.linkedin.com/in/kaushiki-dwivedi-10k6
 joined: 2021
 ---
@@ -15,7 +14,6 @@ joined: 2021
 <i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?user=gE8MOhwAAAAJ&hl=en) <br>
 <a href="https://github.com/Kaushiki111111"><i class="fa fa-github"></i> Github</a><br>
 <a href="www.linkedin.com/in/kaushiki-dwivedi-10k6"><i class="fa fa-linkedin"></i> LinkedIn</a> <br>
-<a href="https://twitter.com/Kaushiki03iith"><i class="fa fa-twitter"></i> Twitter</a><br>
  <!--[Homepage]() <br> -->
 [Homepage](https://Kaushiki111111.github.io/)
 
