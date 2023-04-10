@@ -119,7 +119,7 @@ padding: 10px;
                     {%break%}
                   {%endif%}
 
-                  <div class="row"></div>
+                  <div class="row" style="padding-left: 20px;">
                   <column style="float:left; width:75px; text-align:left; padding-right:5px">
                     <b>{{new.year}}/{{new.month}}/{{new.day}}</b>
                   </column>
@@ -127,13 +127,13 @@ padding: 10px;
                     <b>:</b>
                   </column>
                   <column style="float:left; width:600px; text-align:justify"><p>{{ new.details }}</p></column>
-
+                </div>
                   {%endif%}
               {% endfor %}
             <!-- </ul> -->
             <!-- if count is more than 3 then  -->
-            {%if count > 3%}
-              <a href="{{site.baseurl}}/news" style="text-align: left;"><u>More News</u></a>
+            {%if count > site.number_of_news_in_homepage%}
+              <a href="{{site.baseurl}}/news" style="text-align:left;"><u>More News</u></a>
             {%endif%}
         </div>
         

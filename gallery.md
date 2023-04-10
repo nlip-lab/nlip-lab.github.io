@@ -34,6 +34,7 @@ box-sizing: border-box;
   background-size: cover;
   background-position: center;
   cursor: pointer;
+  margin: 5px;
 }
 .img-w img {
   display: none;
