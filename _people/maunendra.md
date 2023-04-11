@@ -1,5 +1,5 @@
 ---
-name: Maunendra Sankar Desarkar
+name: Dr.Maunendra Sankar Desarkar
 position: professor
 avatar: maunendra_sir.jpg
 twitter: 
@@ -15,7 +15,7 @@ twitter:
 
 #### Bio:
 
-[Maunendra Sankar Desarkar](https://iith.ac.in/cse/maunendra/) ,an Associate Professor at the Computer Science and Engineering Department at IIT Hyderabad, India. Currently, also serving as the Head of the Department of the AI Department at IIT Hyderabad. Main research areas are Recommendation Systems, Information Retrieval, Social Network Analysis, Data Mining, Machine Learning. Also a part of the Data and Informatics Group (DIG) at the Department of CSE, IIT Hyderabad. Prior to Joining IIT Hyderabad, have worked for Samsung Research India Bangalore and Sybase Inc. (a SAP Company) in the past<!-- runs his lab at the  Indian Institute of Technology,Hyderabad.<br> -->
+[Dr.Maunendra Sankar Desarkar](https://iith.ac.in/cse/maunendra/) ,an Associate Professor at the Computer Science and Engineering Department at IIT Hyderabad, India. Currently, also serving as the Head of the Department of the AI Department at IIT Hyderabad. Main research areas are Recommendation Systems, Information Retrieval, Social Network Analysis, Data Mining, Machine Learning. Also a part of the Data and Informatics Group (DIG) at the Department of CSE, IIT Hyderabad. Prior to Joining IIT Hyderabad, have worked for Samsung Research India Bangalore and Sybase Inc. (a SAP Company) in the past<!-- runs his lab at the  Indian Institute of Technology,Hyderabad.<br> -->
 
 <hr>
 
