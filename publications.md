@@ -170,7 +170,7 @@ permalink: /publication/
 
 <div style="text-align:justify; padding-left: 20px">
   {%if publi.url%}
-    <p><a href="{{publi.url}}" style="text-decoration:none; color:black;" target="_blank">{{publi.cite}}</a></p>
+    <p><a href="{{publi.url}}" style="text-decoration:none;" target="_blank">{{publi.title}}</a>. {{publi.authors}}. {{publi.journal}}</p>
   {%else%}
     {{publi.cite}}
   {% endif %}
