@@ -25,7 +25,7 @@ box-sizing: border-box;
 .column {
   float: left;
   width: 33.33%;
-  display: block; /* Hide all elements by default */
+  display: none; /* Hide all elements by default */
 }
 /* Clear floats after rows */ 
 .row:after {
