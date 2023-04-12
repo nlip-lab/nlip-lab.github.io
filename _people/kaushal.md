@@ -9,8 +9,9 @@ joined: 2018
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
 <i class="fa fa-envelope-o"></i> cs18resch11003@iith.ac.in <br>
+<span style="display: block; margin-bottom: 0.5em"></span>
+<a href="https://kaushal0494.github.io/" target=_blank><samp>Homepage</samp></a><br>
 
-[Homepage](https://kaushal0494.github.io/)
 <hr>
 
 ### Bio: 

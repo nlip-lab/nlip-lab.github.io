@@ -12,8 +12,8 @@ joined: 2022
 
 <i class="fa fa-envelope-o"></i> `shreysatapara@gmail.com`<br>
 <i class="fa fa-bar-chart"></i>[google scholar](https://scholar.google.com/citations?hl=en&user=4BW7Q0gAAAAJ)<br>
-<a href="https://github.com/ShreySatapara"><i class="fa fa-github"></i> Github</a><br>
-<a href="https://linkedin.com/in/shreysatapara"><i class="fa fa-linkedin"></i> LinkedIn</a> <br>
+<a href="https://github.com/ShreySatapara" target=_blank><i class="fa fa-github"></i> Github</a><br>
+<a href="https://linkedin.com/in/shreysatapara" target=_blank><i class="fa fa-linkedin"></i> LinkedIn</a> <br>
 
 [Homepage](https:/shreysatapara.github.io)
 
