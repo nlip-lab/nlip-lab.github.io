@@ -112,6 +112,19 @@ padding: 10px;
               {%assign count = 0%}
               {% for new in site.data.news %}
 
+                {%if new.month==1%}{%assign month="January"%}{%endif%}
+                {%if new.month==2%}{%assign month="February"%}{%endif%}
+                {%if new.month==3%}{%assign month="March"%}{%endif%}
+                {%if new.month==4%}{%assign month="April"%}{%endif%}
+                {%if new.month==5%}{%assign month="May"%}{%endif%}
+                {%if new.month==6%}{%assign month="June"%}{%endif%}
+                {%if new.month==7%}{%assign month="July"%}{%endif%}
+                {%if new.month==8%}{%assign month="August"%}{%endif%}
+                {%if new.month==9%}{%assign month="September"%}{%endif%}
+                {%if new.month==10%}{%assign month="October"%}{%endif%}
+                {%if new.month==11%}{%assign month="November"%}{%endif%}
+                {%if new.month==12%}{%assign month="December"%}{%endif%}
+
                 {%if new.details%}
 
                 {%assign count = count | plus: 1%}
@@ -120,8 +133,8 @@ padding: 10px;
                   {%endif%}
 
                   <div class="row" style="padding-left: 20px;">
-                  <column style="float:left; width:75px; text-align:left; padding-right:5px">
-                    <b>{{new.year}}/{{new.month}}/{{new.day}}</b>
+                  <column style="float:left; width:140px; text-align:left; padding-right:2px">
+                    <b>{{month}} {{new.day}}, {{new.year}}</b>
                   </column>
                   <column style="float:left; width:10px; text-align:right; padding-right:15px">
                     <b>:</b>
