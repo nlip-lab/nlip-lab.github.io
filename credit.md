@@ -1,6 +1,6 @@
 ---
 title: Creator Credit
-permalink: /creator/
+permalink: /credit/
 redirect_to:
   - https://shresthakamal.com.np/
 ---
