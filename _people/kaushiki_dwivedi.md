@@ -11,16 +11,12 @@ joined: 2021
 ### Contact
 
 <i class="fa fa-envelope-o"></i>  `ai21mtech14003.iith.ac.in`<br>
-<i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?user=gE8MOhwAAAAJ&hl=en) <br>
-<a href="https://github.com/Kaushiki111111"><i class="fa fa-github"></i> Github</a><br>
-<a href="www.linkedin.com/in/kaushiki-dwivedi-10k6"><i class="fa fa-linkedin"></i> LinkedIn</a> <br>
- <!--[Homepage]() <br> -->
-[Homepage](https://Kaushiki111111.github.io/)
-
+<i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?user=gE8MOhwAAAAJ&hl=en ) <br>
+<a href="https://github.com/Kaushiki111111" target=_blank><i class="fa fa-github"></i> kaushiki</a><br>
+<a href="https://www.linkedin.com/in/kaushiki-dwivedi-10k6/"><i class="fa fa-linkedin" target=_blank></i> kaushikidwivedi</a><br>
 <hr>
 
 ### Bio
-
 M. Tech.,Artificial Intelligence  (TA), 2021-2023<br>
 Bachelors in Computer Science and Engineering, UIT-RGPV <br>
 <hr>
