@@ -8,7 +8,7 @@ joined: 2017
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-<a href="https://sites.google.com/view/manisha-dubey">Homepage</a> 
+<a href="https://sites.google.com/view/manisha-dubey" target=_blank >Homepage</a> 
 <hr>
 
 ### Bio:
