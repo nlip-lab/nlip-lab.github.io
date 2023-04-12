@@ -1,8 +1,67 @@
-# Place the images at /images/gallery and put the name of the image here
-- img: acml.jpg
-- img: 1.JPG
-- img: 2.JPG
-- img: 3.JPG
-- img: 4.JPG
-- img: 5.JPG
-- img: 6.JPG
+- img: 1.jpg
+  caption: Enabling Large Scale Data Analytics
+  tag: DoCSE
+
+- img: 3.jpg
+  caption: Image Caption
+
+- img: 4.jpg
+  caption: Image Caption
+
+- img: 5.jpg
+  caption: Image Caption
+
+- img: 6.jpg
+  caption: Image Caption
+
+- img: 7.JPG
+  caption: Image Caption
+  tag: DoCSE
+
+- img: 8.JPG
+  caption: Image Caption
+
+- img: 10.JPG
+  caption: Image Caption
+  tag: 
+
+- img: 11.JPG
+  caption: Image Caption
+  tag: 
+
+- img: 12.jpg
+  caption: Image Caption
+  tag: 
+
+- img: 14.jpg
+  caption: Image Caption
+  tag: 
+
+- img: 15.jpg
+  caption: Image Caption
+  tag: 
+
+- img: 25.jpg
+  caption: Image Caption
+  tag: 
+
+- img: 31.jpg
+  caption: Image Caption
+  tag: 
+
+- img: 30.JPG
+  caption: Image Caption
+  tag: 
+
+- img: 34.jpg
+  caption: Image Caption
+  tag: 
+
+
+- img: 27.jpg
+  caption: Image Caption
+  tag: celebration
+
+- img: 29.jpg
+  caption: Image Caption
+  tag: celebration
