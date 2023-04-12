@@ -13,26 +13,26 @@ joined: 2021
 
 <div class="row">
 <column style="float:left; width:45px; text-align:right; padding-right:10px">
-    <b><a href="mailto:kamalandshrestha@gmail.com"><i class="fa fa-envelope-o"></i></a></b><br>
+    <b><a href="mailto:kamalandshrestha@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a></b><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <b><a href="mailto:kamalandshrestha@gmail.com"><i class="fa fa-globe"></i></a></b>
+    <b><a href="mailto:kamalandshrestha@gmail.com" target="_blank"><i class="fa fa-globe"></i></a></b>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <b><a href="https://github.com/shresthakamal"><i class="fa fa-github"></i></a></b>
+    <b><a href="https://github.com/shresthakamal" target="_blank"> <i class="fa fa-github"></i></a></b>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <b><a href="https://www.linkedin.com/in/kamalshrest/"><i class="fa fa-linkedin"></i></a></b>
+    <b><a href="https://www.linkedin.com/in/kamalshrest/" target="_blank"><i class="fa fa-linkedin"></i></a></b>
     <span style="display: block; margin-bottom: 0.7em"></span>
-    <b><a href="https://www.linkedin.com/in/kamalshrest/"><i class="fa fa-file-pdf-o"></i></a></b>
+    <b><a href="https://www.linkedin.com/in/kamalshrest/" target="_blank"><i class="fa fa-file-pdf-o"></i></a></b>
 </column>
 <column style="float:left; width:600px;">
-    <a href="mailto:kamalandshrestha@gmail.com"><samp>kamalandshrestha@gmail.com</samp></a>
+    <a href="mailto:kamalandshrestha@gmail.com" target="_blank"><samp>kamalandshrestha@gmail.com</samp></a>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <a href="https://shresthakamal.com.np"><samp>shresthakamal.com.np</samp></a><br>
+    <a href="https://shresthakamal.com.np" target="_blank"><samp>shresthakamal.com.np</samp></a><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <a href="https://shresthakamal.com.np"><samp>shresthakamal</samp></a><br>
+    <a href="https://shresthakamal.com.np" target="_blank"><samp>shresthakamal</samp></a><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <a href="https://shresthakamal.com.np"><samp>kamalshrest</samp></a><br>
+    <a href="https://shresthakamal.com.np" target="_blank"><samp>kamalshrest</samp></a><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <a href="https://shresthakamal.com.np/assets/files/cv.pdf"><samp>CV</samp></a><br>
+    <a href="https://shresthakamal.com.np/assets/files/cv.pdf" target="_blank"><samp>CV</samp></a><br>
 </column>
 </div>
 <span style="display: block; margin-bottom: 1em"></span>
@@ -41,7 +41,7 @@ joined: 2021
 
 M. Tech. CSE (TA), [2021-2023] <br>
 
-Bachelor in Computer Science and Engineering [2016-2020], DoCSE, <a href="https://ku.edu.np">Kathmandu University</a> <br>
+Bachelor in Computer Science and Engineering [2016-2020], DoCSE, <a href="https://ku.edu.np" target="_blank">Kathmandu University</a> <br>
 
 ### Research Interest
 

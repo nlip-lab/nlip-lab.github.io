@@ -24,7 +24,7 @@ box-sizing: border-box;
 }
 .column {
   float: left;
-  width: 33.33%;
+  /* width: 33.33%; */
   display: none; /* Hide all elements by default */
 }
 /* Clear floats after rows */ 
@@ -36,7 +36,7 @@ box-sizing: border-box;
 /* Content */
 .content {
   background-color: white;
-  padding: 10px;
+  padding: 1px;
 }
 /* The "show" class is added to the filtered elements */
 .show {
@@ -61,11 +61,11 @@ box-sizing: border-box;
 </head>
 <body>
 
-<h3> {{site.name}} Gallery </h3>
+<h3 style="margin-left:50px"> {{site.name}} Gallery </h3>
 
 <span style="display: block; margin-bottom: 2em"></span>
 
-<div id="myBtnContainer">
+<div id="myBtnContainer" style="text-align:left; margin-left:50px">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
   {% assign tags = '' %}
   
@@ -86,13 +86,13 @@ box-sizing: border-box;
   {% endfor %}  
 </div>
 
-  <div class="row">
+  <div class="row" style="margin-left:45px;">
   {%for img in site.data.gallery%}
   <div class="column {{img.tag}}">
     <div class="content">
-    <a href="/images/gallery/{{img.img}}"><img src="/images/gallery/{{img.img}}" style="width:100%; height:200px; overflow:hidden"></a>
-    <p style="text-align:center;">{{img.caption}}</p>
+    <a href="/images/gallery/{{img.img}}" target="_blank"><img src="/images/gallery/{{img.img}}" style="height:200px; width:250px; overflow:hidden"></a>
     </div>
+    <p style="text-align:center;">{{img.caption}}</p>
   </div>
   {%endfor%}
 

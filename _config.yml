@@ -45,7 +45,6 @@ nav:
 
   - name:           "Gallery"
     href:           "/gallery"
-
   # - name:           "about"
   #   href:           "/about"
   # - name:           "blog"
@@ -87,6 +86,7 @@ footer_text: >
 
 plugins:
   - jekyll/scholar
+  - jekyll-redirect-from
 
 scholar:
 

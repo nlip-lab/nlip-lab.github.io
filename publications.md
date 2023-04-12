@@ -90,7 +90,7 @@ permalink: /publication/
   <!-- URL -->
   {% if publi.url %}
     <li>
-      <a href="{{publi.url}}">
+      <a href="{{publi.url}}" target="_blank">
         <button class="button button1"><b>URL</b></button>
       </a>
     </li>
@@ -99,7 +99,7 @@ permalink: /publication/
   <!-- URL -->
   {% if publi.pdf %}
     <li>
-      <a href="{{publi.pdf}}">
+      <a href="{{publi.pdf}}" target="_blank">
         <button class="button button1"><b>PDF</b></button>
       </a>
     </li>
@@ -108,7 +108,7 @@ permalink: /publication/
   <!-- CODE -->
   {% if publi.code %}
     <li>
-      <a href="{{publi.code}}">
+      <a href="{{publi.code}}" target="_blank">
         <button class="button button1"><b>CODE</b></button>
       </a>
     </li>
@@ -128,7 +128,7 @@ permalink: /publication/
   <!-- VIDEO -->
   {% if publi.video %}
     <li>
-      <a href="{{publi.video}}">
+      <a href="{{publi.video}}" target="_blank">
         <button class="button button1"><b>VIDEO</b></button>
       </a>
     </li>
@@ -170,7 +170,7 @@ permalink: /publication/
 
 <div style="text-align:justify; padding-left: 20px">
   {%if publi.url%}
-    <p><a href="{{publi.url}}" style="text-decoration:none; color:black;">{{publi.cite}}</a></p>
+    <p><a href="{{publi.url}}" style="text-decoration:none; color:black;" target="_blank">{{publi.cite}}</a></p>
   {%else%}
     {{publi.cite}}
   {% endif %}
