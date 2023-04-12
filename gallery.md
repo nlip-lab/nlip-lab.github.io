@@ -90,7 +90,7 @@ box-sizing: border-box;
   {%for img in site.data.gallery%}
   <div class="column {{img.tag}}">
     <div class="content">
-    <a href="/images/gallery/{{img.img}}"><img src="/images/gallery/{{img.img}}" style="height:200px; width:250px; overflow:hidden"></a>
+    <a href="/images/gallery/{{img.img}}" target="_blank"><img src="/images/gallery/{{img.img}}" style="height:200px; width:250px; overflow:hidden"></a>
     </div>
     <p style="text-align:center;">{{img.caption}}</p>
   </div>

@@ -87,6 +87,7 @@ footer_text: >
 
 plugins:
   - jekyll/scholar
+  - jekyll-redirect-from
 
 scholar:
 
