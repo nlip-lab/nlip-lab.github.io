@@ -1,7 +1,7 @@
 ---
 name: Aditi Bagora
 position: masters
-avatar: aditi.jpg
+avatar: aditi.jpeg
 twitter: 
 joined: 2021
 ---
