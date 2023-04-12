@@ -10,6 +10,8 @@ joined: 2021
 
 ### Contact:
 <i class="fa fa-envelope-o"></i>  `ai21mtech14006@iith.ac.in`<br>
+<hr>
+
 ## Bio:
 Bachelors in Information Technology<br>
 M. Tech. in Artificial Intelligence,2021-2023

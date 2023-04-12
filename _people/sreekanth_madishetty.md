@@ -1,6 +1,6 @@
 ---
 name: Sreekanth Madisetty
-position: phd
+position: others
 avatar: sreekanth_madisetty.jpg
 twitter:
 joined: 2015
