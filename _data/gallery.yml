@@ -13,6 +13,7 @@
 
 - img: 6.jpg
   caption: Image Caption
+  tag: DoCSE
 
 - img: 7.JPG
   caption: Image Caption
@@ -47,7 +48,7 @@
 
 - img: 31.jpg
   caption: Image Caption
-  tag: 
+  tag: celebration
 
 - img: 30.JPG
   caption: Image Caption

@@ -14,16 +14,9 @@ box-sizing: border-box;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     }
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
 .row {
-  margin: 5px -8px;
+  width:100%;
+  margin: 1px;
 }
 .row,
 .row > .column {
@@ -32,7 +25,7 @@ h1 {
 .column {
   float: left;
   width: 33.33%;
-  display: none; /* Hide all elements by default */
+  display: block; /* Hide all elements by default */
 }
 /* Clear floats after rows */ 
 .row:after {
@@ -43,7 +36,7 @@ h1 {
 /* Content */
 .content {
   background-color: white;
-  padding: 2px;
+  padding: 10px;
 }
 /* The "show" class is added to the filtered elements */
 .show {
