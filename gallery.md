@@ -100,27 +100,28 @@ box-sizing: border-box;
 
 <hr>
 
-<h3 id="#contact"> Contact Us </h3>
+<h3 id="#contact" style="padding-left:50px;"> Contact Us </h3>
 <span style="display: block; margin-bottom: 3em"></span>
 
 <!-- CONTACT -->
-<div class="row" style="margin-top:50px">
-    <div class="column" style="float:left; width:250px; text-align:center; padding-right:10px">
+<div style="margin-top:50px; text-align:center; padding-left:50px">
+    <div  style="float:left; width:250px; text-align:center;">
         <h4>Address</h4>
         <p>{{site.address}}</p>
     </div>
-    <div class="column" style="float:left; width:250px; text-align:center; padding-right:10px">
+    <div  style="float:left; width:250px; text-align:center;">
         <h4>Phone</h4>
         <p>{{site.phone}}</p>
     </div>
-    <div class="column" style="float:left; width:250px; text-align:center; padding-right:10px">
+    <div  style="float:left; width:250px; text-align:center;">
         <h4>Office Hours:</h4>
         <p>{{site.office_hours}}</p>
     </div>
 </div>
 
 <!-- LAB LOCATION -->
-<div style="position:relative; width:100%; height:500px">
+
+<div style="width:100%; height:700px; padding-bottom:100px">
   <iframe 
     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1866.6682220334442!2d78.12359467897458!3d17.595584129661564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1680867993295!5m2!1sen!2sin" 
     style="width:100%; height:100%"
