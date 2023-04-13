@@ -51,6 +51,24 @@ permalink: /publication/
 <span style="display: block; margin-bottom: 1 em"></span>
 
 {% for publi in site.data.publications %}
+
+
+    {%if publi.month==1%}{%assign month="January"%}{%endif%}
+    {%if publi.month==2%}{%assign month="February"%}{%endif%}
+    {%if publi.month==3%}{%assign month="March"%}{%endif%}
+    {%if publi.month==4%}{%assign month="April"%}{%endif%}
+    {%if publi.month==5%}{%assign month="May"%}{%endif%}
+    {%if publi.month==6%}{%assign month="June"%}{%endif%}
+    {%if publi.month==7%}{%assign month="July"%}{%endif%}
+    {%if publi.month==8%}{%assign month="August"%}{%endif%}
+    {%if publi.month==9%}{%assign month="September"%}{%endif%}
+    {%if publi.month==10%}{%assign month="October"%}{%endif%}
+    {%if publi.month==11%}{%assign month="November"%}{%endif%}
+    {%if publi.month==12%}{%assign month="December"%}{%endif%}
+
+
+
+
 {%if publi.key%}
 
 
@@ -59,7 +77,7 @@ permalink: /publication/
 <div class="col-sm-12 clearfix">
 <div class="well well-lg" style="background-color: #fcfbfb;">
 
-<p style="text-align:left; font-size:18px;"><b>{{ publi.title }}</b></p>
+<p style="text-align:left; font-size:18px;"><b>{{ publi.title }}</b> [{{month}}, {{publi.year}}]</p>
 <div class="row"> 
   {% if publi.img %}
   <img src="{{ site.url }}{{ site.baseurl }}/publications/images/{{ publi.img }}" class="img-responsive" width="40%" style="float:left; padding-right:20px;" />
@@ -170,7 +188,7 @@ permalink: /publication/
 
 <div style="text-align:justify; padding-left: 20px">
   {%if publi.url%}
-    <p><a href="{{publi.url}}" style="text-decoration:none;" target="_blank">{{publi.title}}</a>. {{publi.authors}}. {{publi.journal}}.</p>
+    <p>{{publi.authors}}. <a href="{{publi.url}}" style="text-decoration:none;" target="_blank">{{publi.title}}</a>. {{publi.journal}}.</p>
   {%else%}
     {{publi.cite}}
   {% endif %}
