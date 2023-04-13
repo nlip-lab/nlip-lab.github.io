@@ -22,10 +22,12 @@ Bachelors in Computer Science and Engineering, UIT-RGPV <br>
 <hr>
 
 ### Research Interests
-* Primary research focuses on Hate Speech Diffusion in Online Social Networks.
-* Information propagation in social Networks.
-* Graph Neural Networks.
+<p style="text-align:justify">
 
+* Primary research focuses on Hate Speech Diffusion in Online Social Networks.<br>
+* Information propagation in social Networks.<br>
+* Graph Neural Networks.
+</p> 
 
 <!--### Publications
 

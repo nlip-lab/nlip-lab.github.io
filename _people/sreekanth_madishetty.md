@@ -14,5 +14,8 @@ joined: 2015
  PhD, (2015-2020)
 
 ### Research Interests:
-* NLP
+<p style="text-align:justify">
+
+* NLP<br>
 * ML and Deep Learning
+</p>

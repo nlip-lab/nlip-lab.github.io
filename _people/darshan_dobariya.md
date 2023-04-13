@@ -1,7 +1,7 @@
 ---
 name: Darshan Dobariya
 position: masters
-avatar: darshan.jpg
+avatar: darshan_.jpeg
 twitter: 
 joined: 2021
 ---
@@ -16,4 +16,7 @@ joined: 2021
 Bachelors in Information Technology<br>
 M. Tech. in Artificial Intelligence,2021-2023
 ### Research Interests:
+<p style="text-align:justify">
+
 My research focues on Table to Text Generation. It produces text descriptions in natural language of the input structured data.
+</p>
