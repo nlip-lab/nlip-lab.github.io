@@ -56,7 +56,6 @@ permalink: /people/
 
 <h3>Alumni students</h3>
 
-<br>
 
 | Name| When they were here | Where they went |
 | :------------- |:-------------| :-----------|
