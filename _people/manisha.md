@@ -16,5 +16,8 @@ Ph.D. (2017-2023)<br>
 B.Tech IGDTUW, Delhi (2010-2014)<br>
 M.Tech - IIIT-Delhi (2016-2016)<br>
 ### Research Interests:
-* Sequential Models
+<p style="text-align:justify">
+
+* Sequential Models<br>
 * Graph-based models
+</p>

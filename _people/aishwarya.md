@@ -15,5 +15,8 @@ joined: 2021
 ### Bio:
 BE, Computer Science, BMS Institute of technology and Management, Bangalore
 ### Research Interest:
+<p style="text-align:justify">
+
 * Conversational systems 
 * Natural language understanding
+</p>

@@ -15,4 +15,7 @@ B.Tech in Computer Science from IEM Kolkata (2008-2012)<br>
 M.Tech in Computer Science from IIT Kharagpur (2014-2016)
 
 ### Research Interests:
+<p style="text-align:justify">
+
 I am interested in NLP, NLU, Conversational AI, Dialogue Systems and the related areas.
+</p>

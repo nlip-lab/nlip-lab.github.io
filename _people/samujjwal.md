@@ -11,7 +11,8 @@ joined: 2016
 <hr>
 
 ### Research Interest:
+<p style="text-align:justify">
 
 * Graph Neural Networks
 * Natural Language Processing
-
+</p>

@@ -19,5 +19,7 @@ Bachelors in CSE from Shri Ramdeobaba College of Engineering and Management<br>
 <hr>
 
 ### Research Interest:
+<p style="text-align:justify">
 
 My research focuses on controlled text generation. The generated text should be non-toxic and the sentiment that is generated should be positive.
+</p>

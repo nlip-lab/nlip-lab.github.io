@@ -20,4 +20,7 @@ SCIS in AI [2015-17]<br>
 B.Tech: UPTU in CSE [2010-14]<br>
 
 ### Research Interests:
+<p style="text-align:justify">
+
 Natural Language Generation, Multilinguality, Code-mix, Question Answering, Conversational AI
+</p>
