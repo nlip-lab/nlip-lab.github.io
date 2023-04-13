@@ -18,29 +18,15 @@ box-sizing: border-box;
   width:100%;
   margin: 1px;
 }
-.row,
-.row > .column {
-  padding: 2px;
-}
 .column {
   float: left;
-  /* width: 33.33%; */
-  display: none; /* Hide all elements by default */
+  display: none;
 }
 /* Clear floats after rows */ 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
-/* Content */
-.content {
-  background-color: white;
-  padding: 1px;
-}
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
 }
 /* Style the buttons */
 .btn {
@@ -86,16 +72,13 @@ box-sizing: border-box;
   {% endfor %}  
 </div>
 
-  <div class="row" style="margin-left:45px;">
+<div class="row" style="margin-left:45px;">
   {%for img in site.data.gallery%}
-  <div class="column {{img.tag}}">
-    <div class="content">
+  <div class="column {{img.tag}}" style="white-space: initial; padding:2px;">
     <a href="/images/gallery/{{img.img}}" target="_blank"><img src="/images/gallery/{{img.img}}" style="height:200px; width:250px; overflow:hidden"></a>
-    </div>
-    <p style="text-align:center;">{{img.caption}}</p>
+    <p style="text-align:center; width:250px;">{{img.caption}}</p>
   </div>
   {%endfor%}
-
 </div>
 
 <hr>
