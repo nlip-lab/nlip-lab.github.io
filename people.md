@@ -52,7 +52,6 @@ permalink: /people/
 
 {% else %}
 
-<br>
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :-----------|
