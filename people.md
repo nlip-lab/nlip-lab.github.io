@@ -58,7 +58,7 @@ permalink: /people/
 
 <br>
 
-| Who are they | When were they here | Where they went |
+| Name| When they were here | Where they went |
 | :------------- |:-------------| :-----------|
 | [Sharan Narasimhan](https://www.linkedin.com/in/sharan21/) | Masters student (2020-2022) | Data Engineer at Indeed|
 | [Venkatesh E](https://www.linkedin.com/in/venkateshelangovan/) | Masters student (2020-2022) |  Machine Learning Engineer @ Qualcomm

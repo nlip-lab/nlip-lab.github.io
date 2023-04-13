@@ -15,6 +15,23 @@
   video: 
   summary: "We propose a new evaluation metric named Flexible Goal Accuracy (FGA). FGA is a generalized version of JGA. But unlike JGA, it tries to give penalized rewards to mispredictions that are locally correct i.e. the root cause of the error is an earlier turn. By doing so, FGA considers the performance of both cumulative and turn-level prediction flexibly and provides a better insight than the existing metrics. We also show that FGA is a better discriminator of DST model performance."
 
+- key: "time-event-modeling"
+  authors: "Manisha Dubey, PK Srijith, Maunendra Sankar Desarkar"
+  title: "Continual Learning for Time-to-Event Modeling"
+  journal: "Continual Lifelong Learning Workshop at ACML 2022"
+  abstract: "Temporal point process serves as an essential tool for modeling time-to-event data in continuous time space. Despite having massive amounts of event sequence data from various domains like social media, healthcare etc., real world application of temporal point process are not capable of thriving in continually evolving environment with minimal supervision while retaining previously learnt knowledge. To tackle this, we propose HyperHawkes, a hypernetwork based continually learning temporal point process for continuous modeling of time-to-event sequences with minimal forgetting. We demonstrate the application of the proposed framework through our experiments on two real-world datasets."
+  year: 2022
+  month: 10
+  url: https://openreview.net/forum?id=1OHWaKZOub
+  pdf: https://openreview.net/pdf?id=1OHWaKZOub
+  cite: "Dubey, M., Srijith, P. K., & Desarkar, M. S. (2022). Continual Learning for Time-to-Event Modeling. In Continual Lifelong Learning Workshop at ACML 2022."
+  code: 
+  highlight: 0
+  img: "time-event-modeling.png"
+  video: 
+  summary: "We propose HyperHawkes, a hypernetwork based continually learning temporal point process for continuous modeling of time-to-event sequences with minimal forgetting."
+
+
 
 - key: "unsupervised-text-style-transfer"
   authors: "Sharan Narasimhan, Suvodip Dey, Maundendra Sankar Desarkar"
@@ -84,38 +101,6 @@
   video: 
   summary: "In our experiments, we show that the proposed method outperforms state-of-the-art techniques by 2.74% weighted F1 score on average on two standard public datasets in the area of disaster management. We also report experimental results for granular actionable multilabel classification datasets in disaster domain for the first time, on which we outperform BERT by 3.00% on average w.r.t. weighted F1."
 
-- key: "time-event-modeling"
-  authors: "Manisha Dubey, PK Srijith, Maunendra Sankar Desarkar"
-  title: "Continual Learning for Time-to-Event Modeling"
-  journal: "Continual Lifelong Learning Workshop at ACML 2022"
-  abstract: "Temporal point process serves as an essential tool for modeling time-to-event data in continuous time space. Despite having massive amounts of event sequence data from various domains like social media, healthcare etc., real world application of temporal point process are not capable of thriving in continually evolving environment with minimal supervision while retaining previously learnt knowledge. To tackle this, we propose HyperHawkes, a hypernetwork based continually learning temporal point process for continuous modeling of time-to-event sequences with minimal forgetting. We demonstrate the application of the proposed framework through our experiments on two real-world datasets."
-  year: 2022
-  month: 10
-  url: https://openreview.net/forum?id=1OHWaKZOub
-  pdf: https://openreview.net/pdf?id=1OHWaKZOub
-  cite: "Dubey, M., Srijith, P. K., & Desarkar, M. S. (2022). Continual Learning for Time-to-Event Modeling. In Continual Lifelong Learning Workshop at ACML 2022."
-  code: 
-  highlight: 0
-  img: "time-event-modeling.png"
-  video: 
-  summary: "We propose HyperHawkes, a hypernetwork based continually learning temporal point process for continuous modeling of time-to-event sequences with minimal forgetting."
-
-
-- key: "gnom"
-  authors: "Ghosh, Samujjwal and Maji, Subhadeep and Desarkar, Maunendra Sankar"
-  title: "GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification"
-  journal: "WebSci '22: 14th ACM Web Science Conference 2022"
-  abstract: "Online social media works as a source of various valuable and actionable information during disasters. These information might be available in multiple languages due to the nature of user generated content. An effective system to automatically identify and categorize these actionable information should be capable to handle multiple languages and under limited supervision. However, existing works mostly focus on English language only with the assumption that sufficient labeled data is available. To overcome these challenges, we propose a multilingual disaster related text classification system which is capable to work undervmonolingual, cross-lingual and multilingual lingual scenarios and under limited supervision. Our end-to-end trainable framework combines the versatility of graph neural networks, by applying over the corpus, with the power of transformer based large language models, over examples, with the help of cross-attention between the two. We evaluate our framework over total nine English, Non-English and monolingual datasets invmonolingual, cross-lingual and multilingual lingual classification scenarios. Our framework outperforms state-of-the-art models in disaster domain and multilingual BERT baseline in terms of Weighted F1 score. We also show the generalizability of the proposed model under limited supervision."
-  year: 2022
-  month: 06
-  url: https://dl.acm.org/doi/abs/10.1145/3501247.3531561
-  pdf: https://dl.acm.org/doi/pdf/10.1145/3501247.3531561
-  cite: "Samujjwal Ghosh, Subhadeep Maji, and Maunendra Sankar Desarkar. 2022. GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification. In 14th ACM Web Science Conference 2022 (WebSci '22). Association for Computing Machinery, New York, NY, USA, 55–65. https://doi.org/10.1145/3501247.3531561"
-  code: 
-  highlight: 1
-  img: "gnom.png"
-  video: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3501247.3531561&file=WS22_S1_65.mp4
-  summary: "We propose a multilingual disaster related text classification system which is capable to work undervmonolingual, cross-lingual and multilingual lingual scenarios and under limited supervision. Our end-to-end trainable framework combines the versatility of graph neural networks, by applying over the corpus, with the power of transformer based large language models, over examples, with the help of cross-attention between the two. We evaluate our framework over total nine English, Non-English and monolingual datasets invmonolingual, cross-lingual and multilingual lingual classification scenarios."
 
 
 - key: "hasoc2021"
@@ -134,6 +119,21 @@
   video: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3501247.3531579&file=WS22_S7_114.mp4
   summary: "We propose a novel hierarchical neural network architecture to identify hostile posts/comments/replies in online Hindi-English Code-Mixed conversations. We leverage large multilingual pretrained (mLPT) models like mBERT, XLMR, and MuRIL. The mLPT models provide a rich representation of code-mix text and hierarchical modeling leads to a natural abstraction and selection of the relevant context. The propose model consistently outperformed all the baselines and emerged as a state-of-the-art performing model. We conducted multiple analyses and ablation studies to prove the robustness of the proposed model."
 
+- key: "gnom"
+  authors: "Ghosh, Samujjwal and Maji, Subhadeep and Desarkar, Maunendra Sankar"
+  title: "GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification"
+  journal: "WebSci '22: 14th ACM Web Science Conference 2022"
+  abstract: "Online social media works as a source of various valuable and actionable information during disasters. These information might be available in multiple languages due to the nature of user generated content. An effective system to automatically identify and categorize these actionable information should be capable to handle multiple languages and under limited supervision. However, existing works mostly focus on English language only with the assumption that sufficient labeled data is available. To overcome these challenges, we propose a multilingual disaster related text classification system which is capable to work undervmonolingual, cross-lingual and multilingual lingual scenarios and under limited supervision. Our end-to-end trainable framework combines the versatility of graph neural networks, by applying over the corpus, with the power of transformer based large language models, over examples, with the help of cross-attention between the two. We evaluate our framework over total nine English, Non-English and monolingual datasets invmonolingual, cross-lingual and multilingual lingual classification scenarios. Our framework outperforms state-of-the-art models in disaster domain and multilingual BERT baseline in terms of Weighted F1 score. We also show the generalizability of the proposed model under limited supervision."
+  year: 2022
+  month: 06
+  url: https://dl.acm.org/doi/abs/10.1145/3501247.3531561
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3501247.3531561
+  cite: "Samujjwal Ghosh, Subhadeep Maji, and Maunendra Sankar Desarkar. 2022. GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification. In 14th ACM Web Science Conference 2022 (WebSci '22). Association for Computing Machinery, New York, NY, USA, 55–65. https://doi.org/10.1145/3501247.3531561"
+  code: 
+  highlight: 1
+  img: "gnom.png"
+  video: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3501247.3531561&file=WS22_S1_65.mp4
+  summary: "We propose a multilingual disaster related text classification system which is capable to work undervmonolingual, cross-lingual and multilingual lingual scenarios and under limited supervision. Our end-to-end trainable framework combines the versatility of graph neural networks, by applying over the corpus, with the power of transformer based large language models, over examples, with the help of cross-attention between the two. We evaluate our framework over total nine English, Non-English and monolingual datasets invmonolingual, cross-lingual and multilingual lingual classification scenarios."
 
 
 - key: "maurya-desarkar-2022-meta"
