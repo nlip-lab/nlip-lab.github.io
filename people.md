@@ -51,6 +51,8 @@ permalink: /people/
 <hr>
 
 {% else %}
+{% endif %}
+{% endfor %}
 
 <br>
 
@@ -74,5 +76,3 @@ permalink: /people/
 | [Vandita Dutt ](https://www.linkedin.com/in/vandita-dutt-840646141/) | Masters student (2020-2022) |
 
 
-{% endif %}
-{% endfor %}
