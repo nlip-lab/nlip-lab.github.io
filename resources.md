@@ -34,20 +34,21 @@ permalink: /resources/
 
 ## Community Resources
 
+
 <table>
    <tr>
     <th colspan="2"  style="text-align: center; font-size: 20px;">General Suggestions for PhD Students</th>
   </tr>
   <tr>
-    <td>The 4th Guide in the Hitchhiker’s Guide Trilogy for PhD Students</td>
-    <td><a href="http://www.cs.unc.edu/~azuma/hitch4.html" target="_blank">Link</a></td>
+    <td style="width: 80%;">The 4th Guide in the Hitchhiker’s Guide Trilogy for PhD Students</td>
+    <td style="width: 20%;"><a href="http://www.cs.unc.edu/~azuma/hitch4.html" target="_blank">Link</a></td>
   </tr>
   <tr>
-    <td>A Survival Guide to a PhD by Andrej Karpathy</td>
+    <td>"A Survival Guide to a PhD" by Andrej Karpathy</td>
     <td><a href="http://karpathy.github.io/2016/09/07/phd/" target="_blank">Link</a></td>
   </tr>
   <tr>
-    <td>10 Tips for Research and a PhD by Sebastian Ruder</td>
+    <td>"10 Tips for Research and a PhD" by Sebastian Ruder</td>
     <td><a href="https://www.ruder.io/10-tips-for-research-and-a-phd/" target="_blank">Link</a></td>
   </tr>
   <tr>
@@ -63,7 +64,7 @@ permalink: /resources/
     <td><a href="https://jalote.wordpress.com/2021/07/20/getting-the-most-from-your-phd-training/" target="_blank">Link</a></td>
   </tr>
   <tr>
-    <td>Advice for students doing research projects in ML/NLP by MAREK REI</td>
+    <td>"Advice for students doing research projects in ML/NLP" by MAREK REI</td>
     <td><a href="https://www.marekrei.com/blog/ml-nlp-research-project-advice/" target="_blank">Link</a></td>
   </tr>
 </table>
@@ -83,8 +84,8 @@ permalink: /resources/
     <th colspan="2" style="text-align: center; font-size: 20px;">Popular NLP Courses</th>
   </tr>
   <tr>
-    <td>CS224N: Natural Language Processing with Deep Learning by Stanford</td>
-    <td><a href="http://web.stanford.edu/class/cs224n/" target="_blank">Link</a></td>
+    <td style="width: 80%">CS224N: Natural Language Processing with Deep Learning by Stanford</td>
+    <td style="width: 20%"><a href="http://web.stanford.edu/class/cs224n/" target="_blank">Link</a></td>
   </tr>
   <tr>
     <td>Neural Networks for NLP by CMU</td>
@@ -117,18 +118,18 @@ permalink: /resources/
 
 <table>
   <tr>
-    <th colspan="2" style="text-align: center; font-size: 20px;">Popular Machine Learning and Deep Learning Courses</th>
+    <th colspan="2" style="text-align: center; font-size: 20px;">Popular Mathematical Foundation, Machine Learning and Deep Learning Courses</th>
   </tr>
   <tr>
-    <td>Mathematics for Machine Learning (Georgia Tech)</td>
-    <td><a href="https://jrom.ece.gatech.edu/mfml-f20-notes/" target="_blank">Link</a></td>
+    <td style="width: 80%">Mathematics for Machine Learning (Georgia Tech)</td>
+    <td style="width: 20%"><a href="https://jrom.ece.gatech.edu/mfml-f20-notes/" target="_blank">Link</a></td>
   </tr>
   <tr>
-    <td>Mathematics for Machine Learning (ETH Zurich)</td>
-    <td><a href=a href="https://www.youtube.com/watch?v=eKXZn_tbQmc&list=PLiud-28tsatL0MbfJFQQS7MYkrFrujCYp" target="_blank">Link</a></td>
+    <td style="width: 80%">Mathematics for Machine Learning (ETH Zurich)</td>
+    <td style="width: 20%"><a href=a href="https://www.youtube.com/watch?v=eKXZn_tbQmc&list=PLiud-28tsatL0MbfJFQQS7MYkrFrujCYp" target="_blank">Link</a></td>
   </tr>
   <tr>
-    <td>Mathematics for Machine Learning (MIT Deep Learning Book)</td>
+    <td>Mathematics for Machine Learning (1-5 chapters, MIT Deep Learning Book)</td>
     <td><a href="https://github.com/janishar/mit-deep-learning-book-pdf/tree/master/chapter-wise-pdf" target="_blank">Link</a></td>
   </tr>
   <tr>
@@ -145,12 +146,12 @@ permalink: /resources/
     <th colspan="2" style="text-align: center; font-size: 20px;">NLP Resources</th>
   </tr>
   <tr>
-    <td>Writing Code for NLP Research</td>
-    <td><a href="https://aclanthology.org/D18-3003/" target="_blank">Link</a></td>
+    <td style="width: 80%">Writing Code for NLP Research</td>
+    <td style="width: 20%"><a href="https://aclanthology.org/D18-3003/" target="_blank">Link</a></td>
   </tr>
   <tr>
-    <td>Blogs about NLP and ML by Sebastian Ruder</td>
-    <td><a href="https://www.ruder.io/" target="_blank">Link</a></td>
+    <td style="width: 80%">"Blogs about NLP and ML" by Sebastian Ruder</td>
+    <td style="width: 20%"><a href="https://www.ruder.io/" target="_blank">Link</a></td>
   </tr>
   <tr>
     <td>The Illustrated Transformer</td>
@@ -173,12 +174,12 @@ permalink: /resources/
     <th colspan="2" style="text-align: center; font-size: 20px;">Upcoming Submission Deadlines</th>
   </tr>
   <tr>
-    <td>ACL Upcoming Submission Deadlines</td>
-    <td><a href="https://www.aclweb.org/portal/events" target="_blank">Link</a></td>
+    <td style="width: 80%">ACL Upcoming Submission Deadlines</td>
+    <td style="width: 20%"><a href="https://www.aclweb.org/portal/events" target="_blank">Link</a></td>
   </tr>
   <tr>
-    <td>ACM Upcoming Submission Deadlines</td>
-    <td><a href="upcoming-submission-deadlines" target="_blank">Link</a></td>
+    <td style="width: 80%">ACM Upcoming Submission Deadlines</td>
+    <td style="width: 20%"><a href="https://www.acm.org/conferences/upcoming-submission-deadlines" target="_blank">Link</a></td>
   </tr>
   <tr>
     <td>IEEE Upcoming Submission Deadlines</td>
@@ -196,15 +197,15 @@ permalink: /resources/
     <th colspan="2" style="text-align: center; font-size: 20px;">Ranking Sources</th>
   </tr>
   <tr>
-    <td>Conference Ranking: Conference Rank</td>
-    <td><a href="http://www.conferenceranks.com/" target="_blank">Link</a></td>
+    <td style="width: 80%">Conference Ranking: Conference Rank</td>
+    <td style="width: 20%"><a href="http://www.conferenceranks.com/" target="_blank">Link</a></td>
   </tr>
   <tr>
     <td>Conference Ranking: Core</td>
     <td><a href="http://portal.core.edu.au/conf-ranks/" target="_blank">Link</a></td>
   </tr>
   <tr>
-    <td>Various Ranking for Computer Science</td>
+    <td>Ranking for Computer Science and AI Institutions/Departments/Schools </td>
     <td><a href="https://csrankings.org/#/index?all&us" target="_blank">Link</a></td>
   </tr>
   <tr>
@@ -234,8 +235,8 @@ permalink: /resources/
     <th colspan="2" style="text-align: center; font-size: 20px;">Other Relevant Resources</th>
   </tr>
   <tr>
-    <td>The Missing Semester of Your CS Education, MIT</td>
-    <td><a href="https://missing.csail.mit.edu/" target="_blank">Link</a></td>
+    <td style="width: 80%">The Missing Semester of Your CS Education, MIT</td>
+    <td style="width: 20%"><a href="https://missing.csail.mit.edu/" target="_blank">Link</a></td>
   </tr>
   <tr>
     <td>How to Read a Paper: Three pass Method</td>
