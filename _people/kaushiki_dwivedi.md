@@ -14,6 +14,7 @@ joined: 2021
 <i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?user=gE8MOhwAAAAJ&hl=en ) <br>
 <a href="https://github.com/Kaushiki111111" target=_blank><i class="fa fa-github"></i> kaushiki</a><br>
 <a href="https://www.linkedin.com/in/kaushiki-dwivedi-10k6/"><i class="fa fa-linkedin" target=_blank></i> kaushikidwivedi</a><br>
+<a href="https://drive.google.com/file/d/11bMVyGo6kSi-VP50bR-zIALEEiRTskT8" target="_blank"><samp>CV</samp></a><br>
 <hr>
 
 ### Bio
