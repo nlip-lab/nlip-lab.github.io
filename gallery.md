@@ -18,29 +18,15 @@ box-sizing: border-box;
   width:100%;
   margin: 1px;
 }
-.row,
-.row > .column {
-  padding: 2px;
-}
 .column {
   float: left;
-  /* width: 33.33%; */
-  display: none; /* Hide all elements by default */
+  display: none;
 }
 /* Clear floats after rows */ 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
-/* Content */
-.content {
-  background-color: white;
-  padding: 1px;
-}
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
 }
 /* Style the buttons */
 .btn {
@@ -86,41 +72,39 @@ box-sizing: border-box;
   {% endfor %}  
 </div>
 
-  <div class="row" style="margin-left:45px;">
+<div class="row" style="margin-left:45px;">
   {%for img in site.data.gallery%}
-  <div class="column {{img.tag}}">
-    <div class="content">
+  <div class="column {{img.tag}}" style="white-space: initial; padding:2px;">
     <a href="/images/gallery/{{img.img}}" target="_blank"><img src="/images/gallery/{{img.img}}" style="height:200px; width:250px; overflow:hidden"></a>
-    </div>
-    <p style="text-align:center;">{{img.caption}}</p>
+    <p style="text-align:center; width:250px;">{{img.caption}}</p>
   </div>
   {%endfor%}
-
 </div>
 
 <hr>
 
-<h3 id="#contact"> Contact Us </h3>
+<h3 id="#contact" style="padding-left:50px;"> Contact Us </h3>
 <span style="display: block; margin-bottom: 3em"></span>
 
 <!-- CONTACT -->
-<div class="row" style="margin-top:50px">
-    <div class="column" style="float:left; width:250px; text-align:center; padding-right:10px">
+<div style="margin-top:50px; text-align:center; padding-left:50px">
+    <div  style="float:left; width:250px; text-align:center;">
         <h4>Address</h4>
         <p>{{site.address}}</p>
     </div>
-    <div class="column" style="float:left; width:250px; text-align:center; padding-right:10px">
+    <div  style="float:left; width:250px; text-align:center;">
         <h4>Phone</h4>
         <p>{{site.phone}}</p>
     </div>
-    <div class="column" style="float:left; width:250px; text-align:center; padding-right:10px">
+    <div  style="float:left; width:250px; text-align:center;">
         <h4>Office Hours:</h4>
         <p>{{site.office_hours}}</p>
     </div>
 </div>
 
 <!-- LAB LOCATION -->
-<div style="position:relative; width:100%; height:500px">
+
+<div style="width:100%; height:700px; padding-bottom:100px">
   <iframe 
     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1866.6682220334442!2d78.12359467897458!3d17.595584129661564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1680867993295!5m2!1sen!2sin" 
     style="width:100%; height:100%"

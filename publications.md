@@ -48,7 +48,7 @@ permalink: /publication/
 
 
 <h3>Highlighted publications</h3>
-<br>
+<span style="display: block; margin-bottom: 1 em"></span>
 
 {% for publi in site.data.publications %}
 {%if publi.key%}
@@ -59,7 +59,7 @@ permalink: /publication/
 <div class="col-sm-12 clearfix">
 <div class="well well-lg" style="background-color: #fcfbfb;">
 
-<p style="text-align:left"><b>{{ publi.title }}</b></p>
+<p style="text-align:left; font-size:18px;"><b>{{ publi.title }}</b></p>
 <div class="row"> 
   {% if publi.img %}
   <img src="{{ site.url }}{{ site.baseurl }}/publications/images/{{ publi.img }}" class="img-responsive" width="40%" style="float:left; padding-right:20px;" />
@@ -154,12 +154,12 @@ permalink: /publication/
 {% endif %}
 {% endfor %}
 
-<hr id="full-list">
 
-
-
-<h3>Full List of publications</h3>
 <span style="display: block; margin-bottom: 3 em"></span>
+
+
+<h3 id="full-list">Full List of publications</h3>
+<span style="display: block; margin-bottom: 1 em"></span>
 
 {% for y in site.publications_years %}
 
@@ -170,7 +170,7 @@ permalink: /publication/
 
 <div style="text-align:justify; padding-left: 20px">
   {%if publi.url%}
-    <p><a href="{{publi.url}}" style="text-decoration:none;" target="_blank">{{publi.title}}</a>. {{publi.authors}}. {{publi.journal}}</p>
+    <p><a href="{{publi.url}}" style="text-decoration:none;" target="_blank">{{publi.title}}</a>. {{publi.authors}}. {{publi.journal}}.</p>
   {%else%}
     {{publi.cite}}
   {% endif %}

@@ -51,9 +51,13 @@ permalink: /people/
 <hr>
 
 {% else %}
+{% endif %}
+{% endfor %}
+
+<h3>Alumni students</h3>
 
 
-| Who are they | When were they here | Where they went |
+| Name| When they were here | Where they went |
 | :------------- |:-------------| :-----------|
 | [Sharan Narasimhan](https://www.linkedin.com/in/sharan21/) | Masters student (2020-2022) | Data Engineer at Indeed|
 | [Venkatesh E](https://www.linkedin.com/in/venkateshelangovan/) | Masters student (2020-2022) |  Machine Learning Engineer @ Qualcomm
@@ -73,5 +77,3 @@ permalink: /people/
 | [Vandita Dutt ](https://www.linkedin.com/in/vandita-dutt-840646141/) | Masters student (2020-2022) |
 
 
-{% endif %}
-{% endfor %}

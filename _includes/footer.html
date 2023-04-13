@@ -5,18 +5,18 @@ footer.sticky-bottom {
   text-align: center;
   font-size: 0.6rem;
   background-color: rgb(228, 228, 228);
+  margin:0px;
+  padding:30px;
 }
 </style>
 </head>
 
 <footer class="sticky-bottom mt-5">
-  {{site.title}}<br>
-  <a href="https://iith.ac.in">Indian Institude of Technology Hyderabad (IITH)</a>
-  <br><br>
-  <a href="/gallery/#contact" style="color: black;">For more details, Contact us</a>
+  <a href="/" style="color: black;">{{site.title}}</a><br>
+  <a href="https://iith.ac.in" style="color: black;">Indian Institude of Technology Hyderabad (IITH)</a><br>
+  For more details, <a href="/gallery/#contact" style="color: black;">Contact us</a>
 
   <span style="display: block; margin-bottom: 2em"></span>
-
   <div class="container">
     &copy; Copyright {{ site.time | date: '%Y' }} {{ site.name }}, All Rights Reserved.
     <br>
