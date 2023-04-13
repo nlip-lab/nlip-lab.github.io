@@ -51,8 +51,6 @@ permalink: /publication/
 <span style="display: block; margin-bottom: 1 em"></span>
 
 {% for publi in site.data.publications %}
-
-
     {%if publi.month==1%}{%assign month="January"%}{%endif%}
     {%if publi.month==2%}{%assign month="February"%}{%endif%}
     {%if publi.month==3%}{%assign month="March"%}{%endif%}
@@ -66,18 +64,14 @@ permalink: /publication/
     {%if publi.month==11%}{%assign month="November"%}{%endif%}
     {%if publi.month==12%}{%assign month="December"%}{%endif%}
 
-
-
-
 {%if publi.key%}
-
-
 {% if publi.highlight == 1 %}
 <div class="row">
 <div class="col-sm-12 clearfix">
 <div class="well well-lg" style="background-color: #fcfbfb;">
 
-<p style="text-align:left; font-size:18px;"><b>{{ publi.title }}</b> [{{month}}, {{publi.year}}]</p>
+<p style="text-align:left; font-size:18px; display:inline;"><b>{{ publi.title }}</b> <p style="display:inline;font-size:15px; color: #363636;">[{{month}}, {{publi.year}}]</p></p>
+
 <div class="row"> 
   {% if publi.img %}
   <img src="{{ site.url }}{{ site.baseurl }}/publications/images/{{ publi.img }}" class="img-responsive" width="40%" style="float:left; padding-right:20px;" />

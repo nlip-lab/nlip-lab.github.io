@@ -1,3 +1,36 @@
+- key: "gnom"
+  authors: "Samujjwal Ghosh and Subhadeep Maji and Maunendra Sankar Desarkar"
+  title: "GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification"
+  journal: "WebSci 2022: 14th ACM Web Science Conference 2022"
+  abstract: "Online social media works as a source of various valuable and actionable information during disasters. These information might be available in multiple languages due to the nature of user generated content. An effective system to automatically identify and categorize these actionable information should be capable to handle multiple languages and under limited supervision. However, existing works mostly focus on English language only with the assumption that sufficient labeled data is available. To overcome these challenges, we propose a multilingual disaster related text classification system which is capable to work undervmonolingual, cross-lingual and multilingual lingual scenarios and under limited supervision. Our end-to-end trainable framework combines the versatility of graph neural networks, by applying over the corpus, with the power of transformer based large language models, over examples, with the help of cross-attention between the two. We evaluate our framework over total nine English, Non-English and monolingual datasets invmonolingual, cross-lingual and multilingual lingual classification scenarios. Our framework outperforms state-of-the-art models in disaster domain and multilingual BERT baseline in terms of Weighted F1 score. We also show the generalizability of the proposed model under limited supervision."
+  year: 2022
+  month: 06
+  url: https://dl.acm.org/doi/abs/10.1145/3501247.3531561
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3501247.3531561
+  cite: "Samujjwal Ghosh, Subhadeep Maji, and Maunendra Sankar Desarkar. 2022. GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification. In 14th ACM Web Science Conference 2022 (WebSci '22). Association for Computing Machinery, New York, NY, USA, 55–65. https://doi.org/10.1145/3501247.3531561"
+  code: 
+  highlight: 1
+  img: "gnom.png"
+  video: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3501247.3531561&file=WS22_S1_65.mp4
+  summary: "We propose a multilingual disaster related text classification system which is capable to work undervmonolingual, cross-lingual and multilingual lingual scenarios and under limited supervision. Our end-to-end trainable framework combines the versatility of graph neural networks, by applying over the corpus, with the power of transformer based large language models, over examples, with the help of cross-attention between the two. We evaluate our framework over total nine English, Non-English and monolingual datasets invmonolingual, cross-lingual and multilingual lingual classification scenarios."
+
+
+- key: "hasoc2021"
+  authors: "Aditi Bagora, Kamal Shrestha, Kaushal Maurya, and Maunendra Sankar Desarkar."
+  title: "Hostility Detection in Online Hindi-English Code-Mixed Conversations"
+  journal: "WebSci 2022: 14th ACM Web Science Conference 2022"
+  abstract: "With the rise in accessibility and popularity of various social media platforms, people have started expressing and communicating their ideas, opinions, and interests online. While these platforms are active sources of entertainment and idea-sharing, they also attract hostile and offensive content equally. Identification of hostile posts is an essential and challenging task. In particular, Hindi-English Code-Mixed online posts of conversational nature (which have a hierarchy of posts, comments, and replies) have escalated the challenges. There are two major challenges: (1) the complex structure of Code-Mixed text and (2) filtering the relevant previous context for a given utterance. To overcome these challenges, in this paper, we propose a novel hierarchical neural network architecture to identify hostile posts/comments/replies in online Hindi-English Code-Mixed conversations. We leverage large multilingual pre-trained (mLPT) models like mBERT, XLMR, and MuRIL. The mLPT models provide a rich representation of code-mix text and hierarchical modeling leads to a natural abstraction and selection of the relevant context. The propose model consistently outperformed all the baselines and emerged as a state-of-the-art performing model. We conducted multiple analyses and ablation studies to prove the robustness of the proposed model."
+  year: 2022
+  month: 06
+  url: https://dl.acm.org/doi/10.1145/3501247.3531579
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3501247.3531579
+  cite: "Aditi Bagora, Kamal Shrestha, Kaushal Maurya, and Maunendra Sankar Desarkar. 2022. Hostility Detection in Online Hindi-English Code-Mixed Conversations. In 14th ACM Web Science Conference 2022 (WebSci '22). Association for Computing Machinery, New York, NY, USA, 390–400. https://doi.org/10.1145/3501247.3531579"
+  code: https://github.com/AditiBagora/Hasoc2021CodeMix
+  highlight: 1
+  img: "hasoc2021.png"
+  video: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3501247.3531579&file=WS22_S7_114.mp4
+  summary: "We propose a novel hierarchical neural network architecture to identify hostile posts/comments/replies in online Hindi-English Code-Mixed conversations. We leverage large multilingual pretrained (mLPT) models like mBERT, XLMR, and MuRIL. The mLPT models provide a rich representation of code-mix text and hierarchical modeling leads to a natural abstraction and selection of the relevant context. The propose model consistently outperformed all the baselines and emerged as a state-of-the-art performing model. We conducted multiple analyses and ablation studies to prove the robustness of the proposed model."
+
 
 - key: "eval-dst-performance"
   authors: "Suvodip Dey, Ramamohan Kummara, Maunendra Sankar Desarkar"
@@ -102,23 +135,6 @@
   summary: "In our experiments, we show that the proposed method outperforms state-of-the-art techniques by 2.74% weighted F1 score on average on two standard public datasets in the area of disaster management. We also report experimental results for granular actionable multilabel classification datasets in disaster domain for the first time, on which we outperform BERT by 3.00% on average w.r.t. weighted F1."
 
 
-
-- key: "hasoc2021"
-  authors: "Aditi Bagora, Kamal Shrestha, Kaushal Maurya, and Maunendra Sankar Desarkar."
-  title: "Hostility Detection in Online Hindi-English Code-Mixed Conversations"
-  journal: "WebSci 2022: 14th ACM Web Science Conference 2022"
-  abstract: "With the rise in accessibility and popularity of various social media platforms, people have started expressing and communicating their ideas, opinions, and interests online. While these platforms are active sources of entertainment and idea-sharing, they also attract hostile and offensive content equally. Identification of hostile posts is an essential and challenging task. In particular, Hindi-English Code-Mixed online posts of conversational nature (which have a hierarchy of posts, comments, and replies) have escalated the challenges. There are two major challenges: (1) the complex structure of Code-Mixed text and (2) filtering the relevant previous context for a given utterance. To overcome these challenges, in this paper, we propose a novel hierarchical neural network architecture to identify hostile posts/comments/replies in online Hindi-English Code-Mixed conversations. We leverage large multilingual pre-trained (mLPT) models like mBERT, XLMR, and MuRIL. The mLPT models provide a rich representation of code-mix text and hierarchical modeling leads to a natural abstraction and selection of the relevant context. The propose model consistently outperformed all the baselines and emerged as a state-of-the-art performing model. We conducted multiple analyses and ablation studies to prove the robustness of the proposed model."
-  year: 2022
-  month: 06
-  url: https://dl.acm.org/doi/10.1145/3501247.3531579
-  pdf: https://dl.acm.org/doi/pdf/10.1145/3501247.3531579
-  cite: "Aditi Bagora, Kamal Shrestha, Kaushal Maurya, and Maunendra Sankar Desarkar. 2022. Hostility Detection in Online Hindi-English Code-Mixed Conversations. In 14th ACM Web Science Conference 2022 (WebSci '22). Association for Computing Machinery, New York, NY, USA, 390–400. https://doi.org/10.1145/3501247.3531579"
-  code: https://github.com/AditiBagora/Hasoc2021CodeMix
-  highlight: 1
-  img: "hasoc2021.png"
-  video: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3501247.3531579&file=WS22_S7_114.mp4
-  summary: "We propose a novel hierarchical neural network architecture to identify hostile posts/comments/replies in online Hindi-English Code-Mixed conversations. We leverage large multilingual pretrained (mLPT) models like mBERT, XLMR, and MuRIL. The mLPT models provide a rich representation of code-mix text and hierarchical modeling leads to a natural abstraction and selection of the relevant context. The propose model consistently outperformed all the baselines and emerged as a state-of-the-art performing model. We conducted multiple analyses and ablation studies to prove the robustness of the proposed model."
-
 - key: "supervised-graph-contrastive"
   authors: "Samujjwal Ghosh, Subhadeep Maji, Maunendra Sankar Desarkar"
   title: "Supervised Graph Contrastive Pretraining for Text Classification"
@@ -136,38 +152,6 @@
   summary: "We hypothesize that using this labeled data effectively can lead to better generalization on current task. In this paper, we propose a novel way to effectively utilize labeled data from related tasks with a graph based supervised contrastive learning approach. We formulate a token-graph by extrapolating the supervised information from examples to tokens. Our formulation results in an embedding space where tokens with high/low probability of belonging to same class are near/further-away from one another."
 
 
-- key: "gnom"
-  authors: "Samujjwal Ghosh and Subhadeep Maji and Maunendra Sankar Desarkar"
-  title: "GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification"
-  journal: "WebSci 2022: 14th ACM Web Science Conference 2022"
-  abstract: "Online social media works as a source of various valuable and actionable information during disasters. These information might be available in multiple languages due to the nature of user generated content. An effective system to automatically identify and categorize these actionable information should be capable to handle multiple languages and under limited supervision. However, existing works mostly focus on English language only with the assumption that sufficient labeled data is available. To overcome these challenges, we propose a multilingual disaster related text classification system which is capable to work undervmonolingual, cross-lingual and multilingual lingual scenarios and under limited supervision. Our end-to-end trainable framework combines the versatility of graph neural networks, by applying over the corpus, with the power of transformer based large language models, over examples, with the help of cross-attention between the two. We evaluate our framework over total nine English, Non-English and monolingual datasets invmonolingual, cross-lingual and multilingual lingual classification scenarios. Our framework outperforms state-of-the-art models in disaster domain and multilingual BERT baseline in terms of Weighted F1 score. We also show the generalizability of the proposed model under limited supervision."
-  year: 2022
-  month: 06
-  url: https://dl.acm.org/doi/abs/10.1145/3501247.3531561
-  pdf: https://dl.acm.org/doi/pdf/10.1145/3501247.3531561
-  cite: "Samujjwal Ghosh, Subhadeep Maji, and Maunendra Sankar Desarkar. 2022. GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification. In 14th ACM Web Science Conference 2022 (WebSci '22). Association for Computing Machinery, New York, NY, USA, 55–65. https://doi.org/10.1145/3501247.3531561"
-  code: 
-  highlight: 1
-  img: "gnom.png"
-  video: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3501247.3531561&file=WS22_S1_65.mp4
-  summary: "We propose a multilingual disaster related text classification system which is capable to work undervmonolingual, cross-lingual and multilingual lingual scenarios and under limited supervision. Our end-to-end trainable framework combines the versatility of graph neural networks, by applying over the corpus, with the power of transformer based large language models, over examples, with the help of cross-attention between the two. We evaluate our framework over total nine English, Non-English and monolingual datasets invmonolingual, cross-lingual and multilingual lingual classification scenarios."
-
-
-- key: "maurya-desarkar-2022-meta"
-  authors: "Kaushal Maurya and Maunendra Sankar Desarkar"
-  title: "Meta-XNLG: A Meta-Learning Approach Based on Language Clustering for Zero-Shot Cross-Lingual Transfer and Generation"
-  journal: "Findings of the Association for Computational Linguistics, ACL 2022"
-  abstract: "Recently, the NLP community has witnessed a rapid advancement in multilingual and cross-lingual transfer research where the supervision is transferred from high-resource languages (HRLs) to low-resource languages (LRLs). However, the cross-lingual transfer is not uniform across languages, particularly in the zero-shot setting. Towards this goal, one promising research direction is to learn shareable structures across multiple tasks with limited annotated data. The downstream multilingual applications may benefit from such a learning setup as most of the languages across the globe are low-resource and share some structures with other languages. In this paper, we propose a novel meta-learning framework (called Meta-X$_{NLG}$) to learn shareable structures from typologically diverse languages based on meta-learning and language clustering. This is a step towards uniform cross-lingual transfer for unseen languages. We first cluster the languages based on language representations and identify the centroid language of each cluster. Then, a meta-learning algorithm is trained with all centroid languages and evaluated on the other languages in the zero-shot setting. We demonstrate the effectiveness of this modeling on two NLG tasks (Abstractive Text Summarization and Question Generation), 5 popular datasets and 30 typologically diverse languages. Consistent improvements over strong baselines demonstrate the efficacy of the proposed framework. The careful design of the model makes this end-to-end NLG setup less vulnerable to the accidental translation problem, which is a prominent concern in zero-shot cross-lingual NLG tasks."
-  year: 2021
-  month: 5
-  url: https://aclanthology.org/2022.findings-acl.24
-  pdf: https://aclanthology.org/2022.findings-acl.24.pdf
-  cite: "Kaushal Maurya and Maunendra Desarkar. 2022. Meta-XNLG: A Meta-Learning Approach Based on Language Clustering for Zero-Shot Cross-Lingual Transfer and Generation. In Findings of the Association for Computational Linguistics: ACL 2022, pages 269–284, Dublin, Ireland. Association for Computational Linguistics"
-  code: https://github.com/kaushal0494/Meta_XNLG 
-  highlight: 1
-  img: "maurya-desarkar-2022-meta.png"
-  video: https://aclanthology.org/2022.findings-acl.24.mp4 
-  summary: "We propose a novel meta-learning framework (called Meta-XNLG) to learn shareable structures from typologically diverse languages based on meta-learning and language clustering. This is a step towards uniform cross-lingual transfer for unseen languages. We first cluster the languages based on language representations and identify the centroid language of each cluster. Then, a meta-learning algorithm is trained with all centroid languages and evaluated on the other languages in the zero-shot setting."
 
 - key: "hostility"
   authors: "Arkadipta De, Venkatesh E, Kaushal Kumar Maurya, and Maunendra Sankar Desarkar"
@@ -186,23 +170,6 @@
   summary: "We propose an effective neural network-based technique for hostility detection in Hindi posts. We leverage pre-trained multilingual Bidirectional Encoder Representations of Transformer (mBERT) to obtain the contextual representations of Hindi posts. We have performed extensive experiments including different pre-processing techniques, pre-trained models, neural architectures, hybrid strategies, etc. Our best performing neural classifier model includes One-vs-the-Rest approach where we obtained 92.60%, 81.14%, 69.59%, 75.29% and 73.01% F1 scores for hostile, fake, hate, offensive, and defamation labels respectively."
 
 
-- key: "hidst"
-  authors: "Suvodip Dey, Maunendra Sankar Desarkar"
-  title: "Hi-DST: A Hierarchical Approach for Scalable and Extensible Dialogue State Tracking"
-  journal: "Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue"
-  abstract: "Dialogue State Tracking (DST) is a sub-task of task-based dialogue systems where the user intention is tracked through a set of (domain, slot, slot-value) triplets. Existing DST models can be difficult to extend for new datasets with larger domains/slots mainly due to either of the two reasons- i) prediction of domain-slot as a pair, and ii) dependency of model parameters on the number of slots and domains. In this work, we propose to address these issues using a Hierarchical DST (Hi-DST) model. At a given turn, the model first detects a change in domain followed by domain prediction if required. Then it decides suitable action for each slot in the predicted domains and finds their value accordingly. The model parameters of Hi-DST are independent of the number of domains/slots. Due to the hierarchical modeling, it achieves O(|M|+|N|) belief state prediction for a single turn where M and N are the set of unique domains and slots respectively. We argue that the hierarchical structure helps in the model explainability and makes it easily extensible to new datasets. Experiments on the MultiWOZ dataset show that our proposed model achieves comparable joint accuracy performance to state-of-the-art DST models."
-  year: 2021
-  month: 07
-  url: https://aclanthology.org/2021.sigdial-1.23/
-  pdf: https://aclanthology.org/2021.sigdial-1.23.pdf
-  cite: "Suvodip Dey and Maunendra Sankar Desarkar. 2021. Hi-DST: A Hierarchical Approach for Scalable and Extensible Dialogue State Tracking. In Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue, pages 218–227, Singapore and Online. Association for Computational Linguistics."
-  code: https://github.com/suvodipdey/hi-dst
-  highlight: 1
-  img: "hidst.png"
-  video: "https://www.youtube.com/watch?v=ldnP2Cn_7F0"
-  summary: "In this work, we propose to address these issues using a Hierarchical DST (Hi-DST) model. At a given turn, the model first detects a change in domain followed by domain prediction if required. Then it decides suitable action for each slot in the predicted domains and finds their value accordingly. The model parameters of Hi-DST are independent of the number of domains/slots. Due to the hierarchical modeling, it achieves O(|M|+|N|) belief state prediction for a single turn where M and N are the set of unique domains and slots respectively."
-
-
 - key: "multi-view-hypergraph"
   authors: "Manisha Dubey, P.K Srijith and Maunendra Sankar Desarkar"
   title: "Multi-view Hypergraph Convolution Network for Semantic Annotation in LBSNs"
@@ -218,6 +185,8 @@
   img: "multi-view-hypergraph.png" 
   video: 
   summary: "We propose a Multi-view Hypergraph Convolution Network (Multi-HGCN) where we learn POI representations by considering multiple hypergraphs across multiple views of the data. We build a comprehensive model to learn the POI representation capturing temporal, spatial and trajectory-based patterns among POIs by employing hypergraphs. We use hypergraph convolution to learn better POI representation by using spectral properties of hypergraph. Experiments conducted on three real-world datasets show that the proposed approach outperforms the state-of-the-art approaches."
+
+
 
 
 - key: "maurya-etal-2021-zmbart"
@@ -238,6 +207,37 @@
 
 
 
+- key: "hidst"
+  authors: "Suvodip Dey, Maunendra Sankar Desarkar"
+  title: "Hi-DST: A Hierarchical Approach for Scalable and Extensible Dialogue State Tracking"
+  journal: "Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue"
+  abstract: "Dialogue State Tracking (DST) is a sub-task of task-based dialogue systems where the user intention is tracked through a set of (domain, slot, slot-value) triplets. Existing DST models can be difficult to extend for new datasets with larger domains/slots mainly due to either of the two reasons- i) prediction of domain-slot as a pair, and ii) dependency of model parameters on the number of slots and domains. In this work, we propose to address these issues using a Hierarchical DST (Hi-DST) model. At a given turn, the model first detects a change in domain followed by domain prediction if required. Then it decides suitable action for each slot in the predicted domains and finds their value accordingly. The model parameters of Hi-DST are independent of the number of domains/slots. Due to the hierarchical modeling, it achieves O(|M|+|N|) belief state prediction for a single turn where M and N are the set of unique domains and slots respectively. We argue that the hierarchical structure helps in the model explainability and makes it easily extensible to new datasets. Experiments on the MultiWOZ dataset show that our proposed model achieves comparable joint accuracy performance to state-of-the-art DST models."
+  year: 2021
+  month: 07
+  url: https://aclanthology.org/2021.sigdial-1.23/
+  pdf: https://aclanthology.org/2021.sigdial-1.23.pdf
+  cite: "Suvodip Dey and Maunendra Sankar Desarkar. 2021. Hi-DST: A Hierarchical Approach for Scalable and Extensible Dialogue State Tracking. In Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue, pages 218–227, Singapore and Online. Association for Computational Linguistics."
+  code: https://github.com/suvodipdey/hi-dst
+  highlight: 1
+  img: "hidst.png"
+  video: "https://www.youtube.com/watch?v=ldnP2Cn_7F0"
+  summary: "In this work, we propose to address these issues using a Hierarchical DST (Hi-DST) model. At a given turn, the model first detects a change in domain followed by domain prediction if required. Then it decides suitable action for each slot in the predicted domains and finds their value accordingly. The model parameters of Hi-DST are independent of the number of domains/slots. Due to the hierarchical modeling, it achieves O(|M|+|N|) belief state prediction for a single turn where M and N are the set of unique domains and slots respectively."
+
+- key: "maurya-desarkar-2022-meta"
+  authors: "Kaushal Maurya and Maunendra Sankar Desarkar"
+  title: "Meta-XNLG: A Meta-Learning Approach Based on Language Clustering for Zero-Shot Cross-Lingual Transfer and Generation"
+  journal: "Findings of the Association for Computational Linguistics, ACL 2022"
+  abstract: "Recently, the NLP community has witnessed a rapid advancement in multilingual and cross-lingual transfer research where the supervision is transferred from high-resource languages (HRLs) to low-resource languages (LRLs). However, the cross-lingual transfer is not uniform across languages, particularly in the zero-shot setting. Towards this goal, one promising research direction is to learn shareable structures across multiple tasks with limited annotated data. The downstream multilingual applications may benefit from such a learning setup as most of the languages across the globe are low-resource and share some structures with other languages. In this paper, we propose a novel meta-learning framework (called Meta-X$_{NLG}$) to learn shareable structures from typologically diverse languages based on meta-learning and language clustering. This is a step towards uniform cross-lingual transfer for unseen languages. We first cluster the languages based on language representations and identify the centroid language of each cluster. Then, a meta-learning algorithm is trained with all centroid languages and evaluated on the other languages in the zero-shot setting. We demonstrate the effectiveness of this modeling on two NLG tasks (Abstractive Text Summarization and Question Generation), 5 popular datasets and 30 typologically diverse languages. Consistent improvements over strong baselines demonstrate the efficacy of the proposed framework. The careful design of the model makes this end-to-end NLG setup less vulnerable to the accidental translation problem, which is a prominent concern in zero-shot cross-lingual NLG tasks."
+  year: 2021
+  month: 5
+  url: https://aclanthology.org/2022.findings-acl.24
+  pdf: https://aclanthology.org/2022.findings-acl.24.pdf
+  cite: "Kaushal Maurya and Maunendra Desarkar. 2022. Meta-XNLG: A Meta-Learning Approach Based on Language Clustering for Zero-Shot Cross-Lingual Transfer and Generation. In Findings of the Association for Computational Linguistics: ACL 2022, pages 269–284, Dublin, Ireland. Association for Computational Linguistics"
+  code: https://github.com/kaushal0494/Meta_XNLG 
+  highlight: 1
+  img: "maurya-desarkar-2022-meta.png"
+  video: https://aclanthology.org/2022.findings-acl.24.mp4 
+  summary: "We propose a novel meta-learning framework (called Meta-XNLG) to learn shareable structures from typologically diverse languages based on meta-learning and language clustering. This is a step towards uniform cross-lingual transfer for unseen languages. We first cluster the languages based on language representations and identify the centroid language of each cluster. Then, a meta-learning algorithm is trained with all centroid languages and evaluated on the other languages in the zero-shot setting."
 
 
 - key: "granular-classification-framework"
@@ -256,22 +256,6 @@
   video: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3394231.3397892&file=3394231.3397892.mp4
   summary: "We propose a semi-supervised learning framework which utilizes abundantly available unlabelled data by self-learning. The proposed framework improves the performance of the classifier for resource-constrained classes by selectively incorporating highly confident samples from unlabelled data for self-learning. Incremental incorporation of unlabelled data, as and when they become available, is suitable for ongoing disaster mitigation."
 
-
-- key: "learningtodistract"
-  authors: "Kaushal Kumar Maurya and Maunendra Sankar Desarkar"
-  title: "Learning to Distract: A Hierarchical Multi-Decoder Network for Automated Generation of Long Distractors for Multiple-Choice Questions for Reading Comprehension."
-  journal: "CIKM 2020: Proceedings of the 29th ACM International Conference on Information & Knowledge Management"
-  abstract: "The task of generating incorrect options for multiple-choice questions is termed as distractor generation problem. The task requires high cognitive skills and is extremely challenging to automate. Existing neural approaches for the task leverage encoder-decoder architecture to generate long distractors. However, in this process two critical points are ignored - firstly, many methods use Jaccard similarity over a pool of candidate distractors to sample the distractors. This often makes the generated distractors too obvious or not relevant to the question context. Secondly, some approaches did not consider the answer in the model, which caused the generated distractors to be either answer-revealing or semantically equivalent to the answer. In this paper, we propose a novel Hierarchical Multi-Decoder Network (HMD-Net) consisting of one encoder and three decoders, where each decoder generates a single distractor. To overcome the first problem mentioned above, we include multiple decoders with a dis-similarity loss in the loss function. To address the second problem, we exploit richer interaction between the article, question, and answer with a SoftSel operation and a Gated Mechanism. This enables the generation of distractors that are in context with questions but semantically not equivalent to the answers. The proposed model outperformed all the previous approaches significantly in both automatic and manual evaluations. In addition, we also consider linguistic features and BERT contextual embedding with our base model which further push the model performance."
-  year: 2020
-  month: 10
-  url: "https://dl.acm.org/doi/abs/10.1145/3340531.3411997"
-  pdf: "https://dl.acm.org/doi/pdf/10.1145/3340531.3411997"
-  cite: "Kaushal Kumar Maurya and Maunendra Sankar Desarkar. 2020. Learning to Distract: A Hierarchical Multi-Decoder Network for Automated Generation of Long Distractors for Multiple-Choice Questions for Reading Comprehension. In Proceedings of the 29th ACM International Conference on Information & Knowledge Management (CIKM '20). Association for Computing Machinery, New York, NY, USA, 1115–1124. https://doi.org/10.1145/3340531.3411997"
-  code: "https://github.com/kaushal0494/HMD_Network"
-  highlight: 1
-  img: "learningtodistract.png"
-  video: 
-  summary: "In this paper, we propose a novel Hierarchical Multi-Decoder Network (HMD-Net) consisting of one encoder and three decoders, where each decoder generates a single distractor. To overcome the first problem mentioned above, we include multiple decoders with a dis-similarity loss in the loss function. To address the second problem, we exploit richer interaction between the article, question, and answer with a SoftSel operation and a Gated Mechanism."
 
 - key: "pericles_1468039438"
   authors: "Sreekanth Madisetty, Kaushal Kumar Maurya, Akiko Aizawa, and Maunendra Sankar Desarkar,"
@@ -305,6 +289,23 @@
   img: "hapsap.png"
   video: 
   summary: "We propose our model HAP-SAP, a latent spatio-temporal multivariate Hawkes process, which considers latent semantic category influences, and temporal and spatial mobility patterns of users. The inferred semantic categories can supplement our model on predicting the next check-in events by users. Our experiments on real datasets demonstrate the effectiveness of the proposed model for the semantic annotation and location adoption modelling tasks."
+
+- key: "learningtodistract"
+  authors: "Kaushal Kumar Maurya and Maunendra Sankar Desarkar"
+  title: "Learning to Distract: A Hierarchical Multi-Decoder Network for Automated Generation of Long Distractors for Multiple-Choice Questions for Reading Comprehension."
+  journal: "CIKM 2020: Proceedings of the 29th ACM International Conference on Information & Knowledge Management"
+  abstract: "The task of generating incorrect options for multiple-choice questions is termed as distractor generation problem. The task requires high cognitive skills and is extremely challenging to automate. Existing neural approaches for the task leverage encoder-decoder architecture to generate long distractors. However, in this process two critical points are ignored - firstly, many methods use Jaccard similarity over a pool of candidate distractors to sample the distractors. This often makes the generated distractors too obvious or not relevant to the question context. Secondly, some approaches did not consider the answer in the model, which caused the generated distractors to be either answer-revealing or semantically equivalent to the answer. In this paper, we propose a novel Hierarchical Multi-Decoder Network (HMD-Net) consisting of one encoder and three decoders, where each decoder generates a single distractor. To overcome the first problem mentioned above, we include multiple decoders with a dis-similarity loss in the loss function. To address the second problem, we exploit richer interaction between the article, question, and answer with a SoftSel operation and a Gated Mechanism. This enables the generation of distractors that are in context with questions but semantically not equivalent to the answers. The proposed model outperformed all the previous approaches significantly in both automatic and manual evaluations. In addition, we also consider linguistic features and BERT contextual embedding with our base model which further push the model performance."
+  year: 2020
+  month: 10
+  url: "https://dl.acm.org/doi/abs/10.1145/3340531.3411997"
+  pdf: "https://dl.acm.org/doi/pdf/10.1145/3340531.3411997"
+  cite: "Kaushal Kumar Maurya and Maunendra Sankar Desarkar. 2020. Learning to Distract: A Hierarchical Multi-Decoder Network for Automated Generation of Long Distractors for Multiple-Choice Questions for Reading Comprehension. In Proceedings of the 29th ACM International Conference on Information & Knowledge Management (CIKM '20). Association for Computing Machinery, New York, NY, USA, 1115–1124. https://doi.org/10.1145/3340531.3411997"
+  code: "https://github.com/kaushal0494/HMD_Network"
+  highlight: 1
+  img: "learningtodistract.png"
+  video: 
+  summary: "In this paper, we propose a novel Hierarchical Multi-Decoder Network (HMD-Net) consisting of one encoder and three decoders, where each decoder generates a single distractor. To overcome the first problem mentioned above, we include multiple decoders with a dis-similarity loss in the loss function. To address the second problem, we exploit richer interaction between the article, question, and answer with a SoftSel operation and a Gated Mechanism."
+
 
 - key: "multi-context-info"
   authors: "Swapnil Dewalkar and Maunendra Sankar Desarkar"
