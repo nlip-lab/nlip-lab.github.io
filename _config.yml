@@ -45,6 +45,8 @@ nav:
 
   - name:           "Gallery"
     href:           "/gallery"
+  - name:           "Contact"
+    href:           "/contact"
   # - name:           "about"
   #   href:           "/about"
   # - name:           "blog"
@@ -87,24 +89,3 @@ footer_text: >
 plugins:
   - jekyll/scholar
   - jekyll-redirect-from
-
-scholar:
-
-  last_name: [Einstein]
-  first_name: [Albert, A.]
-
-  style: apa
-  locale: en
-
-  source: /_bibliography/
-  bibliography: references.bib
-  bibtex_filters: [latex, smallcaps, superscript]
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"

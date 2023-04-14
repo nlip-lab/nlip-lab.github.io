@@ -54,7 +54,7 @@ permalink: /people/
 {% endif %}
 {% endfor %}
 
-<h3>Alumni students</h3>
+<h3>PG Alumni students</h3>
 
 
 | Name| When they were here | Where they went |

@@ -284,7 +284,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .container {
-  max-width: 42rem;
+  max-width: 50rem;
 //  padding: 2rem 1.5rem;
   margin-left:  auto;
   margin-right: auto;
@@ -513,6 +513,8 @@ tbody tr:nth-child(odd) th {
   //font-weight: bold;
   font-size: 25px;
   font-weight: 200;
+  padding-top: 8px;
+
 }
 
 // change font for navbar
@@ -521,8 +523,9 @@ tbody tr:nth-child(odd) th {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
   // font-family: Serif  ;
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 90%;
+  font-weight: 300;
+  font-size: auto;
+  padding-top: 10px;
 }
 
 // fix menu bar spacing for mobile
@@ -545,6 +548,10 @@ tbody tr:nth-child(odd) th {
 
 // set font-weight to be bold for hovering on menu
 .navbar-nav>li>a:hover {
+  font-weight: bold;
+}
+// set different weight for selected nav bar option
+.navbar-nav>li>a:active {
   font-weight: bold;
 }
 
