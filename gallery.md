@@ -49,10 +49,17 @@ box-sizing: border-box;
 
 <h3 style="margin-left:50px"> {{site.name}} Gallery </h3>
 
-<span style="display: block; margin-bottom: 2em"></span>
+<div class="row" style="margin-left:45px;">
+  {%for img in site.data.gallery%}
+  <div class="column {{img.tag}}" style="white-space: initial; padding:2px;">
+    <a href="/images/gallery/{{img.img}}" target="_blank"><img src="/images/gallery/{{img.img}}" style="height:200px; width:250px; overflow:hidden"></a>
+    <p style="text-align:center; width:250px;">{{img.caption}}</p>
+  </div>
+  {%endfor%}
+</div>
 
-<div id="myBtnContainer" style="text-align:left; margin-left:50px">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+<div id="myBtnContainer" style="text-align:center; margin-left:-200px; padding:10px">
+  <button class="btn active" onclick="filterSelection('1')">1</button>
   {% assign tags = '' %}
   
   <!-- loop through all images and add their tags to the tags variable separated by a comma-->
@@ -66,24 +73,20 @@ box-sizing: border-box;
   <!-- remove the duplicates -->
   {% assign tags = tags | uniq %}  
 
+  <!-- remove the tag "1" -->
+  {% assign tags = tags | where_exp: "item", "item != '1'" %}
+
   <!-- loop through the tags variable and create a button for each tag -->
   {% for tag in tags %}
       <button class="btn" onclick="filterSelection('{{ tag }}')">{{ tag }}</button>
   {% endfor %}  
 </div>
 
-<div class="row" style="margin-left:45px;">
-  {%for img in site.data.gallery%}
-  <div class="column {{img.tag}}" style="white-space: initial; padding:2px;">
-    <a href="/images/gallery/{{img.img}}" target="_blank"><img src="/images/gallery/{{img.img}}" style="height:200px; width:250px; overflow:hidden"></a>
-    <p style="text-align:center; width:250px;">{{img.caption}}</p>
-  </div>
-  {%endfor%}
-</div>
+<span style="display: block; margin-bottom: 2em"></span>
 
 
 <script>
-filterSelection("all")
+filterSelection("1")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("column");

@@ -15,7 +15,6 @@ serve:
 resize_carousel_images:
 	python3 resize_carousel_images.py
 
-
 start:
 	make resize_carousel_images
 	make build

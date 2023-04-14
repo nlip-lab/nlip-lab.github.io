@@ -1,67 +1,63 @@
+# IMAGES TO BE PLACE IN 1 PAGE
+
 - img: 1.jpg
   caption: Enabling Large Scale Data Analytics
-  tag: DoCSE
-
-- img: 3.jpg
-  caption: Image Caption
-
-- img: 4.jpg
-  caption: Image Caption
-
-- img: 5.jpg
-  caption: Image Caption
+  tag: 1
 
 - img: 6.jpg
   caption: Image Caption
-  tag: DoCSE
+  tag: 1
 
-- img: 7.JPG
-  caption: "PREFER: Exploring Preference Relation as Feedback in Recommender Systems"
-  tag: DoCSE
-
-- img: 8.JPG
-  caption: Teacher's Day Celebration
-
-# - img: 10.JPG
-#   caption: Image Caption
-#   tag: 
-
-- img: 11.JPG
+- img: 7.jpg
   caption: Image Caption
-  tag: 
+  tag: 1
+
+- img: 9.jpg
+  caption: Image Caption
+  tag: 1
+
+- img: 10.jpg
+  caption: Image Caption
+  tag: 1
+
+- img: 15.jpg
+  caption: Image Caption
+  tag: 1
+
+- img: 16.jpg
+  caption: Image Caption
+  tag: 1
+
+- img: 21.jpg
+  caption: Image Caption
+  tag: 1
+
+- img: 17.jpg
+  caption: "PREFER: Exploring Preference Relation as Feedback in Recommender Systems"
+  tag: 1
+
+
+# IMAGES TO BE PLACED IN 2 PAGE
+- img: 11.jpg
+  caption: Image Caption
+  tag: 2
 
 - img: 12.jpg
   caption: Image Caption
-  tag: 
+  tag: 2
 
-# - img: 14.jpg
-#   caption: Image Caption
-#   tag: 
+- img: 3.jpg
+  caption: Image Caption
+  tag: 2
 
-# - img: 15.jpg
-#   caption: Image Caption
-#   tag: 
+- img: 4.jpg
+  caption: Image Caption
+  tag: 2
 
-# - img: 25.jpg
-#   caption: Image Caption
-#   tag: 
+- img: 8.jpg
+  caption: Teacher's Day Celebration
+  tag: 2
 
-# - img: 31.jpg
-#   caption: Image Caption
-#   tag: celebration
-
-# - img: 30.JPG
-#   caption: Image Caption
-#   tag: 
-
-# - img: 34.jpg
-#   caption: Image Caption
-#   tag: 
-
-# - img: 27.jpg
-#   caption: Image Caption
-#   tag: celebration
-
-# - img: 29.jpg
-#   caption: Image Caption
-#   tag: celebration
+- img: 5.jpg
+  caption: Image Caption
+  tag: 2
