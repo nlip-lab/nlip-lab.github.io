@@ -1,9 +1,4 @@
 # IMAGES TO BE PLACE IN 1 PAGE
-
-- img: 1.jpg
-  caption: Enabling Large Scale Data Analytics
-  tag: 1
-
 - img: 6.jpg
   caption: Image Caption
   tag: 1
@@ -16,8 +11,8 @@
   caption: Image Caption
   tag: 1
 
-- img: 10.jpg
-  caption: Image Caption
+- img: 17.jpg
+  caption: "PREFER: Exploring Preference Relation as Feedback in Recommender Systems"
   tag: 1
 
 - img: 15.jpg
@@ -32,12 +27,8 @@
   caption: Image Caption
   tag: 1
 
-- img: 17.jpg
-  caption: "PREFER: Exploring Preference Relation as Feedback in Recommender Systems"
-  tag: 1
-
-
 # IMAGES TO BE PLACED IN 2 PAGE
+
 - img: 11.jpg
   caption: Image Caption
   tag: 2

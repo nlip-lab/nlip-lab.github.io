@@ -9,14 +9,10 @@ permalink: /gallery/
 * {
 box-sizing: border-box;
     }
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    }
 .row {
   width:100%;
   margin: 1px;
+  align: center;
 }
 .column {
   float: left;
@@ -49,12 +45,15 @@ box-sizing: border-box;
 
 <h3 style="margin-left:50px"> {{site.name}} Gallery </h3>
 
-<div class="row" style="margin-left:45px;">
+<div class="row">
   {%for img in site.data.gallery%}
-  <div class="column {{img.tag}}" style="white-space: initial; padding:2px;">
-    <a href="/images/gallery/{{img.img}}" target="_blank"><img src="/images/gallery/{{img.img}}" style="height:200px; width:250px; overflow:hidden"></a>
-    <p style="text-align:center; width:250px;">{{img.caption}}</p>
-  </div>
+    <div class="column {{img.tag}}" style="padding:2px">
+      <a href="/images/gallery/{{img.img}}" target="_blank">
+        <img src="/images/gallery/{{img.img}}" style="height:150px; width:200px;">
+      </a>
+      <p style="width:200px; text-align:center; font-size:15px">{{img.caption}}</p>
+      <span style="display: block; margin-bottom: 1em"></span>
+    </div>
   {%endfor%}
 </div>
 
