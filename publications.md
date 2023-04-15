@@ -27,7 +27,6 @@ permalink: /publication/
   color: white;
 }
 .button1:after {
-  content: '\002B';
   color: white;
   font-weight: bold;
   float: center;
@@ -190,9 +189,6 @@ permalink: /publication/
 <span style="display: block; margin-bottom: 3 em"></span>
 
 {% endfor %}
-
-
-
 
 <script>
 var coll = document.getElementsByClassName("button");
