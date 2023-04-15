@@ -12,14 +12,14 @@ footer.sticky-bottom {
 </head>
 
 <footer class="sticky-bottom mt-5">
-  <a href="/">{{site.title}}</a><br>
+  {{site.title}}<br>
   <a href="https://iith.ac.in">Indian Institude of Technology Hyderabad (IITH)</a><br>
   For more details, <a href="/gallery/#contact">Contact us</a>
 
   <span style="display: block; margin-bottom: 2em"></span>
   <div class="container">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.name }}, All Rights Reserved.
-    <br>
+    <!-- &copy; Copyright {{ site.time | date: '%Y' }} {{ site.name }}, All Rights Reserved.
+    <br> -->
     {%- if site.last_updated -%}
     Last updated: {{ "now" | date: '%B %d, %Y' }}.
     {%- endif %}
