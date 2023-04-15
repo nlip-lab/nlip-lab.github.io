@@ -75,7 +75,9 @@
 
                     <ul class="nav navbar-nav navbar-right">
                       {% for nav in site.nav %}
+
                       {%if nav.name=="research"%}
+                      {%if site.research_dropdown==true%}
                       <li>
                       <div class="dropdown">
                         <button class="dropbtn"><a href="/research" style="color: #6c6c6c; text-decoration: none;">Research</a></button>
@@ -89,6 +91,12 @@
                       {%else%}
                       <li><a class='name' href="{{ nav.href }}">{{ nav.name }}</a></li>
                       {%endif%}
+                      {%else%}
+                      <li><a class='name' href="{{ nav.href }}">{{ nav.name }}</a></li>
+                      {%endif%}
+
+
+                      
                       {% endfor %}
                     </ul>
                 </ul>
