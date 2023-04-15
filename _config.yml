@@ -46,6 +46,7 @@ nav:
 
   - name:           "Gallery"
     href:           "/gallery"
+    
   - name:           "Contact"
     href:           "/contact"
   # - name:           "about"
