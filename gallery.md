@@ -43,7 +43,7 @@ box-sizing: border-box;
 </head>
 <body>
 
-<h3 style="margin-left:50px"> {{site.name}} Gallery </h3>
+<h3 style="margin-left:0px"> {{site.name}} Gallery </h3>
 
 <div class="row">
   {%for img in site.data.gallery%}

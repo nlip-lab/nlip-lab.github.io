@@ -176,22 +176,18 @@ permalink: /publication/
 {% for y in site.publications_years %}
 
 <h4 class="year">{{y}}</h4>
+<span style="display: block; margin-bottom: 2 em"></span>
 
 {% for publi in site.data.publications %}
 {% if publi.year==y%}
 
-<div style="text-align:justify; padding-left: 20px">
-  {%if publi.url%}
-    <p>{{publi.authors}}. <a href="{{publi.url}}" style="text-decoration:none;" target="_blank">{{publi.title}}</a>. {{publi.journal}}.</p>
-  {%else%}
-    {{publi.cite}}
-  {% endif %}
+<div style="text-align:justify; padding: 15px;  border-radius:5px; border: 1px solid #5d8aa8; margin-bottom:5px; background: #f9f9f9">
+    {{publi.authors}}. <a href="{{publi.url}}" style="text-decoration:none;" target="_blank">{{publi.title}}</a>. {{publi.journal}}.
 </div>
 
 {%endif%}
-<span style="display: block; margin-bottom: 1 em"></span>
 {% endfor %}
-
+<span style="display: block; margin-bottom: 3 em"></span>
 
 {% endfor %}
 
