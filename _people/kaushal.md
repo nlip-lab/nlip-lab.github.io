@@ -17,9 +17,7 @@ joined: 2018
 <hr>
 
 ### Bio: 
-M.Tech: University of Hyderabad<br>
-SCIS in AI [2015-17]<br>
-B.Tech: UPTU in CSE [2010-14]<br>
+I am a PhD candidate in the Department of Computer Science and Engineering at Indian Institute of Technology Hyderabad and advised by Dr. Maunendra Sankar Desarkar. I am active collaborator at Microsoft India, working with Manish Gupta and Anoop Kunchukuttan. I spent last three wonderful summers interning at Microsoft (Translation and Auto-suggest teams) and Nvidia-AI.
 
 ### Research Interests:
 <p style="text-align:justify">
