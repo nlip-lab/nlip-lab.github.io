@@ -154,7 +154,7 @@ permalink: /publication/
 {% if publi.key %}
 <p id="{{publi.key}}-bibtex" class="collapse" style="border-style: dashed;">
 
-<object data="{{ site.url }}{{ site.baseurl }}/publications/references/{{publi.key}}.txt" width="100%" style="overflow: auto;"></object>
+<object data="/publications/references/{{publi.key}}.txt" width="100%" style="overflow: auto;"></object>
 </p>
 {% endif %}
 </div>
