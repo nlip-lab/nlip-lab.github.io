@@ -73,7 +73,7 @@ permalink: /publication/
 
 <div class="row"> 
   {% if publi.img %}
-  <img src="{{ site.url }}{{ site.baseurl }}/publications/images/{{ publi.img }}" class="img-responsive" width="40%" style="float:left; padding-right:20px;" />
+  <img src="/publications/images/{{ publi.img }}" class="img-responsive" width="40%" style="float:left; padding-right:20px;" />
   {% endif %}
 
   {% if publi.summary %}
