@@ -1,5 +1,5 @@
 ---
-name: Samujjwal Ghosh
+name: Dr. Samujjwal Ghosh
 position: others
 avatar: samujjwal.jpg
 joined: 2016

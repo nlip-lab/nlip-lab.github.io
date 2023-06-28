@@ -1,5 +1,5 @@
 ---
-name: Sreekanth Madisetty
+name: Dr. Sreekanth Madisetty
 position: others
 avatar: sreekanth_madisetty.jpg
 twitter:
