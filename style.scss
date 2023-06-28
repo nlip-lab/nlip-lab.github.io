@@ -16,7 +16,6 @@ body {
 
 html {
   font-family: Serif  ;
-  font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
 
@@ -30,6 +29,7 @@ body {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  font-size: 14px
 }
 
 .MathJax_Display{
@@ -559,4 +559,31 @@ tbody tr:nth-child(odd) th {
 .navbar-toggle, .navbar-default .navbar-toggle:hover {
   border: none;
   background-color: #FFF;
+}
+
+
+
+// CUSTOM PUBLICATIONS
+.authors {
+  font-weight: bold;
+} 
+
+
+.item {
+  margin-right: 10px;
+}
+
+// CUSTOM PEOPLE
+.people {
+  color: #000;
+}
+
+.people:hover {
+  color: #268bd2;
+}
+
+// Research
+.content {
+  // background-color: #f2f2f2;
+  padding: 5px;
 }
