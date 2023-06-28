@@ -8,24 +8,27 @@ permalink: /resources/
 <table>
   <thead>
     <tr>
-      <th>Resource Name</th>
-      <th>Resource Name</th>
-      <th>Short Details</th>
-      <th>Download</th>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Details</th>
+      <th>Associated Paper</th>
+      <th>Links</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Dataset</td>
       <td>HiDG</td>
-      <td>This is first dataset for Hindi Distraction generation task</td>
-      <td><a href="https://iith-my.sharepoint.com/personal/cs18resch11003_iith_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcs18resch11003%5Fiith%5Fac%5Fin%2FDocuments%2FZmBART%2FZmBART%5Frelease%2FHi%5FDG%5Fdataset&ga=1">Download</a></td>
+      <td>Dataset</td>
+      <td>Dataset for Hindi Distraction Generation task. It is novel dataset developed ...</td>
+      <td><a></a></td>
+      <td><a href="https://iith-my.sharepoint.com/personal/cs18resch11003_iith_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcs18resch11003%5Fiith%5Fac%5Fin%2FDocuments%2FZmBART%2FZmBART%5Frelease%2FHi%5FDG%5Fdataset&ga=1" download>Download</a></td>
     </tr>
     <tr>
-      <td>Dataset</td>
       <td>MR-Head</td>
-      <td>This is dataset for news headline generation task which has multiple references</td>
-      <td><a href="https://drive.google.com/drive/u/0/folders/1HcKvtgCvFItnUJBtcJJy7zJSwhiKfRJF">Download</a></td>
+      <td>Dataset</td>
+      <td>Dataset for News Headline Generation task with multiple references</td>
+      <td><a></a></td>
+      <td><a href="https://drive.google.com/drive/u/0/folders/1HcKvtgCvFItnUJBtcJJy7zJSwhiKfRJF" download>Download</a></td>
     </tr>
   </tbody>
 </table>
@@ -37,10 +40,10 @@ permalink: /resources/
 
 <table>
    <tr>
-    <th colspan="2"  style="text-align: center; font-size: 20px;">General Suggestions for PhD Students</th>
+    <th colspan="2"  style="text-align: center; font-size: 20px;">General Suggestions for Ph.D. Students</th>
   </tr>
   <tr>
-    <td style="width: 80%;">The 4th Guide in the Hitchhiker’s Guide Trilogy for PhD Students</td>
+    <td style="width: 80%;">The 4th Guide in the Hitchhiker’s Guide Trilogy for PhD students</td>
     <td style="width: 20%; text-align: center"><a href="http://www.cs.unc.edu/~azuma/hitch4.html" target="_blank">Link</a></td>
   </tr>
   <tr>
