@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
@@ -51,58 +51,55 @@
 }
 
 </style>
-</head>
+</head> -->
 
-<nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class='navbar-brand page-scroll' href='{{site.baseurl}}/'>
-              <span style='font-family:"Open Sans"; text-transform: none;'>{{ site.name }}</span>
-              </a>
-            </div>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="font-family:'Open Sans'; text-transform: none;">{{ site.name }}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="padding-right: 15px;">
+        {% for nav in site.nav %}
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        {%if nav.name=="research"%}
 
-                <ul class="nav navbar-nav navbar-right" style="padding-right: 15px;">
+        {%if site.research_dropdown==true%}
+        <!-- Drop down style -->
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="{{ nav.href }}">{{ nav.name }}</a>
+        </li>
 
-                    <ul class="nav navbar-nav navbar-right">
-                      {% for nav in site.nav %}
+        {% else %}
+        
+        <li class="nav-item">
+          <a class="nav-link" href="{{ nav.href }}">{{ nav.name }}</a>
+        </li>
 
-                      {%if nav.name=="research"%}
-                      {%if site.research_dropdown==true%}
-                      <li>
-                      <div class="dropdown">
-                        <button class="dropbtn"><a href="/research" style="color: #6c6c6c; text-decoration: none;margin-left:0px;margin-right:10px;">Research <span class="caret"></span></a></button>
-                        <div class="dropdown-content">
-                          
-                          <a href="/awards/">Achievements</a>
-                          <a href="/blogs/">Blogs</a>
-                          <a href="/testimonials/">Testimonials</a>
-                        </div>
-                      </div>
-                      </li>
-                      {%else%}
-                      <li><a class='name' href="{{ nav.href }}">{{ nav.name }}</a></li>
-                      {%endif%}
-                      {%else%}
-                      <li><a class='name' href="{{ nav.href }}">{{ nav.name }}</a></li>
-                      {%endif%}
+        {% endif %}
 
+        {% else %}
 
-                      
-                      {% endfor %}
-                    </ul>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
+        <li class="nav-item">
+          <a class="nav-link" href="{{ nav.href }}">{{ nav.name }}</a>
+        </li>
+
+        {% endif %}
+
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </nav>
