@@ -2,9 +2,6 @@
 title: Publication
 permalink: /publication/
 ---
-
-<html>
-<head>
 <style>
 .button {
   background-color: white;
@@ -40,10 +37,8 @@ permalink: /publication/
   background-color: #f1f1f1;
 }
 </style>
-</head>
-</html>
 
-<p><i>Jump to the full list of publications, <a href="#full-list"> here</a></i></p>
+<p><i>Jump to the full list of publications <a href="#full-list"> here</a></i></p>
 
 
 <h3>Highlighted publications</h3>
@@ -65,130 +60,137 @@ permalink: /publication/
 
 {%if publi.key%}
 {% if publi.highlight == 1 %}
-<div class="row">
-<div class="col-sm-12 clearfix">
-<div class="well well-lg" style="background-color: #fcfbfb;">
+<div class="container mb-2">
+<div class="row card card-body" style="background-color: #fcfbfb;">
+  <div class="row">
+    <h6 class="">{{ publi.title }}</h6>
+    <span style="color: #363636;">[{{month}}, {{publi.year}}]</span>
+  </div>
+  <div class="row">
+    <div class="col">
+       {% if publi.img %}
+        <img src="/publications/images/{{ publi.img }}" class="img-fluid" style="float:left;" />
+       {% endif %}
+    </div>
+    <div class="col">
+      {% if publi.summary %}
+        <p style="font-size:14px; text-align:justify; padding-left:10px; padding-right:10px">{{ publi.summary }}</p>
 
-<p style="text-align:left; font-size:18px; display:inline;"><b>{{ publi.title }}</b> <p style="display:inline;font-size:15px; color: #363636;">[{{month}}, {{publi.year}}]</p></p>
+        <p class="authors" style="font-size:14px; padding-left:15px;">{{ publi.authors }}</p>
 
-<div class="row"> 
-  {% if publi.img %}
-  <img src="/publications/images/{{ publi.img }}" class="img-responsive" width="40%" style="float:left; padding-right:20px;" />
-  {% endif %}
-
-  {% if publi.summary %}
-  <p style="text-align:justify; padding-left:10px; padding-right:10px">{{ publi.summary }}</p>
-  {% endif %}
+      <p style=" font-size:14px; padding-left:15px;">{{publi.journal}}</p>
+      {% endif %}      
+  </div>
 
 
-  <p style="padding-left:15px;"><b>{{ publi.authors }}</b></p>
+  <div class="row">
+    <ul class="nav">
+      <!-- ABSTRACT -->
+      {% if publi.abstract %}
+      <li class="nav-item item">
+        <a data-bs-toggle="collapse" href="#{{publi.key}}-abstract">
+        <button class="button button1"><b>ABSTRACT</b></button>
+        </a>
+      </li>
+      {% endif %}
 
-  <p style="padding-left:15px;">{{publi.journal}}</p>
-</div>
+      <!-- URL -->
+      {% if publi.url %}
+        <li class="nav-item item">
+          <a href="{{publi.url}}" target="_blank">
+            <button class="button button1"><b>URL</b></button>
+          </a>
+        </li>
+      {% endif %}
 
-<div class="row">
-  <ul class="nav nav-pills">
+      <!-- URL -->
+      {% if publi.pdf %}
+        <li class="nav-item item">
+          <a href="{{publi.pdf}}" target="_blank">
+            <button class="button button1"><b>PDF</b></button>
+          </a>
+        </li>
+      {% endif %}
 
-  <!-- ABSTRACT -->
+      <!-- CODE -->
+      {% if publi.code %}
+        <li class="nav-item item"> 
+          <a href="{{publi.code}}" target="_blank">
+            <button class="button button1"><b>CODE</b></button>
+          </a>
+        </li>
+      {% endif %}
+
+      <!-- BIBTEX -->
+      {% if publi.key %}
+        <li class="nav-item item">
+          <a data-bs-toggle="collapse" href="#{{publi.key}}-bibtex">
+            <button class="button button1"><b>BIBTEX</b></button>
+            <div class="collapsiblecontent">
+            </div>
+          </a>
+        </li>
+      {% endif %}
+
+      <!-- VIDEO -->
+      {% if publi.video %}
+        <li class="nav-item item">
+          <a href="{{publi.video}}" target="_blank">
+            <button class="button button1"><b>VIDEO</b></button>
+          </a>
+        </li>
+      {% endif %}
+
+      </ul>
+
+  </div>
+
+  <div class="row">
+  
+
   {% if publi.abstract %}
-  <li>
-    <a data-toggle="collapse" href="#{{publi.key}}-abstract">
-    <button class="button button1"><b>ABSTRACT</b></button>
-    </a>
-  </li>
+  <p id="{{publi.key}}-abstract" class="collapse p-2" style="border-style: dashed; text-align:justify; border-color: #eee">{{publi.abstract}}</p>
   {% endif %}
 
-  <!-- URL -->
-  {% if publi.url %}
-    <li>
-      <a href="{{publi.url}}" target="_blank">
-        <button class="button button1"><b>URL</b></button>
-      </a>
-    </li>
-  {% endif %}
-
-  <!-- URL -->
-  {% if publi.pdf %}
-    <li>
-      <a href="{{publi.pdf}}" target="_blank">
-        <button class="button button1"><b>PDF</b></button>
-      </a>
-    </li>
-  {% endif %}
-
-  <!-- CODE -->
-  {% if publi.code %}
-    <li>
-      <a href="{{publi.code}}" target="_blank">
-        <button class="button button1"><b>CODE</b></button>
-      </a>
-    </li>
-  {% endif %}
-
-  <!-- BIBTEX -->
   {% if publi.key %}
-    <li>
-      <a data-toggle="collapse" href="#{{publi.key}}-bibtex">
-        <button class="button button1"><b>BIBTEX</b></button>
-        <div class="collapsiblecontent">
-        </div>
-      </a>
-    </li>
+  <p id="{{publi.key}}-bibtex" class="collapse" style="border-style: dashed; border-color:#eee">
+
+  <object data="/publications/references/{{publi.key}}.txt" width="100%" style="overflow: auto;"></object>
+  </p>
   {% endif %}
-
-  <!-- VIDEO -->
-  {% if publi.video %}
-    <li>
-      <a href="{{publi.video}}" target="_blank">
-        <button class="button button1"><b>VIDEO</b></button>
-      </a>
-    </li>
+  </div>
+  </div>
+  </div>
+  </div>
   {% endif %}
-
-  </ul>
-
-{% if publi.abstract %}
-<p id="{{publi.key}}-abstract" class="collapse" style="border-style: dashed; text-align:justify;">{{publi.abstract}}</p>
-{% endif %}
-
-{% if publi.key %}
-<p id="{{publi.key}}-bibtex" class="collapse" style="border-style: dashed;">
-
-<object data="/publications/references/{{publi.key}}.txt" width="100%" style="overflow: auto;"></object>
-</p>
-{% endif %}
-</div>
-</div>
-</div>
-</div>
-{% endif %}
-{% endif %}
-{% endfor %}
+  {% endif %}
+  {% endfor %}
 
 
-<span style="display: block; margin-bottom: 3 em"></span>
+  <span style="display: block; margin-bottom: 3 em"></span>
 
 
-<h3 id="full-list">Full List of publications</h3>
-<span style="display: block; margin-bottom: 1 em"></span>
+  <h3 id="full-list">Full List of publications</h3>
+  <!-- <span style="display: block; margin-bottom: 1 em"></span> -->
 
-{% for y in site.publications_years %}
+  {% for y in site.publications_years %}
 
-<h4 class="year">{{y}}</h4>
-<span style="display: block; margin-bottom: 2 em"></span>
+  <h4 class="year">{{y}}</h4>
+  <!-- <span style="display: block; margin-bottom: 2 em"></span> -->
 
-{% for publi in site.data.publications %}
-{% if publi.year==y%}
+  {% for publi in site.data.publications %}
+  {% if publi.year==y%}
 
-<div style="text-align:justify; padding: 15px;  border-radius:5px; border: 1px solid #5d8aa8; margin-bottom:5px; background: #f9f9f9">
-    {{publi.authors}}. <a href="{{publi.url}}" style="text-decoration:none;" target="_blank">{{publi.title}}</a>. {{publi.journal}}.
-</div>
+  <div style="text-align:justify; padding: 15px;  border-radius:5px; border: 1px solid #5d8aa8; margin-bottom:5px;">
+      {{publi.authors}}. <a href="{{publi.url}}" style="text-decoration:none;" target="_blank">{{publi.title}}</a>. {{publi.journal}}.
+  </div>
 
-{%endif%}
-{% endfor %}
-<span style="display: block; margin-bottom: 3 em"></span>
+  {%endif%}
+  {% endfor %}
+  <!-- <span style="display: block; margin-bottom: 3 em"></span> -->
 
-{% endfor %}
+  {% endfor %}
+  <!-- </div> -->
 
 <script>
 var coll = document.getElementsByClassName("button");
