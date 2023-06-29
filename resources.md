@@ -35,8 +35,13 @@ permalink: /resources/
 
 
 
+
+
 ## Community Resources
 
+#### General Suggestions for Ph.D. students
+- [The 4th Guide in the Hitchhiker’s Guide Trilogy for PhD students](http://www.cs.unc.edu/~azuma/hitch4.html)
+- ["A Survival Guide to a PhD" by Andrej Karpathy](http://karpathy.github.io/2016/09/07/phd/)
 
 <table>
    <tr>
