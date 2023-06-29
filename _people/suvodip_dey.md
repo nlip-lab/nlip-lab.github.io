@@ -1,7 +1,7 @@
 ---
 name: Suvodip Dey
 position: phd
-avatar: sd.jpg
+avatar: suvodip2.JPG
 joined: 2019
 ---
  

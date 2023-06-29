@@ -1,9 +1,10 @@
 ---
-name: Dr.Manisha Dubey
+name: Dr. Manisha Dubey
 position: others
 avatar: manisha.png
 twitter: 
 joined: 2017
+affiliation: Postdoctoral Associate, <br> University of Manchester
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

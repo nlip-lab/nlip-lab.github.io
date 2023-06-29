@@ -1,7 +1,7 @@
 ---
 name: Shrey Satapara
 position: masters
-avatar: shrey.jpg
+avatar: shrey2.JPG
 twitter:
 joined: 2022
 ---

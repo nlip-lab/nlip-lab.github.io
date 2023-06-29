@@ -1,7 +1,7 @@
 push:
 	git add .
 	git commit -m "update"
-	git push origin master
+	git push origin dev
 
 build:
 	@echo "Building..."
@@ -15,7 +15,11 @@ serve:
 resize_carousel_images:
 	python3 resize_carousel_images.py
 
+run_counter:
+	python3 counter.py
+
 start:
 	make resize_carousel_images
+	make run_counter
 	make build
 	make serve

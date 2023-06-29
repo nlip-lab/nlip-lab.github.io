@@ -1,9 +1,10 @@
 ---
-name: Sreekanth Madisetty
+name: Dr. Sreekanth Madisetty
 position: others
 avatar: sreekanth_madisetty.jpg
 twitter:
 joined: 2015
+affiliation: Research Scientist, <br> Jio Platforms Limited
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

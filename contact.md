@@ -3,7 +3,7 @@ title: Contact US
 permalink: /contact/
 ---
 
-<h3 id="#contact" style="padding-left:50px;"> Contact Us </h3>
+<h3 id="#contact">Contact Us</h3>
 <span style="display: block; margin-bottom: 3em"></span>
 
 <!-- CONTACT -->
@@ -17,7 +17,7 @@ permalink: /contact/
         <p>{{site.phone}}</p>
     </div>
     <div  style="float:left; width:250px; text-align:center;">
-        <h4>Office Hours:</h4>
+        <h4>Office Hours</h4>
         <p>{{site.office_hours}}</p>
     </div>
 </div>
