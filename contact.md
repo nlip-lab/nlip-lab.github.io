@@ -3,7 +3,7 @@ title: Contact US
 permalink: /contact/
 ---
 
-<h3 id="#contact" style="padding-left:50px;"> Contact Us </h3>
+<h3 id="#contact"> Contact Us </h3>
 <span style="display: block; margin-bottom: 3em"></span>
 
 <!-- CONTACT -->
