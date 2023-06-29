@@ -20,21 +20,21 @@ permalink: /research/
 <div class="accordion" id="accordionResearchAreas">
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" data-bs-parent="#accordionResearchAreas" aria-expanded="true" aria-controls="collapseOne">1. Natural Language Processing</button>
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" data-bs-parent="#accordionResearchAreas" aria-expanded="true" aria-controls="collapseOne">1. Natural Language Processing</button>
         </h2>
-        <div class="collapseOne" class="accordion-collapse collapse show">
+        <div id="collapseOne" class="accordion-collapse collapse show">
             <div class="accordion-body">
                 <!-- Add sub items here -->
                 <div class="accordion" id="accordionNLPAreas">
                     <!-- sub item 1-->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
+                        <h2 class="accordion-header" id="NLPOne">
                             <button class="accordion-button" type="button" data-bs-target="#collapseNLPOne" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseNLPOne">
                             <!-- Change here-->
                             Natural Language Understanding
                             </button>
                         </h2>
-                        <div id="collapseNLPOne" class="accordion-collapse collapse show" data-bs-parent="#accordionNLPAreas">
+                        <div id="collapseNLPOne" class="accordion-collapse collapse show" data-bs-parent="#accordionNLPAreas" aria-labelledby="NLPOne">
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
@@ -47,8 +47,8 @@ permalink: /research/
                     </div>
                     <!-- sub item 2 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPTwo" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPTwo">
+                        <h2 class="accordion-header" id="NLPTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPTwo" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPTwo">
                             <!-- Change here-->
                             Conversational AI
                             </button>
@@ -64,8 +64,8 @@ permalink: /research/
                     </div>
                     <!-- sub item 3 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPThree" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPThree">
+                        <h2 class="accordion-header" id="NLPThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPThree" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPThree">
                             <!-- Change here-->
                             Multilingual NLP
                             </button>
@@ -81,8 +81,8 @@ permalink: /research/
                     </div>
                     <!-- sub item 4 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPFour" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPFour">
+                        <h2 class="accordion-header" id="NLPFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPFour" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPFour">
                             <!-- Change here-->
                             Code-mix NLP
                             </button>
@@ -98,8 +98,8 @@ permalink: /research/
                     </div>
                     <!-- sub item 5 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPFive" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPFive">
+                        <h2 class="accordion-header" id="NLPFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPFive" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPFive">
                             <!-- Change here-->
                             Knowledge Augmentation in LLM
                             </button>
@@ -115,8 +115,8 @@ permalink: /research/
                     </div>
                     <!-- sub item 6 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPSix" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPSix">
+                        <h2 class="accordion-header" id="NLPSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPSix" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPSix">
                             <!-- Change here-->
                             Controllable Text generation with LLM
                             </button>
@@ -132,8 +132,8 @@ permalink: /research/
                     </div>
                     <!-- sub item 7 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPSeven" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPSeven">
+                        <h2 class="accordion-header" id="NLPSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPSeven" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPSeven">
                             <!-- Change here-->
                             Responsible NLP
                             </button>
@@ -149,8 +149,8 @@ permalink: /research/
                     </div>
                     <!-- sub item 8 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPEight" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPEight">
+                        <h2 class="accordion-header" id="NLPEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPEight" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPEight">
                             <!-- Change here-->
                             Interpretability of NLP Models
                             </button>
@@ -167,6 +167,8 @@ permalink: /research/
                     <!-- sub item end -->
                 </div>
                 <!-- End sub items here -->
+                    
+                    
             </div>
         </div>
     </div>
