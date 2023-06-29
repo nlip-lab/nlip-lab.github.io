@@ -1,7 +1,7 @@
 ---
 name: M Aishwarya
 position: phd
-avatar: aishwarya.jpg
+avatar: aishwarya2.JPG
 twitter: 
 joined: 2021
 ---

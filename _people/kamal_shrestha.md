@@ -1,7 +1,7 @@
 ---
 name: Kamal Shrestha
 position: masters
-avatar: Kamal.jpg
+avatar: kamal2.JPG
 github: https://github.com/shresthakamal
 linkedin: https://www.linkedin.com/in/kamalshrest/
 joined: 2021

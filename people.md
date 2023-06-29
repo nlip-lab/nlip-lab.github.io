@@ -19,7 +19,7 @@ permalink: /people/
 {% if role == 'phd' %}
 <h3>PhD Students</h3>
  {% elsif role == 'professor' %}
-<h3>Professor</h3>
+<h3>Faulty</h3>
  {% elsif role == 'masters' %}
 <h3>M.Tech Students</h3>
  {% elsif role == 'researchstaff' %}
@@ -37,14 +37,15 @@ permalink: /people/
     {% if profile.position contains role %}
       <div class="list-item-people">
         <div class="list-post-title">
+        <div class="" style="width:200px; margin:0 auto;">
           {% if profile.avatar %}
-            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}" style="border: 1px solid #e6e6e6"></a>
+            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}" style="border: 1px solid #e6e6e6; align:center"></a>
           {% else %}
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
           {% endif %}
-        </div>
-        <div class="">
          <a class="people" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
+        </div>
+        <span style="width: 150px; color: #a6a6a6;">{{profile.affiliation}}</span>
         </div>
       </div>    
     {% endif %}

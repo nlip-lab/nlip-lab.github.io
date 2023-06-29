@@ -3,6 +3,7 @@ name: Dr. Samujjwal Ghosh
 position: others
 avatar: samujjwal.jpg
 joined: 2016
+affiliation: Machine Learning Engineer, <br>Interl
 ---
 
 <img width="250" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
