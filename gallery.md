@@ -117,6 +117,17 @@ img {
   align-items: start;
 }
 </style>
+
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%; height:100%">
+  </div>
+</div>
+
+
+
 <div class="gallery">
   <main id="image-gallery" class="images"></main>
   <footer id="gallery-pagination">
@@ -211,6 +222,12 @@ function goToPage(index) {
   showImages();
 }
 
+function ImageonClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+
+
 // Load images
 function showImages() {
   while(gallery.firstChild) gallery.removeChild(gallery.firstChild)
@@ -232,6 +249,7 @@ function showImages() {
       
       template.classList.add('template')
       img.setAttribute("src", images[i].source);
+      img.setAttribute("onclick", "ImageonClick(this)")
 
       template.appendChild(img);
       gallery.appendChild(template);      
