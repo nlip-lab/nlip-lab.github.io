@@ -1,0 +1,137 @@
+- title: The 4th Guide in the Hitchhiker’s Guide Trilogy for PhD students	
+  link: http://www.cs.unc.edu/~azuma/hitch4.html
+  tag: suggestions-phd
+- title: A Survival Guide to a PhD" by Andrej Karpathy	
+  link: http://karpathy.github.io/2016/09/07/phd/
+  tag: suggestions-phd
+- title: 10 Tips for Research and a PhD" by Sebastian Ruder	
+  link: https://www.ruder.io/10-tips-for-research-and-a-phd/
+  tag: suggestions-phd
+- title: CS PhD --help	
+  link: https://phdadvice.carrd.co/
+  tag: suggestions-phd
+- title: Key Lessons for a (Successful) PhD Career	
+  link: https://www.cs.jhu.edu/~cxliu/2020/key-lessons-for-a-successful-phd-career.html
+  tag: suggestions-phd
+- title: Getting The Most from your PhD Training	
+  link: https://jalote.wordpress.com/2021/07/20/getting-the-most-from-your-phd-training/
+  tag: suggestions-phd
+- title: Advice for students doing research projects in ML/NLP" by MAREK REI	
+  link: https://www.marekrei.com/blog/ml-nlp-research-project-advice/
+  tag: suggestions-phd
+- title: 	CS224N - Natural Language Processing with Deep Learning by Stanford	
+  link: http://web.stanford.edu/class/cs224n/
+  tag: popular-nlp-courses
+- title: 	Neural Networks for NLP by CMU	
+  link: http://phontron.com/class/nn4nlp2021/schedule.html
+  tag: popular-nlp-courses
+- title: 	Advanced NLP by CMU	
+  link: https://people.cs.umass.edu/~miyyer/cs685/
+  tag: popular-nlp-courses
+- title: 	Multilingual NLP by CMU	
+  link: http://phontron.com/class/multiling2022/
+  tag: popular-nlp-courses
+- title: 	Find list other similar courses here
+  link: https://deep-learning-drizzle.github.io/index.html#nlpnn
+  tag: popular-nlp-courses
+- title: 	Mathematics for Machine Learning (Georgia Tech)	
+  link: https://jrom.ece.gatech.edu/mfml-f20-notes/
+  tag: ml-dl-courses
+- title: 	Mathematics for Machine Learning (ETH Zurich)	
+  link: https://www.youtube.com/watch?v=eKXZn_tbQmc&list=PLiud-28tsatL0MbfJFQQS7MYkrFrujCYp
+  tag: ml-dl-courses
+- title: 	Mathematics for Machine Learning (1-5 chapters, MIT Deep Learning Book)	
+  link: https://github.com/janishar/mit-deep-learning-book-pdf/tree/master/chapter-wise-pdf
+  tag: ml-dl-courses
+- title: 	Find more ML and DL courses here
+  link: https://deep-learning-drizzle.github.io/
+  tag: ml-dl-courses
+
+
+- title: 	ACL Upcoming Submission Deadlines	
+  link: https://www.aclweb.org/portal/events
+  tag: conference-deadlines
+- title: 	ACM Upcoming Submission Deadlines	
+  link: https://www.acm.org/conferences/upcoming-submission-deadlines
+  tag: conference-deadlines
+- title: 	IEEE Upcoming Submission Deadlines
+  link: https://www.ieee.org/conferences/
+  tag: conference-deadlines
+- title: 	AI Conferences Submission Deadlines	
+  link: https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR
+  tag: conference-deadlines
+
+- title: 	Writing Code for NLP Research	
+  link: https://aclanthology.org/D18-3003/
+  tag: nlp-resources
+- title: 	Blogs about NLP and ML" by Sebastian Ruder	
+  link: https://www.ruder.io/
+  tag: nlp-resources
+- title: 	The Illustrated Transformer	
+  link: https://jalammar.github.io/illustrated-transformer/
+  tag: nlp-resources
+- title: 	Hugging Face Course	
+  link: https://huggingface.co/course/chapter1/1
+  tag: nlp-resources
+- title: 	The BenderRule	
+  link: https://thegradient.pub/the-benderrule-on-naming-the-languages-we-study-and-why-it-matters/
+  tag: nlp-resources
+
+- title: 	Conference Ranking - Conference Rank	
+  link: http://www.conferenceranks.com/
+  tag: ranking-sources
+- title: 	Conference Ranking - Core	
+  link: http://portal.core.edu.au/conf-ranks/
+  tag: ranking-sources
+- title: 	Ranking for Computer Science and AI Institutions/Departments/Schools	
+  link: https://csrankings.org/#/index?all&us
+  tag: ranking-sources
+- title: 	University Ranking - QS World University Rankings	
+  link: https://www.topuniversities.com/university-rankings
+  tag: ranking-sources
+
+- title: 	The Missing Semester of Your CS Education, MIT	
+  link: https://missing.csail.mit.edu/
+  tag: other-sources
+- title: 	How to Read a Paper -Three pass Method	
+  link: http://ccr.sigcomm.org/online/files/p83-keshavA.pdf
+  tag: other-sources
+- title: 	How to Read a Technical Paper	
+  link: https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html
+  tag: other-sources
+- title: 	How to Be a Teaching Assistant	
+  link: https://www.cs.jhu.edu/~jason/advice/how-to-ta.html
+  tag: other-sources
+- title: 	Great Advice for Research Students by Prof. Jason Eisner	
+  link: https://www.cs.jhu.edu/~jason/advice/
+  tag: other-sources
+- title: 	Technical Writing Help - Writing in the Sciences	
+  link: https://www.coursera.org/learn/sciwrite?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA_google-it-support_FTCOF_professional-certificates_PMax-arte-NRL_within_14D&utm_content=B2C&campaignid=19193875347&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&creativeid=&hide_mobile_promo&gclid=CjwKCAjw586hBhBrEiwAQYEnHW7HiWTISGph-DuNlpT09brHwEelXzXhcfNj8CxUyETbj6M7pxl40BoCdlEQAvD_BwE
+  tag: other-sources
+- title: 	5 Tips for E-mailing Busy People	
+  link: https://tim.blog/2008/05/19/5-tips-for-e-mailing-busy-people/
+  tag: other-sources
+- title: 	8 Simple Rules for Presenting at a Conference	
+  link: https://www.cell.com/matter/fulltext/S2590-2385(20)30195-8
+  tag: other-sources
+- title: 	Calendar. Not to-do lists.	
+  link: https://deviparikh.medium.com/calendar-in-stead-of-to-do-lists-9ada86a512dd
+  tag: other-sources
+- title: 	Code Review - What Is It and Why Is It Important?	
+  link: http://thinkapps.com/blog/development/what-is-code-review/
+  tag: other-sources
+- title: 	On the Gap between Adoption and Understanding in NLP	
+  link: https://aclanthology.org/2021.findings-acl.340.pdf
+  tag: other-sources
+- title: 	How I Keep My Projects Organized	
+  link: https://sebastianraschka.com/blog/2021/project-management.html
+  tag: other-sources
+- title: 	The uneasy relationship between deep learning and (classical) statistics	
+  link: https://windowsontheory.org/2022/06/20/the-uneasy-relationship-between-deep-learning-and-classical-statistics/
+  tag: other-sources
+- title: 	Five-step Strategy for Student Success with Online Learning	
+  link: https://onlinelearninginsights.wordpress.com/2012/09/28/five-step-strategy-for-student-success-with-online-learning/
+  tag: other-sources
+- title: 	How to Review Scientific Paper	
+  link: https://aclrollingreview.org/reviewertutorial
+  tag: other-sources
