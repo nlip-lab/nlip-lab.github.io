@@ -3,8 +3,6 @@ title: Gallery
 permalink: /gallery/
 ---
 
-<html lang="en">
-<head>
 <style>
 * {
 box-sizing: border-box;
@@ -40,14 +38,12 @@ box-sizing: border-box;
   color: white;
 }
 </style>
-</head>
-<body>
 
 <h3 style="margin-left:0px"> {{site.name}} Gallery </h3>
 
 <div class="row">
   {%for img in site.data.gallery%}
-    <div class="column {{img.tag}}" style="padding:2px">
+    <div class="col {{img.tag}}" style="padding:2px">
       <a href="/images/gallery/{{img.img}}" target="_blank">
         <img src="/images/gallery/{{img.img}}" style="height:150px; width:200px;">
       </a>
@@ -126,7 +122,3 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
-
-
-</body>
-</html>

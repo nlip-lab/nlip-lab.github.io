@@ -1,5 +1,5 @@
 ---
-name: Dr.Maunendra Sankar Desarkar
+name: Dr. Maunendra Sankar Desarkar
 position: professor
 avatar: maunendra_sir.jpg
 twitter: 
@@ -7,8 +7,8 @@ twitter:
 
  <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom"> 
 
-- _Associate Professor, Indian Institute of Technology,Hyderabad_<br>
-- _HOD, AI Department ._
+- _Associate Professor, Indian Institute of Technology, Hyderabad_<br>
+- _HOD, AI Department_
 
 <i class="fa fa-envelope-o"></i> `maunendra@cse.iith.ac.in`
 
@@ -16,7 +16,7 @@ twitter:
 #### Bio:
 
 <p style="text-align:justify">
-<a href="https://people.iith.ac.in/maunendra/index.html" target="_blank">Dr.Maunendra Sankar Desarkar</a> ,an Associate Professor at the Computer Science and Engineering Department at IIT Hyderabad, India. Currently, also serving as the Head of the Department of the AI Department at IIT Hyderabad. Main research areas are Recommendation Systems, Information Retrieval, Social Network Analysis, Data Mining, Machine Learning. Also a part of the Data and Informatics Group (DIG) at the Department of CSE, IIT Hyderabad. Prior to Joining IIT Hyderabad, have worked for Samsung Research India Bangalore and Sybase Inc. (a SAP Company) in the past<!-- runs his lab at the  Indian Institute of Technology,Hyderabad.<br> -->
+<a href="https://people.iith.ac.in/maunendra/index.html" target="_blank">Dr. Maunendra Sankar Desarkar</a>, an Associate Professor at the Computer Science and Engineering Department at IIT Hyderabad, India. Currently, also serving as the Head of the Department of the AI Department at IIT Hyderabad. Main research areas are Recommendation Systems, Information Retrieval, Social Network Analysis, Data Mining, Machine Learning. Also a part of the Data and Informatics Group (DIG) at the Department of CSE, IIT Hyderabad. Prior to Joining IIT Hyderabad, have worked for Samsung Research India Bangalore and Sybase Inc. (a SAP Company) in the past.<!-- runs his lab at the Indian Institute of Technology,Hyderabad.<br> -->
 </p>
 <hr>
 
@@ -30,7 +30,7 @@ twitter:
 </ul>
 
 <br>
-**Office**<br>
+**Office:**<br>
 Room: B-412, Academic Block B<br>
 Indian Institute of Technology Hyderabad<br>
 Kandi-502284, Sangareddy<br>
