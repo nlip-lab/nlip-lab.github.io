@@ -13,24 +13,160 @@ permalink: /research/
 
 ## Research at NLIP Lab
 <div style="text-align: justify;">
-    <p>Our research group is dedicated to advancing the state-of-the-art in Natural Language Processing (NLP) and Information Retrieval (IR) by exploring various research directions. These directions include, but are not limited to, language modeling, text classification, natural language generation, multilingual NLP, code-mix modeling, machine translation, conversational AI, information retrieval, social network analysis, graph neural networks, image captioning, and other related domains. In the following section, we provide an overview of the research topics that we have worked previously or focused currently:<p>
+    <p>Our research group is dedicated to advancing the state-of-the-art in Natural Language Processing (NLP) and Information Retrieval (IR) by exploring various research directions. These directions include, but are not limited to, language modeling, text classification, natural language generation, multilingual NLP, code-mix modeling, machine translation, conversational AI, information retrieval, social network analysis, graph neural networks, image captioning, and other related domains.<p>
 
-<a href="#"><img src="/images/word-cloud.png"></a>
+<div class=""><img class="img-fluid mx-auto" width="800" src="/images/word-cloud.png"></div>
 
 <div class="accordion" id="accordionResearchAreas">
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" data-bs-parent="#accordionResearchAreas" aria-expanded="true" aria-controls="collapseOne">1. Natural Language Processing</button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" data-bs-parent="#accordionResearchAreas" aria-expanded="true" aria-controls="collapseOne">1. Natural Language Processing</button>
         </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show">
+        <div class="collapseOne" class="accordion-collapse collapse show">
             <div class="accordion-body">
+                <!-- Add sub items here -->
                 <div class="accordion" id="accordionNLPAreas">
+                    <!-- sub item 1-->
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="nlpOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNLPOne" data-bs-parent="#accordionResearchAreas" aria-expanded="true" aria-controls="collapseNLPOne">Natural Language Understanding</button>
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPOne" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseNLPOne">
+                            <!-- Change here-->
+                            Natural Language Understanding
+                            </button>
                         </h2>
+                        <div id="collapseNLPOne" class="accordion-collapse collapse show" data-bs-parent="#accordionNLPAreas">
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <!-- Change content here-->
+                                    <p>Information retrieval is the process of retrieving relevant information from a large collection of data, such as documents or web pages. The goal is to provide users with a ranked list of documents that are most relevant to their query. The field of information retrieval encompasses various techniques, including indexing, query processing, and ranking algorithms. Information retrieval has applications in many areas, including search engines, recommendation systems, digital libraries, and e-commerce.</p>
+                                            <p>
+                                In this space we work on event, disaster and other related problems. With the growth of social media platforms, event-related tweet retrieval has become an important research area in information retrieval. The challenge lies in identifying tweets that are related to a specific event and filtering out irrelevant or noise tweets. Techniques such as query expansion, topic modeling, and sentiment analysis have been used to improve the effectiveness of event-related tweet retrieval. Such techniques have applications in areas such as disaster management, political analysis, and marketing research.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- sub item 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPTwo" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPTwo">
+                            <!-- Change here-->
+                            Conversational AI
+                            </button>
+                        </h2>
+                        <div id="collapseNLPTwo" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <!-- Change content here-->
+                                    <p>Conversational AI refers to the use of artificial intelligence technologies to create a natural language exchange between humans and machines. In this research space we have undertaken problem like These include building chat-bot systems for traffic control, creating conversational agents, and developing dialogue state tracking systems, among others.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sub item 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPThree" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPThree">
+                            <!-- Change here-->
+                            Multilingual NLP
+                            </button>
+                        </h2>
+                        <div id="collapseNLPThree" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <!-- Change content here-->
+                                    <p>Multilingual NLP involves developing NLP systems that can handle multiple languages. One of the most significant challenges in this area pertains to dealing with low-resource languages (LRLs), which have limited data or resources available. Our research group focuses on developing modeling frameworks that facilitate cross-lingual/multilingual transfer for a range of Natural Language Processing (NLP) tasks, specifically for LRLs. Our objective is to create efficient and effective solutions that can be applied in real-world multilingual scenarios.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sub item 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPFour" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPFour">
+                            <!-- Change here-->
+                            Code-mix NLP
+                            </button>
+                        </h2>
+                        <div id="collapseNLPFour" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <!-- Change content here-->
+                                    <p>Code-mix NLP is a specialized research direction that deals with developingNLP systems capable of handling multiple languages within a single conversation or text. Our research group has explored several aspects of this field, particularly in the areas of text classification and hostility detection in conversational settings, among others.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sub item 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPFive" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPFive">
+                            <!-- Change here-->
+                            Knowledge Augmentation in LLM
+                            </button>
+                        </h2>
+                        <div id="collapseNLPFive" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <!-- Change content here-->
+                                    <p>The augmentation of knowledge in large language models (LLMs) denotes the procedure of elevating the model's pre-existing knowledge by assimilating fresh data, information, or context. This process is a crucial requirement of the present time, as the retraining of LLMs poses a formidable challenge. Our team has undertaken endeavors pertaining to augmenting trie suggestions in NLG for the auto-suggest task for Bing, as well as augmenting LRLs data in NLG models to enable their application in LRLs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sub item 6 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPSix" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPSix">
+                            <!-- Change here-->
+                            Controllable Text generation with LLM
+                            </button>
+                        </h2>
+                        <div id="collapseNLPSix" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <!-- Change content here-->
+                                    <p>Controllable text generation with large language models (LLMs) is a potent technique that empowers the creation of customized text for specific applications. This methodology facilitates the generation of text that conforms to specific criteria or adheres to particular guidelines, thereby ensuring the production of high-quality text. Within our laboratory setting, we have undertaken investigations into several tasks related to controllable text generation using LLMs. These include sentiment steering, detoxification to steer away from toxicity in LLMs, and empathetic text generation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sub item 7 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPSeven" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPSeven">
+                            <!-- Change here-->
+                            Responsible NLP
+                            </button>
+                        </h2>
+                        <div id="collapseNLPSeven" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <!-- Change content here-->
+                                    <p>Responsible NLP refers to the ethical and socially responsible use of natural language processing (NLP) technology. It involves ensuring that NLP models and applications are developed and used in ways that do not harm individuals or communities, respect privacy and data protection, and address issues of bias and fairness. Through this direction, we aim to explore novel techniques to enable explainability, robustness, and trustworthy generation with NLP models.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sub item 8 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-target="#collapseNLPEight" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPEight">
+                            <!-- Change here-->
+                            Interpretability of NLP Models
+                            </button>
+                        </h2>
+                        <div id="collapseNLPEight" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <!-- Change content here-->
+                                    <p>The interpretability of NLP models refers to the ability to understand and explain the reasoning behind their output. This is especially crucial in applications such as healthcare, legal, and financial domains, where decisions based on the model's output can have significant consequences. To address this need, we are working on a modeling approach to provide interpretability from NLP models by generating reasoning and visual tools.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sub item end -->
                 </div>
+                <!-- End sub items here -->
             </div>
         </div>
     </div>
