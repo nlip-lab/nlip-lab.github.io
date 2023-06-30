@@ -1,7 +1,7 @@
 push:
 	git add .
 	git commit -m "update"
-	git push origin dev
+	git push origin master
 
 build:
 	@echo "Building..."
