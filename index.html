@@ -141,14 +141,21 @@ layout: default
                     {%break%}
                   {%endif%}
 
-                  <div class="row" style="overflow: hidden;">
+                  <!-- <div class="row" style="overflow: hidden;">
                     <column style="float:left; width:160px; text-align:left; padding-right:2px">
                       <b>{{month}} {{new.day}}, {{new.year}}</b>
                     </column>
-                    <column style="float:left; width:10px; text-align:right; padding-right:15px">
+                    <column class="d-none d-sm-block" style="float:left; width:10px; text-align:right; padding-right:15px">
                       <b>:</b>
                     </column>
                     <column style="float:left; width: 600px; text-align:justify;"><p>{{ new.details }}</p></column>
+                  </div>   -->
+                  <div class="row" style="overflow: hidden;">
+                    <div class="mb-4">
+                      <div style="display: inline; max-width: 300px;"><b>{{month}} {{new.day}}, {{new.year}}</b></div>
+                      <span>:</span>
+                      <span>{{ new.details }}</span>
+                    </div>
                   </div>  
                   {%endif%}
               {% endfor %}
