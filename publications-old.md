@@ -1,6 +1,6 @@
 ---
 title: Publication
-permalink: /publication/
+permalink: /publication-old/
 ---
 <style>
 .button {
@@ -66,24 +66,25 @@ permalink: /publication/
     <h6 class="">{{ publi.title }}</h6>
     <span style="color: #363636;">[{{month}}, {{publi.year}}]</span>
   </div>
-  <div class="clear-fix mt-3">
-    <div class="col">
+  <div class="row">
+    <div class="column">
        {% if publi.img %}
-        <img src="/publications/images/{{ publi.img }}" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" style="float:left;" />
+        <img src="/publications/images/{{ publi.img }}" class="img-fluid" style="float:left;" />
        {% endif %}
-    <!-- <div class="col m-2"> -->
-      {% if publi.summary %}
-        <p style="font-size:14px; text-align:justify;">{{ publi.summary }}</p>
-
-        <p class="authors" style="font-size:14px;">{{ publi.authors }}</p>
-
-        <p style=" font-size:14px;">{{publi.journal}}</p>
-      {% endif %}      
     </div>
+    <div class="col">
+      {% if publi.summary %}
+        <p style="font-size:14px; text-align:justify; padding-left:10px; padding-right:10px">{{ publi.summary }}</p>
+
+        <p class="authors" style="font-size:14px; padding-left:15px;">{{ publi.authors }}</p>
+
+      <p style=" font-size:14px; padding-left:15px;">{{publi.journal}}</p>
+      {% endif %}      
+  </div>
 
 
   <div class="row">
-    <ul class="nav" style="margin-left: 15px;">
+    <ul class="nav">
       <!-- ABSTRACT -->
       {% if publi.abstract %}
       <li class="nav-item item">
