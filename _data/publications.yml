@@ -1,3 +1,51 @@
+- key: "hyperhawkes"
+  authors: "Manisha Dubey, Srijith P. K., Maunendra Sankar Desarkar"
+  title: "Time-to-Event Modeling with Hypernetwork based Hawkes Process"
+  journal: "29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD 2023)"
+  abstract: ""
+  year: 2023
+  month: 08
+  url: ""
+  pdf: ""
+  cite: ""
+  code: 
+  highlight: 0
+  img: "cl_hyperhawkes.png"
+  video: ""
+  summary: ""
+
+- key: "divhsk"
+  authors: "Venkatesh E, Kaushal Kumar Maurya, Deepak Kumar and Maunendra Sankar Desarkar"
+  title: "DivHSK: Diverse Headline Generation using Self-Attention based Keyword Selection"
+  journal: "61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)"
+  abstract: ""
+  year: 2023
+  month: 07
+  url: ""
+  pdf: ""
+  cite: ""
+  code: 
+  highlight: 0
+  img: ""
+  video: ""
+  summary: ""
+
+- key: "vta"
+  authors: "Arkadipta De, Maunendra Sankar Desarkar, and Asif Ekbal"
+  title: "Towards Improvement of Grounded Cross-Lingual Natural Language Inference with VisioTextual Attention"
+  journal: "Natural Language Processing (Elsevier)"
+  abstract: ""
+  year: 2023
+  month: 08
+  url: ""
+  pdf: ""
+  cite: ""
+  code: 
+  highlight: 0
+  img: "vta-ex.png"
+  video: ""
+  summary: ""
+
 - key: "gnom"
   authors: "Samujjwal Ghosh and Subhadeep Maji and Maunendra Sankar Desarkar"
   title: "GNoM: Graph Neural Network Enhanced Language Models for Disaster Related Multilingual Text Classification"
