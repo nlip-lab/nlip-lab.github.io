@@ -20,8 +20,11 @@ def read_images(path):
 
 
 def resize_image(image, width, height):
-    # resize image
-    resized_image = image.resize((width, height))
+    # # resize image
+    # resized_image = image.resize((width, height))
+
+    # crop the images from center of the image
+    resized_image = image.crop((0, 0, width, height))
 
     # return resized image
     return resized_image

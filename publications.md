@@ -69,7 +69,7 @@ permalink: /publication/
   <div class="clear-fix mt-3">
     <div class="col">
        {% if publi.img %}
-        <img src="/publications/images/{{ publi.img }}" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" style="float:left;" />
+        <img src="/publications/images/{{ publi.img }}" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" style="float:left;width:40%" />
        {% endif %}
     <!-- <div class="col m-2"> -->
       {% if publi.summary %}
