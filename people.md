@@ -61,7 +61,7 @@ permalink: /people/
 | Name | Batch | Current Affiliation |
 | :------------- |:-------------| :-----------|
 | [Dr. Manisha Dubey](/people/manisha/index.html) | Ph.D. student | Postdoctoral Associate, University of Manchester |
-| [Dr. Samujjwal Ghost](/people/samujjwal/index.html) | Ph.D. student | Machine Learning Engineer, Intel |
+| [Dr. Samujjwal Ghosh](/people/samujjwal/index.html) | Ph.D. student | Machine Learning Engineer, Intel |
 | [Dr. Sreekanth Madisetty](/people/sreekanth_madishetty/index.html) | Ph.D. student | Research Scientist, Jio Platforms Limited |
 | [Sharan Narasimhan](https://www.linkedin.com/in/sharan21/) | Masters student (2020-2022) | Data Engineer at Indeed|
 | [Venkatesh E](https://www.linkedin.com/in/venkateshelangovan/) | Masters student (2020-2022) |  Machine Learning Engineer at Qualcomm
