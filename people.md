@@ -26,12 +26,10 @@ permalink: /people/
 <h3>Research Staff</h3>
  {% elsif role == 'visiting' %}>
 <h3>Visiting Scholars</h3>
- {% elsif role == 'others' %}
-<h3>Ph.D. Alumni students</h3>
 {% endif %}
 </div>
 
-{% if role != 'alumni' %}
+{% if role != 'alumni' and role != 'others' %}
 <div class="content list people">
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
@@ -57,11 +55,14 @@ permalink: /people/
 {% endif %}
 {% endfor %}
 
-<h3>PG Alumni students</h3>
+<h3>Alumni</h3>
 
 
-| Name| Batch | Current Affiliation |
+| Name | Batch | Current Affiliation |
 | :------------- |:-------------| :-----------|
+| [Dr. Manisha Dubey](/people/manisha/index.html) | Ph.D. student | Postdoctoral Associate, University of Manchester |
+| [Dr. Samujjwal Ghost](/people/samujjwal/index.html) | Ph.D. student | Machine Learning Engineer, Intel |
+| [Dr. Sreekanth Madisetty](/people/sreekanth_madishetty/index.html) | Ph.D. student | Research Scientist, Jio Platforms Limited |
 | [Sharan Narasimhan](https://www.linkedin.com/in/sharan21/) | Masters student (2020-2022) | Data Engineer at Indeed|
 | [Venkatesh E](https://www.linkedin.com/in/venkateshelangovan/) | Masters student (2020-2022) |  Machine Learning Engineer at Qualcomm
 | [Arkadipta De](https://www.linkedin.com/in/arkadipta-de/) | Masters student (2020-2022) | Applied AI Researcher at Fujitsu Research India|
