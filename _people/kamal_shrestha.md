@@ -32,7 +32,7 @@ joined: 2021
     <span style="display: block; margin-bottom: 0.5em"></span>
     <a href="https://shresthakamal.com.np" target="_blank"><samp>kamalshrest</samp></a><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <a href="https://shresthakamal.com.np/assets/files/cv.pdf" target="_blank"><samp>CV</samp></a><br>
+    <a href="https://shresthakamal.com.np/cv" target="_blank"><samp>CV</samp></a><br>
 </column>
 </div>
 <span style="display: block; margin-bottom: 1em"></span>
