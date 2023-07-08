@@ -1,7 +1,7 @@
 ---
 name: Kaushiki Dwivedi
 position: masters
-avatar: kaushiki2.JPG
+avatar: kaushiki.JPG
 linkedin: www.linkedin.com/in/kaushiki-dwivedi-10k6
 joined: 2021
 ---

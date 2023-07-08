@@ -1,7 +1,7 @@
 ---
 name: Debolena Basak
 position: phd
-avatar: debolena2.JPG
+avatar: debolena.JPG
 twitter:
 joined: 2020
 ---

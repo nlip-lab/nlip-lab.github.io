@@ -1,7 +1,7 @@
 ---
 name: Kaushal Kumar Maurya
 position: phd
-avatar: kaushal2.JPG
+avatar: kaushal.JPG
 twitter: 
 joined: 2018
 ---

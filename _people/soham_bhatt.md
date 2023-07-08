@@ -1,7 +1,7 @@
 ---
 name: Soham Bhatt
 position: masters
-avatar: soham2.JPG
+avatar: soham.JPG
 twitter: 
 joined: 2021
 ---

@@ -1,7 +1,7 @@
 ---
 name: Darshan Dobariya
 position: masters
-avatar: darshan2.JPG
+avatar: darshan.JPG
 twitter: 
 joined: 2021
 ---
