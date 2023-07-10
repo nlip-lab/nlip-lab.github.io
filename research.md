@@ -91,7 +91,7 @@ permalink: /research/
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
-                                    <p>Code-mix NLP is a specialized research direction that deals with developingNLP systems capable of handling multiple languages within a single conversation or text. Our research group has explored several aspects of this field, particularly in the areas of text classification and hostility detection in conversational settings, among others.</p>
+                                    <p>Code-mix NLP is a specialized research direction that deals with developing NLP systems capable of handling multiple languages within a single conversation or text. Our research group has explored several aspects of this field, particularly in the areas of text classification and hostility detection in conversational settings for social media posts, among others.</p>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@ permalink: /research/
                         <h2 class="accordion-header" id="NLPEight">
                             <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPEight" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPEight">
                             <!-- Change here-->
-                            Interpretability of NLP Models
+                            Query Auto-Completion
                             </button>
                         </h2>
                         <div id="collapseNLPEight" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
