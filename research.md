@@ -57,7 +57,7 @@ permalink: /research/
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
-                                    <p>Conversational AI refers to the use of artificial intelligence technologies to create a natural language exchange between humans and machines. In this research space we have undertaken problem like These include building chat-bot systems for traffic control, creating conversational agents, and developing dialogue state tracking systems, among others.</p>
+                                    <p>Conversational AI is a set of technologies that enable computers to understand, process, and respond to human language in a natural and personalized way. It encompasses voice assistants, chatbots, and other AI-powered systems that can carry out meaningful conversations with users. In this research space we have undertaken problems like These include building chat-bot systems for traffic control, creating conversational agents, and developing dialogue state tracking systems, among others.</p>
                                 </div>
                             </div>
                         </div>
