@@ -91,7 +91,7 @@ permalink: /research/
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
-                                    <p>Code-mix NLP is a specialized research direction that deals with developing NLP systems capable of handling multiple languages within a single conversation or text. Our research group has explored several aspects of this field, particularly in the areas of text classification and hostility detection in conversational settings for social media posts, among others.</p>
+                                    <p>Code-mixed NLP is a specialized research direction that deals with developing NLP systems capable of handling multiple languages within a single conversation or text. Our research group has explored several aspects of this field, particularly in the areas of text classification and hostility detection in conversational settings for social media posts, among others.</p>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ permalink: /research/
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
-                                    <p>The augmentation of knowledge in large language models (LLMs) denotes the procedure of elevating the model's pre-existing knowledge by assimilating fresh data, information, or context. This process is a crucial requirement of the present time, as the retraining of LLMs poses a formidable challenge. Our team has undertaken endeavors pertaining to augmenting trie suggestions in NLG for the auto-suggest task for Bing, as well as augmenting LRLs data in NLG models to enable their application in LRLs.</p>
+                                    <p>The augmentation of knowledge in large language models (LLMs) refers to the process of enhancing the existing knowledge of the model by incorporating new data, information, or context in order to achieve a specific desired goal or downstream task. This procedure is of utmost importance in the current era, as retraining LLMs presents a significant challenge. Our team has made notable contributions in this area, including (a) The development of a hybrid query auto-completion system for Bing by augmenting Trie suggestions in natural language generation (NLG). (b) Augmentation of non-toxic or clean data in LLMs to enable safe text generation for a targeted task.</p>
                                 </div>
                             </div>
                         </div>
