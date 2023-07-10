@@ -125,7 +125,7 @@ permalink: /research/
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
-                                    <p>Controllable text generation with large language models (LLMs) is a potent technique that empowers the creation of customized text for specific applications. This methodology facilitates the generation of text that conforms to specific criteria or adheres to particular guidelines, thereby ensuring the production of high-quality text. Within our laboratory setting, we have undertaken investigations into several tasks related to controllable text generation using LLMs. These include sentiment steering, detoxification to steer away from toxicity in LLMs, and empathetic text generation.</p>
+                                    <p>Controllable Text Generation with Language Models (LLMs) refers to the ability to manipulate and direct the output of a language model according to specific requirements or constraints. It involves generating text that adheres to certain predefined characteristics, such as sentiment, style, topic, or context, while maintaining coherence and natural language fluency. Within our laboratory setting, we have undertaken investigations into several tasks related to controllable text generation using LLMs. These include sentiment steering, detoxification to steer away from toxicity in LLMs, and empathetic text generation.</p>
                                 </div>
                             </div>
                         </div>
