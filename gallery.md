@@ -23,12 +23,13 @@ permalink: /gallery/
     grid-template-columns: 33.33% 33.33% 33.33%;
   }
 }
-img {
+#img01 {
   height: auto;
   width: 100%;
   max-width: 100%;
   vertical-align: middle;
 }
+
 .template {
   transition: all 0s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   opacity: 0;
