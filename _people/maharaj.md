@@ -16,10 +16,15 @@ joined: 2023
 <hr>
 
 ### Bio: 
+<p style="text-align: justify">
 I'm a first-year Ph.D. student interested in novel contributions to the field of Natural language processing (NLP). Prior to joining Ph.D., I have experience building data resources and processing tools for the low-resource language Bodo. I have also explored machine translation and identification of tonal words and their meaning from the textual data for the Bodo language. I'm currently exploring various other sub-fields of NLP to make a valuable contribution to the field. 
+</p>
+
+### Education:
+- Ph.D., Indian Institute of Technology Hyderabad (2023-Ongoing)
+- M.Tech. in CSE, Central Institute of Technology Kokrajhar (CIT)
+- B.Tech. in CSE, Central Institute of Technology Kokrajhar (CIT)
 
 ### Research Interests:
-<p style="text-align:justify">
-
-Machine translation, Low resource language
-</p>
+- Machine translation
+- Low resource NLP

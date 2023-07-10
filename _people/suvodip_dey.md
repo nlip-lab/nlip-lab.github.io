@@ -10,9 +10,13 @@ joined: 2019
 <i class="fa fa-envelope-o"></i> `cs19resch01003@iith.ac.in` 
 <hr>
 
-## Bio:
-B.Tech in Computer Science from IEM Kolkata (2008-2012)<br>
-M.Tech in Computer Science from IIT Kharagpur (2014-2016)
+### Bio:
+TBA.
+
+### Education:
+- Ph.D., IIT Hyderabad (Ongoing)
+- M.Tech in Computer Science from IIT Kharagpur (2014-2016)
+- B.Tech in Computer Science from IEM Kolkata (2008-2012)
 
 ### Research Interests:
 <p style="text-align:justify">

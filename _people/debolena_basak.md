@@ -11,9 +11,15 @@ joined: 2020
 <i class="fa fa-envelope-o"> </i>`ai20resch11003@iith.ac.in`<br>
 
 ### Bio:
-B.Sc. Statistics (Honours), University of Calcutta, M.Sc. Statistics, Univeristy of Kalyani.<br>
-I am a PhD student currently working on multi-task learning of image captioning and object detection. My research interests lies on image captioning, NLP and related computer vision tasks.<br>
+<p style="text-align: justify">
+I am a PhD student currently working on multi-task learning of image captioning and object detection. My research interests lies on image captioning, NLP and related computer vision tasks.
+</p>
+
+### Education:
+- Ph.D., IIT Hyderabad (Ongoing)
+- M.Sc. Statistics, University of Kalyani
+- B.Sc. Statistics (Honours), University of Calcutta
 
 ### Research Interests:
-* Image Captioning
-*  NLP
+- Image Captioning
+- NLP

@@ -12,9 +12,11 @@ joined: 2021
 <hr>
 
 ### Bio:
-M. Tech. in Computer Science and Engineering, 2021-2023<br>
+TBA
 
-Bachelors in CSE from Shri Ramdeobaba College of Engineering and Management<br>
+### Education:
+- M. Tech. in Computer Science and Engineering, 2021-2023
+- Bachelors in CSE from Shri Ramdeobaba College of Engineering and Management
 
 <hr>
 

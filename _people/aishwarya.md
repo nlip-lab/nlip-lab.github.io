@@ -13,10 +13,12 @@ joined: 2021
 <hr>
 
 ### Bio:
-BE, Computer Science, BMS Institute of technology and Management, Bangalore
-### Research Interest:
-<p style="text-align:justify">
+TBA.
 
-* Conversational systems 
-* Natural language understanding
-</p>
+### Education:
+- Ph.D., IIT Hyderabad (Ongoing)
+- BE, Computer Science, BMS Institute of technology and Management, Bangalore
+
+### Research Interest:
+- Conversational systems 
+- Natural language understanding

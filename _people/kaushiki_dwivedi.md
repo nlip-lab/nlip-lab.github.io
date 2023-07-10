@@ -18,8 +18,12 @@ joined: 2021
 <hr>
 
 ### Bio
-M. Tech.,Artificial Intelligence  (TA), 2021-2023<br>
-Bachelors in Computer Science and Engineering, UIT-RGPV <br>
+TBA.
+
+### Education
+- M. Tech., Artificial Intelligence  (TA), 2021-2023
+- Bachelors in Computer Science and Engineering, UIT-RGPV
+
 <hr>
 
 ### Research Interests

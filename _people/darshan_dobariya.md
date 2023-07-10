@@ -13,11 +13,15 @@ joined: 2021
 <a href="https://drive.google.com/file/d/1BVye4nHduhasCItoiOZXmRViOBVBTq77/view?usp=sharing" target="_blank"><samp>CV</samp></a><br>
 <hr>
 
-## Bio:
-Bachelors in Information Technology<br>
-M. Tech. in Artificial Intelligence,2021-2023
+### Bio:
+TBA. 
+
+### Education:
+- M. Tech. in Artificial Intelligence, 2021-2023 
+- Bachelors in Information Technology
+
 ### Research Interests:
 <p style="text-align:justify">
 
-My research focues on Table to Text Generation. It produces text descriptions in natural language of the input structured data.
+My research focuses on Table to Text Generation. It produces text descriptions in natural language of the input structured data.
 </p>
