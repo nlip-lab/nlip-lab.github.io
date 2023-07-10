@@ -129,6 +129,23 @@ permalink: /research/
                             </div>
                         </div>
                     </div>
+                    <!-- sub item 6 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="NLPSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPSix" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPSix">
+                            <!-- Change here-->
+                           Parameter Efficient Fine-tuning of LLM
+                            </button>
+                        </h2>
+                        <div id="collapseNLPSix" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <!-- Change content here-->
+                                    <p>Controllable text generation with large language models (LLMs) is a potent technique that empowers the creation of customized text for specific applications. This methodology facilitates the generation of text that conforms to specific criteria or adheres to particular guidelines, thereby ensuring the production of high-quality text. Within our laboratory setting, we have undertaken investigations into several tasks related to controllable text generation using LLMs. These include sentiment steering, detoxification to steer away from toxicity in LLMs, and empathetic text generation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- sub item 7 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="NLPSeven">
