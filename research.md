@@ -84,7 +84,7 @@ permalink: /research/
                         <h2 class="accordion-header" id="NLPFour">
                             <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPFour" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPFour">
                             <!-- Change here-->
-                            Code-mix NLP
+                            Code-mixed NLP
                             </button>
                         </h2>
                         <div id="collapseNLPFour" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
