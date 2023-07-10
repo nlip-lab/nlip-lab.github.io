@@ -1,11 +1,11 @@
 - name: HiDG
   type: Dataset
   details: Dataset for Hindi Distraction Generation task. It is a novel dataset 
-  paper: "[Distractor Generation](https://dl.acm.org/doi/pdf/10.1145/3340531.3411997)"
-  link: "https://iith-my.sharepoint.com/personal/cs18resch11003_iith_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcs18resch11003%5Fiith%5Fac%5Fin%2FDocuments%2FZmBART%2FZmBART%5Frelease%2FHi%5FDG%5Fdataset&ga=1"
+  paper: Distractor Generation Paper
+  link: https://iith-my.sharepoint.com/personal/cs18resch11003_iith_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcs18resch11003%5Fiith%5Fac%5Fin%2FDocuments%2FZmBART%2FZmBART%5Frelease%2FHi%5FDG%5Fdataset&ga=1
 
 - name: MR-Head
   type: Dataset
   details: Dataset for News Headline Generation task with multiple references
-  paper: "[DivHSK](https://aclanthology.org/2023.findings-acl.118.pdf)"
-  link: "https://drive.google.com/drive/u/0/folders/1HcKvtgCvFItnUJBtcJJy7zJSwhiKfRJF"
+  paper: DivHSK Paper
+  link: https://drive.google.com/drive/u/0/folders/1HcKvtgCvFItnUJBtcJJy7zJSwhiKfRJF
