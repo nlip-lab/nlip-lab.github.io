@@ -147,23 +147,6 @@ permalink: /research/
                             </div>
                         </div>
                     </div>
-                    <!-- sub item 7 -->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="NLPSeven">
-                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPSeven" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPSeven">
-                            <!-- Change here-->
-                            Responsible NLP
-                            </button>
-                        </h2>
-                        <div id="collapseNLPSeven" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
-                            <div class="accordion-body">
-                                <div class="content">
-                                    <!-- Change content here-->
-                                    <p>Responsible NLP refers to the ethical and socially responsible use of natural language processing (NLP) technology. It involves ensuring that NLP models and applications are developed and used in ways that do not harm individuals or communities, respect privacy and data protection, and address issues of bias and fairness. Through this direction, we aim to explore novel techniques to enable explainability, robustness, and trustworthy generation with NLP models.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <!-- sub item 8 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="NLPEight">
@@ -182,6 +165,23 @@ permalink: /research/
                         </div>
                     </div>
                     <!-- sub item end -->
+                    <!-- sub item 7 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="NLPSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPSeven" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPSeven">
+                            <!-- Change here-->
+                            Responsible NLP
+                            </button>
+                        </h2>
+                        <div id="collapseNLPSeven" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <!-- Change content here-->
+                                    <p>Responsible NLP refers to the ethical and socially responsible use of natural language processing (NLP) technology. It involves ensuring that NLP models and applications are developed and used in ways that do not harm individuals or communities, respect privacy and data protection, and address issues of bias and fairness. Through this direction, we aim to explore novel techniques to enable explainability, robustness, and trustworthy generation with NLP models.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- End sub items here -->
                     
