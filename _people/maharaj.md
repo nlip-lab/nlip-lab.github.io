@@ -8,7 +8,7 @@ joined: 2023
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-<i class="fa fa-envelope-o"></i> cs23resch01004@iith.ac.in <br>
+<i class="fa fa-envelope-o"></i> `cs23resch01004@iith.ac.in` <br>
 <span style="display: block; margin-bottom: 0.5em"></span>
 
 <a href="https://maharajbrahma.github.io/" target=_blank><samp>Homepage</samp></a><br>

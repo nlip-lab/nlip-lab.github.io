@@ -11,9 +11,7 @@ affiliation: Machine Learning Engineer, <br>Intel
 
 <hr>
 
-### Research Interest:
-<p style="text-align:justify">
+### Research Interests:
+- Graph Neural Networks
+- Natural Language Processing
 
-* Graph Neural Networks
-* Natural Language Processing
-</p>

@@ -8,7 +8,7 @@ joined: 2020
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 <hr>
-<i class="fa fa-envelope-o"></i>ai20resch11003@iith.ac.in<br>
+<i class="fa fa-envelope-o"> </i>`ai20resch11003@iith.ac.in`<br>
 
 ### Bio:
 B.Sc. Statistics (Honours), University of Calcutta, M.Sc. Statistics, Univeristy of Kalyani.<br>

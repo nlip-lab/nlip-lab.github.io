@@ -8,7 +8,7 @@ joined: 2018
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-<i class="fa fa-envelope-o"></i> cs18resch11003@iith.ac.in <br>
+<i class="fa fa-envelope-o"></i> `cs18resch11003@iith.ac.in` <br>
 <span style="display: block; margin-bottom: 0.5em"></span>
 <a href="https://github.com/kaushal0494/" target=_blank><i class="fa fa-github"></i> kaushal</a><br>
 

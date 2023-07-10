@@ -13,12 +13,9 @@ affiliation: Postdoctoral Associate, <br> University of Manchester
 <hr>
 
 ### Bio:
-Ph.D. (2017-2023)<br>
-B.Tech IGDTUW, Delhi (2010-2014)<br>
-M.Tech - IIIT-Delhi (2016-2016)<br>
+Ph.D. - IIT Hyderabad (2017-2023)<br>
+M.Tech - IIIT Delhi (2016-2016)<br>
+B.Tech - IGDTUW, Delhi (2010-2014)<br>
 ### Research Interests:
-<p style="text-align:justify">
-
-* Sequential Models<br>
-* Graph-based models
-</p>
+- Sequential Models
+- Graph-based models

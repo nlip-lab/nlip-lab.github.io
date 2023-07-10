@@ -7,7 +7,7 @@ joined: 2019
  
  <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
  <hr>
-<i class="fa fa-envelope-o"></i> cs19resch01003@iith.ac.in 
+<i class="fa fa-envelope-o"></i> `cs19resch01003@iith.ac.in` 
 <hr>
 
 ## Bio:
