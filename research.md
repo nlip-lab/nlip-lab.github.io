@@ -74,7 +74,7 @@ permalink: /research/
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
-                                    <p>Multilingual NLP involves developing NLP systems that can handle multiple languages. One of the most significant challenges in this area pertains to dealing with low-resource languages (LRLs), which have limited data or resources available. Our research group focuses on developing modeling frameworks that facilitate cross-lingual/multilingual transfer for a range of Natural Language Processing (NLP) tasks, specifically for LRLs. Our objective is to create efficient and effective solutions that can be applied in real-world multilingual scenarios.</p>
+                                    <p>Multilingual Natural Language Processing (NLP) involves the development of NLP systems capable of handling multiple languages. Among the notable challenges in this domain is addressing low-resource languages (LRLs), characterized by limited available data or resources. Our research group is dedicated to the advancement of modeling frameworks that facilitate cross-lingual/multilingual transfer across various NLP tasks, specifically focusing on LRLs. Our primary objective is to create efficient and effective solutions that can be practically applied in real-world multilingual scenarios. We have achieved notable progress in enabling zero-shot technologies for several LRLs by employing methodologies such as language structure analysis, cross-lingual transfer learning, meta-learning, and other innovative approaches.   </p>
                                 </div>
                             </div>
                         </div>
