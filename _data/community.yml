@@ -1,13 +1,16 @@
+- title: You can your Research by Richard W. Hamming	
+  link: https://www.youtube.com/watch?v=a1zDuOPkMSw
+  tag: suggestions-phd
 - title: The 4th Guide in the Hitchhiker’s Guide Trilogy for PhD students	
   link: http://www.cs.unc.edu/~azuma/hitch4.html
   tag: suggestions-phd
-- title: A Survival Guide to a PhD" by Andrej Karpathy	
+- title: A Survival Guide to a PhD by Andrej Karpathy	
   link: http://karpathy.github.io/2016/09/07/phd/
   tag: suggestions-phd
-- title: 10 Tips for Research and a PhD" by Sebastian Ruder	
+- title: 10 Tips for Research and a PhD by Sebastian Ruder	
   link: https://www.ruder.io/10-tips-for-research-and-a-phd/
   tag: suggestions-phd
-- title: CS PhD --help	
+- title: CS PhD help	
   link: https://phdadvice.carrd.co/
   tag: suggestions-phd
 - title: Key Lessons for a (Successful) PhD Career	
@@ -16,7 +19,7 @@
 - title: Getting The Most from your PhD Training	
   link: https://jalote.wordpress.com/2021/07/20/getting-the-most-from-your-phd-training/
   tag: suggestions-phd
-- title: Advice for students doing research projects in ML/NLP" by MAREK REI	
+- title: Advice for students doing research projects in ML/NLP by MAREK REI	
   link: https://www.marekrei.com/blog/ml-nlp-research-project-advice/
   tag: suggestions-phd
 - title: 	CS224N - Natural Language Processing with Deep Learning by Stanford	
@@ -64,7 +67,7 @@
 - title: 	Writing Code for NLP Research	
   link: https://aclanthology.org/D18-3003/
   tag: nlp-resources
-- title: 	Blogs about NLP and ML" by Sebastian Ruder	
+- title: 	Blogs about NLP and ML by Sebastian Ruder	
   link: https://www.ruder.io/
   tag: nlp-resources
 - title: 	The Illustrated Transformer	
@@ -77,11 +80,11 @@
   link: https://thegradient.pub/the-benderrule-on-naming-the-languages-we-study-and-why-it-matters/
   tag: nlp-resources
 
-- title: 	Conference Ranking - Conference Rank	
-  link: http://www.conferenceranks.com/
-  tag: ranking-sources
 - title: 	Conference Ranking - Core	
   link: http://portal.core.edu.au/conf-ranks/
+  tag: ranking-sources
+- title: 	Conference Ranking - Conference Rank	
+  link: http://www.conferenceranks.com/
   tag: ranking-sources
 - title: 	Ranking for Computer Science and AI Institutions/Departments/Schools	
   link: https://csrankings.org/#/index?all&us
@@ -126,7 +129,7 @@
 - title: 	How I Keep My Projects Organized	
   link: https://sebastianraschka.com/blog/2021/project-management.html
   tag: other-sources
-- title: 	The uneasy relationship between deep learning and (classical) statistics	
+- title: 	The uneasy relationship between deep learning and (classical) Statistics	
   link: https://windowsontheory.org/2022/06/20/the-uneasy-relationship-between-deep-learning-and-classical-statistics/
   tag: other-sources
 - title: 	Five-step Strategy for Student Success with Online Learning	
@@ -134,4 +137,7 @@
   tag: other-sources
 - title: 	How to Review Scientific Paper	
   link: https://aclrollingreview.org/reviewertutorial
+  tag: other-sources
+- title: How to design an award-winning conference poster	
+  link: https://blogs.lse.ac.uk/impactofsocialsciences/2018/05/11/how-to-design-an-award-winning-conference-poster/
   tag: other-sources
