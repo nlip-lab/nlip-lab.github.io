@@ -159,7 +159,7 @@ permalink: /research/
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
-                                    <p>The interpretability of NLP models refers to the ability to understand and explain the reasoning behind their output. This is especially crucial in applications such as healthcare, legal, and financial domains, where decisions based on the model's output can have significant consequences. To address this need, we are working on a modeling approach to provide interpretability from NLP models by generating reasoning and visual tools.</p>
+                                    <p>The process of query formulation can prove to be time-consuming, especially for inexperienced users or those with intricate information requirements. To address this issue, Query Auto-Completion (QAC) module is designed to aid users in effectively expressing their information needs through search queries. The primary objective is to assist users in completing their search tasks more efficiently by accurately comprehending their query intent based on the partially-typed prefix. Within the NLIP lab, in collaboration with the Microsoft Auto-suggest team, our research efforts have been focused on developing an improved quality QAC system. Furthermore, we have focused on scaling these systems to non-English language for Bing search engine.</p>
                                 </div>
                             </div>
                         </div>
