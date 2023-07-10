@@ -99,9 +99,10 @@ created a high-quality multi-reference headline dataset from news articles"
   cite: "Suvodip Dey, Ramamohan Kummara, and Maunendra Desarkar. 2022. Towards Fair Evaluation of Dialogue State Tracking by Flexible Incorporation of Turn-level Performances. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), pages 318–324, Dublin, Ireland. Association for Computational Linguistics."
   code: https://github.com/suvodipdey/fga
   highlight: 1
-  img: "eval-dst-performance.png"
+  img: "eval-dst-performance-new.png"
   video: 
-  summary: "We propose a new evaluation metric named Flexible Goal Accuracy (FGA). FGA is a generalized version of JGA. But unlike JGA, it tries to give penalized rewards to mispredictions that are locally correct i.e. the root cause of the error is an earlier turn. By doing so, FGA considers the performance of both cumulative and turn-level prediction flexibly and provides a better insight than the existing metrics. We also show that FGA is a better discriminator of DST model performance."
+  summary: "Dialogue State Tracking (DST) is primarily
+evaluated using Joint Goal Accuracy (JGA) defined as the fraction of turns where the groundtruth dialogue state exactly matches the prediction. We propose a new evaluation metric named Flexible Goal Accuracy (FGA). FGA is a generalized version of JGA. But unlike JGA, it tries to give penalized rewards to mispredictions that are locally correct i.e. the root cause of the error is an earlier turn. By doing so, FGA considers the performance of both cumulative and turn-level prediction flexibly and provides a better insight than the existing metrics. We also show that FGA is a better discriminator of DST model performance."
 
 - key: "time-event-modeling"
   authors: "Manisha Dubey, PK Srijith, Maunendra Sankar Desarkar"

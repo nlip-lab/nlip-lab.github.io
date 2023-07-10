@@ -82,8 +82,8 @@ permalink: /publication/
     </div>
 
 
-  <div class="row">
-    <ul class="nav" style="margin-left: 15px;">
+  <div class="row" style="margin-left: 0px">
+    <ul class="nav">
       <!-- ABSTRACT -->
       {% if publi.abstract %}
       <li class="nav-item item">
