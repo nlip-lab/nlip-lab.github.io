@@ -142,7 +142,7 @@ permalink: /research/
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
-                                    <p>Controllable text generation with large language models (LLMs) is a potent technique that empowers the creation of customized text for specific applications. This methodology facilitates the generation of text that conforms to specific criteria or adheres to particular guidelines, thereby ensuring the production of high-quality text. Within our laboratory setting, we have undertaken investigations into several tasks related to controllable text generation using LLMs. These include sentiment steering, detoxification to steer away from toxicity in LLMs, and empathetic text generation.</p>
+                                    <p>Parameter Efficient Fine-tuning of LLM is a formal term that denotes a technique or methodology employed to refine (update) a Language Model by utilizing minimal parameters and computational resources. Fine-tuning, on the other hand, entails adapting a pre-trained model to a specific task or domain by subjecting it to additional training with task-specific data. Within our laboratory, we have extensively explored various approaches such as Adapters, prefix training, and auxiliary intermediates for achieving parameter efficiency during fine-tuning across diverse domains and languages.</p>
                                 </div>
                             </div>
                         </div>
