@@ -2,33 +2,40 @@
   authors: "Manisha Dubey, Srijith P. K., Maunendra Sankar Desarkar"
   title: "Time-to-Event Modeling with Hypernetwork based Hawkes Process"
   journal: "29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD 2023)"
-  abstract: "Temporal point process serves as an essential tool for modeling time-to-event data in continuous time space. Despite having massive amounts of event sequence data from various domains like social media, healthcare etc., real world application of temporal point process faces two major challenges: 1) it is not generalizable to predict events from unseen sequences in dynamic environment 2) they are not capable of thriving in continually evolving environment with minimal supervision while retaining previously learnt knowledge. To tackle these issues, we propose HyperHawkes, a hypernetwork based temporal point process framework which is capable of modeling time of occurrence of events for unseen sequences. Thereby, we solve the problem of zero-shot learning for time-to-event modeling. We also develop a hypernetwork based continually learning temporal point process for continuous modeling of time-to-event sequences with minimal forgetting. In this way, HyperHawkes augments the temporal point process with zero-shot modeling and continual learning capabilities. We demonstrate the application of the proposed framework through our experiments on two real-world datasets. Our results show the efficacy of the proposed approach in terms of predicting future events under zero-shot regime for unseen event sequences. We also show that the proposed model is able to predict sequences continually while retaining information from previous event sequences, hence mitigating catastrophic forgetting for time-to-event data."
+  abstract: ""
   year: 2023
   month: 8
   url: ""
   pdf: ""
   cite: ""
-  code: 
-  highlight: 1
+  code: ""
+  highlight: 0
   img: "cl_hyperhawkes.png"
   video: ""
-  summary: "Temporal point process serves as an essential tool for modeling time-to-event data in continuous time space. Despite having massive amounts of event sequence data from various domains like social media, healthcare etc., real world application of temporal point process faces two major challenges: 1) it is not generalizable to predict events from unseen sequences in dynamic environment 2) they are not capable of thriving in continually evolving environment with minimal supervision while retaining previously learnt knowledge. To tackle these issues, we propose HyperHawkes, a hypernetwork based temporal point process framework which is capable of modeling time of occurrence of events for unseen sequences. Thereby, we solve the problem of zero-shot learning for time-to-event modeling. We also develop a hypernetwork based continually learning temporal point process for continuous modeling of time-to-event sequences with minimal forgetting. In this way, HyperHawkes augments the temporal point process with zero-shot modeling and continual learning capabilities. We demonstrate the application of the proposed framework through our experiments on two real-world datasets. Our results show the efficacy of the proposed approach in terms of predicting future events under zero-shot regime for unseen event sequences. We also show that the proposed model is able to predict sequences continually while retaining information from previous event sequences, hence mitigating catastrophic forgetting for time-to-event data."
+  summary: ""
 
 - key: "divhsk"
   authors: "Venkatesh E, Kaushal Kumar Maurya, Deepak Kumar and Maunendra Sankar Desarkar"
   title: "DivHSK: Diverse Headline Generation using Self-Attention based Keyword Selection"
   journal: "61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)"
-  abstract: ""
+  abstract: "Diverse headline generation is an NLP task where given a news article, the goal is to generate multiple headlines that are true to the content of the article, but are different among themselves. This task aims to exhibit and exploit semantically similar one-to-many relationships
+between a source news article and multiple target headlines. Towards this, we propose a novel
+model called DIVHSK. It has two components: KEYSELECT for selecting the important keywords, and SEQGEN, for finally generating the
+multiple diverse headlines. In KEYSELECT, we cluster the self-attention heads of the last layer
+of the pre-trained encoder and select the mostattentive theme and general keywords from the
+source article. Then, cluster-specific keyword sets guide the SEQGEN, a pre-trained encoderdecoder model, to generate diverse yet semantically similar headlines. The proposed model
+consistently outperformed existing literature and our strong baselines and emerged as a stateof-the-art model. Additionally, We have also
+created a high-quality multi-reference headline dataset from news articles"
   year: 2023
   month: 07
-  url: ""
-  pdf: ""
-  cite: ""
-  code: 
-  highlight: 0
-  img: ""
-  video: ""
-  summary: ""
+  url: "https://aclanthology.org/2023.findings-acl.118/"
+  pdf: "https://aclanthology.org/2023.findings-acl.118.pdf"
+  cite: "Venkatesh E, Kaushal Maurya, Deepak Kumar, and Maunendra Sankar Desarkar. 2023. DivHSK: Diverse Headline Generation using Self-Attention based Keyword Selection. In Findings of the Association for Computational Linguistics: ACL 2023, pages 1879–1891, Toronto, Canada. Association for Computational Linguistics."
+  code: "https://github.com/kaushal0494/DivHSK" 
+  highlight: 1
+  img: "divhsk_model_arch.png"
+  # video: ""
+  summary: "Diverse headline generation is an NLP task where given a news article, the goal is to generate multiple headlines that are true to the content of the article but are different among themselves. This task aims to exhibit and exploit semantically similar one-to-many relationships between a source news article and multiple target headlines. Toward this, we propose a novel model called DIVHSK. It has two components:KEYSELECT for selecting the important keywords, and SEQGEN, for finally generating the multiple diverse headlines. In KEYSELECT, we cluster the self-attention heads of the last layer of the pre-trained encoder and select the most-attentive theme and general keywords from the source article. Then, cluster-specific keyword sets guide the SEQGEN, a pre-trained encoder-decoder model, to generate diverse yet semantically similar headlines. The proposed model consistently outperformed existing literature and our strong baselines and emerged as a state-of-the-art model. We have also created a high-quality multi-reference headline dataset from news articles."
 
 - key: "vta"
   authors: "Arkadipta De, Maunendra Sankar Desarkar, and Asif Ekbal"
