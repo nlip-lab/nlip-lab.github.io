@@ -115,13 +115,13 @@ permalink: /research/
                     </div>
                     <!-- sub item 6 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="NLPSix">
-                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPSix" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPSix">
+                        <h2 class="accordion-header" id="NLPSix1">
+                            <button class="accordion-button collapsed" type="button" data-bs-target="#collapseNLPSix1" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseNLPSix">
                             <!-- Change here-->
                             Controllable Text generation with LLM
                             </button>
                         </h2>
-                        <div id="collapseNLPSix" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
+                        <div id="collapseNLPSix1" class="accordion-collapse collapse" data-bs-parent="#accordionNLPAreas">
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
