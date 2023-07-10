@@ -260,7 +260,7 @@ permalink: /research/
         </div>
     </div>
     <!-- Seven  -->
-     <div class="accordion-item">
+<!--      <div class="accordion-item">
         <h2 class="accordion-header" id="headingSeven">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" data-bs-parent="#accordionResearchAreas" aria-expanded="false" aria-controls="collapseSeven">7. Miscellaneous</button>
         </h2>
@@ -269,4 +269,4 @@ permalink: /research/
             </div>
         </div>
     </div>
-</div>
+</div> -->
