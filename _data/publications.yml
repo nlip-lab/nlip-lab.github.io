@@ -338,7 +338,7 @@
   pdf: https://dl.acm.org/doi/pdf/10.1145/3397536.3422233
   cite: "Manisha Dubey, P.K. Srijith, and Maunendra Sankar Desarkar. 2020. HAP-SAP: Semantic Annotation in LBSNs using Latent Spatio-Temporal Hawkes Process. In Proceedings of the 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL '20). Association for Computing Machinery, New York, NY, USA, 377–380. https://doi.org/10.1145/3397536.3422233"
   code: 
-  highlight: 1
+  highlight: 0
   img: "hapsap.png"
   video: 
   summary: "We propose our model HAP-SAP, a latent spatio-temporal multivariate Hawkes process, which considers latent semantic category influences, and temporal and spatial mobility patterns of users. The inferred semantic categories can supplement our model on predicting the next check-in events by users. Our experiments on real datasets demonstrate the effectiveness of the proposed model for the semantic annotation and location adoption modelling tasks."
@@ -354,7 +354,7 @@
   pdf: "https://dl.acm.org/doi/pdf/10.1145/3340531.3411997"
   cite: "Kaushal Kumar Maurya and Maunendra Sankar Desarkar. 2020. Learning to Distract: A Hierarchical Multi-Decoder Network for Automated Generation of Long Distractors for Multiple-Choice Questions for Reading Comprehension. In Proceedings of the 29th ACM International Conference on Information & Knowledge Management (CIKM '20). Association for Computing Machinery, New York, NY, USA, 1115–1124. https://doi.org/10.1145/3340531.3411997"
   code: "https://github.com/kaushal0494/HMD_Network"
-  highlight: 1
+  highlight: 0
   img: "learningtodistract.png"
   video: 
   summary: "In this paper, we propose a novel Hierarchical Multi-Decoder Network (HMD-Net) consisting of one encoder and three decoders, where each decoder generates a single distractor. To overcome the first problem mentioned above, we include multiple decoders with a dis-similarity loss in the loss function. To address the second problem, we exploit richer interaction between the article, question, and answer with a SoftSel operation and a Gated Mechanism."
