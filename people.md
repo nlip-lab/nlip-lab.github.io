@@ -65,6 +65,7 @@ permalink: /people/
 | [Sharan Narasimhan](https://www.linkedin.com/in/sharan21/) | Masters student (2020-2022) | Data Engineer at Indeed|
 | [Venkatesh E](https://www.linkedin.com/in/venkateshelangovan/) | Masters student (2020-2022) |  Machine Learning Engineer at Qualcomm
 | [Arkadipta De](https://www.linkedin.com/in/arkadipta-de/) | Masters student (2020-2022) | Applied AI Researcher at Fujitsu Research India|
+| [Vandita Dutt ](https://www.linkedin.com/in/vandita-dutt-840646141/) | Masters student (2020-2022) | -|
 | [Sagar Jinde ](https://www.linkedin.com/in/sagarjinde/) | Masters student (2019-2021) | Machine Learning Engineer at Qualcomm|
 | [Vikram Anand Singh ](https://www.linkedin.com/in/vikramanandsingh/) |Masters student (2018-2020) |Software Developer at BNY Mellon Technology|
 | [Shounak Kundu](https://www.linkedin.com/in/shounak-kundu-53977817/) |Masters student, 3-Year MTech, joint supervision with Dr. Srijith PK (2018-2021) | Machine Learning Engineer atInMobi  |
@@ -77,6 +78,5 @@ permalink: /people/
 | [Shashank Singh](https://www.linkedin.com/in/shashank-singh-a527bb112/) | Masters Student (2015-2017) |Software Developer at PayPal|
 | [Pradyumna Deshpande ](https://www.linkedin.com/in/pradyumna-deshpande-72a51455/) | Masters Student (2015-2017) | Platform Engineer at PayPay Corporation Tokyo, Japan |
 | [Swapnil Ashok dewalakar](https://www.linkedin.com/in/swapdewalkar/)| Masters student (2017-2019) | SDE at Fanatics,Inc. |
-| [Vandita Dutt ](https://www.linkedin.com/in/vandita-dutt-840646141/) | Masters student (2020-2022) | -|
 
 
