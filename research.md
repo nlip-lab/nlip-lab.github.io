@@ -159,7 +159,7 @@ permalink: /research/
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
-                                    <p>The process of query formulation can prove to be time-consuming, especially for inexperienced users or those with intricate information requirements. To address this issue, Query Auto-Completion (QAC) module is designed to aid users in effectively expressing their information needs through search queries. The primary objective is to assist users in completing their search tasks more efficiently by accurately comprehending their query intent based on the partially-typed prefix. Within the NLIP lab, in collaboration with the Microsoft Auto-suggest team, our research efforts have been focused on developing an improved quality QAC system. Furthermore, we have focused on scaling these systems to non-English language for Bing search engine.</p>
+                                    <p>The process of query formulation can prove to be time-consuming, especially for inexperienced users or those with intricate information requirements. To address this issue, Query Auto-Completion (QAC) module is designed to aid users in effectively expressing their information needs through search queries. The primary objective is to assist users in completing their search tasks more efficiently by accurately comprehending their query intent based on the partially-typed prefix. Within the NLIP lab, in collaboration with the Microsoft Auto-suggest team, our research efforts have been focused on developing an improved quality QAC system. Furthermore, we have focused on scaling these systems to non-English language for the Bing search engine.</p>
                                 </div>
                             </div>
                         </div>
@@ -177,7 +177,7 @@ permalink: /research/
                             <div class="accordion-body">
                                 <div class="content">
                                     <!-- Change content here-->
-                                    <p>Responsible NLP refers to the ethical and socially responsible use of natural language processing (NLP) technology. It involves ensuring that NLP models and applications are developed and used in ways that do not harm individuals or communities, respect privacy and data protection, and address issues of bias and fairness. Through this direction, we aim to explore novel techniques to enable explainability, robustness, and trustworthy generation with NLP models.</p>
+                                    <p>Responsible NLP encompasses the ethical and socially responsible aspects of NLP technologies. It entails guaranteeing that NLP models and applications are developed and employed in manners that do not inflict harm upon individuals or communities. Furthermore, it emphasizes the significance of respecting privacy and data protection, as well as addressing issues related to bias and fairness. In alignment with this objective, our research has focused on developing modeling approaches that generate safe (non-toxic) completions for the QAC system. Additionally, we have endeavored to create a safe text generation mechanism with LLM, even in non-English languages.</p>
                                 </div>
                             </div>
                         </div>
