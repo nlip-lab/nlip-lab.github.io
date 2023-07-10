@@ -183,9 +183,7 @@ permalink: /research/
                         </div>
                     </div>
                 </div>
-                <!-- End sub items here -->
-                    
-                    
+                <!-- End sub items here -->   
             </div>
         </div>
     </div>
