@@ -10,13 +10,10 @@ joined: 2021
 
 ### Contact
 <i class="fa fa-envelope-o"></i>  `ai21mtech14003.iith.ac.in`<br>
-<hr>
 
 ### Bio
 <p style="text-align: justify">
 Kaushiki's research focuses on hate speech diffusion, which involves toxicity detection, analysis of social networks on Twitter, and the spread of hate among users and how it affects their networks. She has also worked on recommendation systems, clarification question generation, and graph neural networks. She loves music, enjoys jamming sessions and plays badminton.</p>
-
-<hr>
 
 ### Research Interests
 - Social Network Analysis
