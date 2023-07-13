@@ -8,13 +8,21 @@ joined: 2018
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-<i class="fa fa-envelope-o"></i> `cs18resch11003@iith.ac.in` <br>
-<span style="display: block; margin-bottom: 0.5em"></span>
-<a href="https://github.com/kaushal0494/" target=_blank><i class="fa fa-github"></i> kaushal</a><br>
+### Contects
 
-<a href="https://kaushal0494.github.io/" target=_blank><samp>Homepage</samp></a><br>
-
-<hr>
+<div class="row">
+<column style="float:left; width:45px; text-align:right; padding-right:10px">
+    <b><a href="mailto:cs18resch11003@iith.ac.in" target="_blank"><i class="fa fa-envelope-o"></i></a></b><br>
+    <span style="display: block; margin-bottom: 0.5em"></span>
+</column>
+<column style="float:left; width:600px;">
+    <a href="mailto:cs18resch11003@iith.ac.in" target="_blank"><samp>cs18resch11003@iith.ac.in</samp></a>
+    <span style="display: block; margin-bottom: 0.5em"></span>
+    <a href="https://kaushal0494.github.io/" target="_blank"><samp>Homepage</samp></a><br>
+    <span style="display: block; margin-bottom: 0.5em"></span>
+</column>
+</div>
+<span style="display: block; margin-bottom: 1em"></span>
 
 ### Bio: 
 <p style="text-align: justify">
