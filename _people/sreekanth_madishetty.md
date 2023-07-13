@@ -12,11 +12,11 @@ affiliation: Research Scientist, <br> Jio Platforms Limited
 <hr>
 
 ### Bio:
-TBA.
 
-### Education:
-Ph.D. IIT Hyderabad (2015-2020)
+
 
 ### Research Interests:
-- NLP
-- ML and Deep Learning
+- Natural language Understanding
+- Social Network Analysis
+
+**Current Affiliation:** Research Scientist at Jio Platforms Limited
