@@ -23,7 +23,8 @@ Kaushal is a PhD candidate in the Department of Computer Science and Engineering
 
 ### Research Interests:
 - Natural Language Generation
-- Multilinguality
+- Multilingual NLP
+- Low-resource NLP
 - Code-mixed NLP
 - Responsible NLP
 - Question and Answering
