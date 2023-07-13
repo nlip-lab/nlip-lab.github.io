@@ -33,17 +33,16 @@ twitter:
 #### Bio:
 
 <p style="text-align:justify">
-<a href="https://people.iith.ac.in/maunendra/" target="_blank">Dr. Maunendra Sankar Desarkar</a>, is an Associate Professor at the Computer Science and Engineering Department at IIT Hyderabad, India. Currently, he is also serving as the Head of the Department of the AI Department at IIT Hyderabad. His main research areas are Natural Language Processing, Information Retrieval, Recommendation Systems, Machine Learning. He is a part of the Natural Language and Information Processing Group (NLIP) at IIT Hyderabad. Prior to Joining IIT Hyderabad, he has worked for Samsung Research India Bangalore and Sybase Inc. (an SAP Company) in the past.
+<a href="https://people.iith.ac.in/maunendra/" target="_blank">Dr. Maunendra Sankar Desarkar</a> is an Associate Professor at the <a href="https://cse.iith.ac.in/" target="_blank">Computer Science and Engineering Department</a> at IIT Hyderabad, India. Currently, he is also serving as the Head of the Department of the <a href="https://ai.iith.ac.in/" target="_blank">AI Department</a> at IIT Hyderabad. His main research areas are Natural Language Processing, Information Retrieval, Recommendation Systems, Machine Learning. He is a part of the Natural Language and Information Processing Group (NLIP) at IIT Hyderabad. Prior to Joining IIT Hyderabad, he has worked for Samsung Research India Bangalore and Sybase Inc. (an SAP Company) in the past. He has been involved with multiple programs and projects with Governments as well as industries. He also serves as a reviewer for multiple prestigious conferences such as AAAI, NeurIPS, EMNLP, SDM, WSDM, Social Network Analysis and Mining, IEEE Transactions of Computational Social Sciences, IEEE Transactions on Knowledge and Data Engineering, etc.
 </p>
 <hr>
 
 #### Research Interests:
 <ul>
-<li>Recommender Systems</li>
-<li>Information Retrieval</li>
-<li>Machine Learning</li>
-<li>Data Mining</li>
-<li>AI/ML</li>
+ <li> Natural Language Processing</li>
+ <li>Information Retrieval</li>
+ <li>Recommender Systems</li>
+ <li>Machine Learning</li>
 </ul>
 
 <br>
