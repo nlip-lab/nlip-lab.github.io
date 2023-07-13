@@ -19,7 +19,7 @@ joined: 2021
     <span style="display: block; margin-bottom: 0.5em"></span>
 </column>
 <column style="float:left; width:600px;">
-    <a href="mailto:ai21resch11002@iith.ac.in" target="_blank"><samp>cs18resch11003@iith.ac.in</samp></a>
+    <a href="mailto:ai21resch11002@iith.ac.in" target="_blank"><samp>ai21resch11002@iith.ac.in</samp></a>
     <span style="display: block; margin-bottom: 0.5em"></span>
     <a href="" target="_blank"><samp>Homepage</samp></a><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
