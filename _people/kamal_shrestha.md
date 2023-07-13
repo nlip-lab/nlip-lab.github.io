@@ -21,7 +21,7 @@ joined: 2021
 <column style="float:left; width:600px;">
     <a href="mailto:kamalandshrestha@gmail.com" target="_blank"><samp>kamalandshrestha@gmail.com</samp></a>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <a href="https://shresthakamal.com.np" target="_blank"><samp>shresthakamal.com.np</samp></a><br>
+    <a href="https://shresthakamal.com.np" target="_blank"><samp>Homepage</samp></a><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
 </column>
 </div>
