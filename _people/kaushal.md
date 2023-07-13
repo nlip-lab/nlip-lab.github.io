@@ -18,12 +18,14 @@ joined: 2018
 
 ### Bio: 
 <p style="text-align: justify">
-I am a PhD candidate in the Department of Computer Science and Engineering at Indian Institute of Technology Hyderabad and advised by Dr. Maunendra Sankar Desarkar. I am active collaborator at Microsoft India, working with Manish Gupta and Anoop Kunchukuttan. I spent last three wonderful summers interning at Microsoft (Translation and Auto-suggest teams) and Nvidia-AI.
+Kaushal is a PhD candidate in the Department of Computer Science and Engineering at the Indian Institute of Technology Hyderabad, advised by Dr. Maunendra Sankar Desarkar. He is an active collaborator at Microsoft India, working with Manish Gupta and Anoop Kunchukuttan. He has completed three internships at Microsoft (in the Translation and Auto-suggest teams) and Nvidia-AI. He loves reading, traveling, playing sports, and learning new languages.
 </p>
 
 ### Research Interests:
 - Natural Language Generation
 - Multilinguality
-- Code-mix
-- Question Answering
+- Code-mixed NLP
+- Responsible NLP
+- Question and Answering
 - Conversational AI
+
