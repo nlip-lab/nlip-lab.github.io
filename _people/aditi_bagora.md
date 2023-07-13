@@ -12,16 +12,9 @@ joined: 2021
 <hr>
 
 ### Bio:
-TBA
+My research focuses on controlled text generation. The generated text should be non-toxic and the sentiment that is generated should be positive.
 
-### Education:
-- M. Tech. in Computer Science and Engineering, 2021-2023
-- Bachelors in CSE from Shri Ramdeobaba College of Engineering and Management
-
-<hr>
 
 ### Research Interest:
-<p style="text-align:justify">
-
-My research focuses on controlled text generation. The generated text should be non-toxic and the sentiment that is generated should be positive.
-</p>
+- Natural Language Generation
+- Controllable Text Generation
