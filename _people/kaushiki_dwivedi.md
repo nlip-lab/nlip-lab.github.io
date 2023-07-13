@@ -13,13 +13,14 @@ joined: 2021
 <hr>
 
 ### Bio
-TBA.
+Kaushiki's research focuses on hate speech diffusion, which involves toxicity detection, analysis of social networks on Twitter, and the spread of hate among users and how it affects their networks. She has also worked on recommendation systems, clarification question generation, and graph neural networks. She loves music, enjoys jamming sessions and plays badminton.
 
 <hr>
 
 ### Research Interests
 - Social Network Analysis
 - Graph Neural Networks for NLP
+- Natural Language Generation
 
 
 <!--### Publications
