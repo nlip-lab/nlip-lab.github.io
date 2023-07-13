@@ -9,30 +9,18 @@ joined: 2021
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
 ### Contact
-
 <i class="fa fa-envelope-o"></i>  `ai21mtech14003.iith.ac.in`<br>
-<i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?user=gE8MOhwAAAAJ&hl=en ) <br>
-<a href="https://github.com/Kaushiki111111" target=_blank><i class="fa fa-github"></i> kaushiki</a><br>
-<a href="https://www.linkedin.com/in/kaushiki-dwivedi-10k6/"><i class="fa fa-linkedin" target=_blank></i> kaushikidwivedi</a><br>
-<a href="https://drive.google.com/file/d/11bMVyGo6kSi-VP50bR-zIALEEiRTskT8" target="_blank"><samp>CV</samp></a><br>
 <hr>
 
 ### Bio
 TBA.
 
-### Education
-- M. Tech., Artificial Intelligence  (TA), 2021-2023
-- Bachelors in Computer Science and Engineering, UIT-RGPV
-
 <hr>
 
 ### Research Interests
-<p style="text-align:justify">
+- Social Network Analysis
+- Graph Neural Networks for NLP
 
-* Primary research focuses on Hate Speech Diffusion in Online Social Networks.<br>
-* Information propagation in social Networks.<br>
-* Graph Neural Networks.
-</p> 
 
 <!--### Publications
 
