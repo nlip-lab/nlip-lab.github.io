@@ -39,15 +39,12 @@ joined: 2021
 
 ### Bio
 <p style="text-align: justify">
-M. Tech. CSE (TA), [2021-2023] <br>
-
-Bachelor in Computer Science and Engineering [2016-2020], DoCSE, <a href="https://ku.edu.np" target="_blank">Kathmandu University</a> <br>
+In my academic pursuits, I am currently engaged in the development of a heuristic-based recommendation engine that is designed to serve as a job recommendation engine to the platform, <a href="http://swarajability.org/">Swarability</a>, catering specifically to differently-abled individuals. The primary aim of this platform is to provide a range of odd jobs that are tailored to the individual's physical abilities, with the end goal of enhancing their employment opportunities and overall quality of life.
 </p>
 
 ### Research Interest
-<p style="text-align:justify">
-In my academic pursuits, I am currently engaged in the development of a heuristic-based recommendation engine that is designed to serve as a job recommendation engine to the platform, <a href="http://swarajability.org/">Swarability</a>, catering specifically to differently abled individuals. The primary aim of this platform is to provide a range of odd jobs that are tailored to the individual's physical abilities, with the end goal of enhancing their employment opportunities and overall quality of life.
-</p>
+- Natura Language Understanding
+- Code-mixed NLP
 <!-- <hr> -->
 
 <!--### Research Interests
