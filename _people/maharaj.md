@@ -17,14 +17,10 @@ joined: 2023
 
 ### Bio: 
 <p style="text-align: justify">
-I'm a first-year Ph.D. student interested in novel contributions to the field of Natural language processing (NLP). Prior to joining Ph.D., I have experience building data resources and processing tools for the low-resource language Bodo. I have also explored machine translation and identification of tonal words and their meaning from the textual data for the Bodo language. I'm currently exploring various other sub-fields of NLP to make a valuable contribution to the field. 
+Maharaj is a first-year Ph.D. student working in Natural Language Processing (NLP). Prior to joining the Ph.D. program, he gained experience in building data resources and processing tools for the low-resource language Bodo. Additionally, he has conducted research in machine translation and the identification of tonal words and their meanings from textual data in the Bodo language.
 </p>
 
-### Education:
-- Ph.D., Indian Institute of Technology Hyderabad (2023-Ongoing)
-- M.Tech. in CSE, Central Institute of Technology Kokrajhar (CIT)
-- B.Tech. in CSE, Central Institute of Technology Kokrajhar (CIT)
-
 ### Research Interests:
-- Machine translation
+- Natural Language Generation
+- Multilingual NLP
 - Low resource NLP
