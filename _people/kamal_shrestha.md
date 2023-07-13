@@ -9,30 +9,20 @@ joined: 2021
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-### Contact
+### Contacts
 
 <div class="row">
 <column style="float:left; width:45px; text-align:right; padding-right:10px">
     <b><a href="mailto:kamalandshrestha@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a></b><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <b><a href="mailto:kamalandshrestha@gmail.com" target="_blank"><i class="fa fa-globe"></i></a></b>
+    <b><a href="" target="_blank"><i class="fa fa-globe"></i></a></b>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <b><a href="https://github.com/shresthakamal" target="_blank"> <i class="fa fa-github"></i></a></b>
-    <span style="display: block; margin-bottom: 0.5em"></span>
-    <b><a href="https://www.linkedin.com/in/kamalshrest/" target="_blank"><i class="fa fa-linkedin"></i></a></b>
-    <span style="display: block; margin-bottom: 0.7em"></span>
-    <b><a href="https://www.linkedin.com/in/kamalshrest/" target="_blank"><i class="fa fa-file-pdf-o"></i></a></b>
 </column>
 <column style="float:left; width:600px;">
     <a href="mailto:kamalandshrestha@gmail.com" target="_blank"><samp>kamalandshrestha@gmail.com</samp></a>
     <span style="display: block; margin-bottom: 0.5em"></span>
     <a href="https://shresthakamal.com.np" target="_blank"><samp>shresthakamal.com.np</samp></a><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
-    <a href="https://shresthakamal.com.np" target="_blank"><samp>shresthakamal</samp></a><br>
-    <span style="display: block; margin-bottom: 0.5em"></span>
-    <a href="https://shresthakamal.com.np" target="_blank"><samp>kamalshrest</samp></a><br>
-    <span style="display: block; margin-bottom: 0.5em"></span>
-    <a href="https://shresthakamal.com.np/cv" target="_blank"><samp>CV</samp></a><br>
 </column>
 </div>
 <span style="display: block; margin-bottom: 1em"></span>
