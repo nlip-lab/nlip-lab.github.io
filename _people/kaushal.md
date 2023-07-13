@@ -8,11 +8,13 @@ joined: 2018
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-### Contects
+### Contacts
 
 <div class="row">
 <column style="float:left; width:45px; text-align:right; padding-right:10px">
     <b><a href="mailto:cs18resch11003@iith.ac.in" target="_blank"><i class="fa fa-envelope-o"></i></a></b><br>
+    <span style="display: block; margin-bottom: 0.5em"></span>
+    <b><a href="" target="_blank"><i class="fa fa-globe"></i></a></b>
     <span style="display: block; margin-bottom: 0.5em"></span>
 </column>
 <column style="float:left; width:600px;">
