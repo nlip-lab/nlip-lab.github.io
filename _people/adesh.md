@@ -30,4 +30,4 @@ joined: 2022
 TBA.
 
 ### Research Interest:
-TAB
+TAB.
