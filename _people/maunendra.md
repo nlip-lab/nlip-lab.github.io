@@ -9,7 +9,7 @@ twitter:
 
 ### Designation
 - Associate Professor at Department of CSE, IIT Hyderabad <br>
-- Head of the AI Department at IIT Hyderabad <br>
+- Head of the AI Department, IIT Hyderabad <br>
 - Founder of the NLIP Lab
 
 ### Contacts
