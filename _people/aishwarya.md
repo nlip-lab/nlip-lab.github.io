@@ -15,10 +15,6 @@ joined: 2021
 ### Bio:
 TBA.
 
-### Education:
-- Ph.D., IIT Hyderabad (Ongoing)
-- BE, Computer Science, BMS Institute of technology and Management, Bangalore
-
 ### Research Interest:
 - Conversational systems 
 - Natural language understanding
