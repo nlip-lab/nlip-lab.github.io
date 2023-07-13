@@ -13,8 +13,8 @@ affiliation: Research Scientist, <br> Jio Platforms Limited
 
 ### Bio:
 <p style="text-align:justify">
-Sreekanth is currently Research Scientist at Jio Platforms Limited. He has completed his Ph.D. thesis with Dr. Maunendra Sankar Desarkar on <i>Towards Event Recommendation using Social Media:
-Content Identification, Characterization, and Future Popularity Estimation </i>i. His thesis primarily focuses on developing machine learning models for Social Media text and events.
+Sreekanth is currently a Research Scientist at Jio Platforms Limited. He has completed his Ph.D. thesis with Dr. Maunendra Sankar Desarkar on <i>Towards Event Recommendation using Social Media:
+Content Identification, Characterization, and Future Popularity Estimation</i>. His thesis primarily focuses on developing machine learning models for analyzing social media texts and events.
 </p>
 
 
