@@ -217,7 +217,7 @@ permalink: /research/
         </div>
     </div>
     <!-- Four  -->
-     <div class="accordion-item">
+<!--      <div class="accordion-item">
         <h2 class="accordion-header" id="headingFour">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" data-bs-parent="#accordionResearchAreas" aria-expanded="false" aria-controls="collapseFour">4. Social Network Analysis</button>
         </h2>
@@ -229,11 +229,11 @@ permalink: /research/
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Five  -->
      <div class="accordion-item">
         <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" data-bs-parent="#accordionResearchAreas" aria-expanded="false" aria-controls="collapseFive">5. Graph Neural Networks (GNNs)</button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" data-bs-parent="#accordionResearchAreas" aria-expanded="false" aria-controls="collapseFive">5. Graph Neural Networks </button>
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse">
             <div class="accordion-body">
