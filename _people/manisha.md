@@ -21,3 +21,6 @@ Manisha is currently working as a postdoctoral associate at the University of Ma
 - Sequential Modeling
 - Graph-based Modeling
 - Social Network Analysis
+
+**Current Affiliation:** Postdoctoral associate at the University of Manchester
+
