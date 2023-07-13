@@ -10,16 +10,11 @@ joined: 2019
 <i class="fa fa-envelope-o"></i> `cs19resch01003@iith.ac.in` 
 <hr>
 
-### Bio:
-TBA.
-
-### Education:
-- Ph.D., IIT Hyderabad (Ongoing)
-- M.Tech in Computer Science from IIT Kharagpur (2014-2016)
-- B.Tech in Computer Science from IEM Kolkata (2008-2012)
+### Bio: 
+<p style="text-align:justify">
+I am interested in NLP, NLU, Conversational AI, Dialogue Systems, and related areas. </p>
 
 ### Research Interests:
-<p style="text-align:justify">
-
-I am interested in NLP, NLU, Conversational AI, Dialogue Systems and the related areas.
-</p>
+- Natural language Understanding
+- Natural Language Generation
+- Conversational AI
