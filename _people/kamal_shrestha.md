@@ -5,6 +5,7 @@ avatar: kamal.JPG
 github: https://github.com/shresthakamal
 linkedin: https://www.linkedin.com/in/kamalshrest/
 joined: 2021
+title: Kamal Shrestha
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
@@ -12,18 +13,18 @@ joined: 2021
 ### Contacts
 
 <div class="row">
-<column style="float:left; width:45px; text-align:right; padding-right:10px">
+<div class="col-1" style="width:5px">
     <b><a href="mailto:cs21mtech16001@iith.ac.in" target="_blank"><i class="fa fa-envelope-o"></i></a></b><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
     <b><a href="" target="_blank"><i class="fa fa-globe"></i></a></b>
     <span style="display: block; margin-bottom: 0.5em"></span>
-</column>
-<column style="float:left; width:600px;">
+</div>
+<div class="col-1" style="width:5px">
     <a href="mailto:cs21mtech16001@iith.ac.in" target="_blank"><samp>cs21mtech16001@iith.ac.in</samp></a>
     <span style="display: block; margin-bottom: 0.5em"></span>
     <a href="https://shresthakamal.com.np" target="_blank"><samp>Homepage</samp></a><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
-</column>
+</div>
 </div>
 <span style="display: block; margin-bottom: 1em"></span>
 

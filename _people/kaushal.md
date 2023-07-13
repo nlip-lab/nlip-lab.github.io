@@ -4,6 +4,7 @@ position: phd
 avatar: kaushal.JPG
 twitter: 
 joined: 2018
+title: Kaushal Kumar Maurya
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
@@ -11,24 +12,24 @@ joined: 2018
 ### Contacts
 
 <div class="row">
-<column style="float:left; width:45px; text-align:right; padding-right:10px">
+<div class="col-1" style="width:5px">
     <b><a href="mailto:cs18resch11003@iith.ac.in" target="_blank"><i class="fa fa-envelope-o"></i></a></b><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
     <b><a href="" target="_blank"><i class="fa fa-globe"></i></a></b>
     <span style="display: block; margin-bottom: 0.5em"></span>
-</column>
-<column style="float:left; width:600px;">
+</div>
+<div class="col-1" style="width:5px">
     <a href="mailto:cs18resch11003@iith.ac.in" target="_blank"><samp>cs18resch11003@iith.ac.in</samp></a>
     <span style="display: block; margin-bottom: 0.5em"></span>
     <a href="https://kaushal0494.github.io/" target="_blank"><samp>Homepage</samp></a><br>
     <span style="display: block; margin-bottom: 0.5em"></span>
-</column>
+</div>
 </div>
 <span style="display: block; margin-bottom: 1em"></span>
 
 ### Bio: 
 <p style="text-align: justify">
-Kaushal is a PhD candidate in the Department of Computer Science and Engineering at the Indian Institute of Technology Hyderabad, advised by Dr. Maunendra Sankar Desarkar. He is an active collaborator at Microsoft India, working with Manish Gupta and Anoop Kunchukuttan. He has completed three internships at Microsoft (in the Translation and Auto-suggest teams) and Nvidia-AI. He loves reading, traveling, playing sports, and learning new languages.
+Kaushal is a Ph.D. candidate in the Department of Computer Science and Engineering at the Indian Institute of Technology Hyderabad, advised by Dr. Maunendra Sankar Desarkar. He is an active collaborator at Microsoft India, working with Manish Gupta and Anoop Kunchukuttan. He has completed three internships at Microsoft (in the Translation and Auto-suggest teams) and Nvidia-AI. He loves reading, traveling, playing sports, and learning new languages.
 </p>
 
 ### Research Interests:
