@@ -13,13 +13,11 @@ affiliation: Postdoctoral Associate, <br> University of Manchester
 <hr>
 
 ### Bio:
-TBA.
 
-### Education:
-- Ph.D. - IIT Hyderabad (2017-2023)
-- M.Tech. - IIIT Delhi (2016-2016)
-- B.Tech. - IGDTUW, Delhi (2010-2014)
+Manisha is currently working as a postdoctoral associate at the University of Manchester with Prof. Samuel Kaski. She has completed her Ph.D. thesis with Dr. P.K Srijith and Dr. Maunendra Sankar Desakar on *Improving Temporal and Spatial Event Modeling using Hawkes Process and Neural Network*. Her research interest focuses on developing machine learning models and algorithms for probabilistic analysis of social network dynamics. She is exploring various domains like event modeling, spatio-temporal modeling, graph neural network, social networks and point process. 
+
 
 ### Research Interests:
-- Sequential Models
-- Graph-based models
+- Sequential Modeling
+- Graph-based Modeling
+- Social Network Analysis
