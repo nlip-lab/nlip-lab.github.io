@@ -12,14 +12,10 @@ joined: 2020
 
 ### Bio:
 <p style="text-align: justify">
-I am a PhD student currently working on multi-task learning of image captioning and object detection. My research interests lies on image captioning, NLP and related computer vision tasks.
+Debolena is a Ph.D. student working at the intersection of vision and NLP. Her research interests encompass NLP, image captioning, and related computer vision tasks. Specifically, she is developing a novel multi-task learning framework that integrates image captioning and object detection into a unified model. She enjoys reading and traveling.
 </p>
-
-### Education:
-- Ph.D., IIT Hyderabad (Ongoing)
-- M.Sc. Statistics, University of Kalyani
-- B.Sc. Statistics (Honours), University of Calcutta
 
 ### Research Interests:
 - Image Captioning
-- NLP
+- Natural Language Generation
+- Multi-task learning
