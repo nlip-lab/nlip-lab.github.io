@@ -86,7 +86,7 @@ permalink: /resources/
   </tr>
   <tbody>
   {% for r in site.data.community %}
-  {% if r.tag == "ml-dl-courses" %}
+  {% if r.tag == "conference-deadlines" %}
   <tr>
     <td style="width: 80%;">{{r.title}}</td>
     <td style="width: 20%; text-align: center"><a href="{{r.link}}" download>Link</a></td>
