@@ -28,7 +28,9 @@ title: Darshan Dobariya
 <span style="display: block; margin-bottom: 1em"></span>
 
 ### Bio:
-TBA.
+Darshan is a master's student at AI, IIT Hyderabad and completed his thesis with Dr. Maunendra Desarkar. His research primarily revolves around the domain of table-to-text generation. Specifically, he worked on <i>Entity Labeling in Table Captions: Leveraging Column Headers for Label Identification</i>. Where he aims to identify the appropriate label for the entity mentioned in a table’s caption using column headers. Beyond my academic pursuits, he has a profound passion for hiking and traveling.
 
 ### Research Interest:
-TBA.
+- Natural language Generation
+- Table-to-Text Generation
+- Question Answering
