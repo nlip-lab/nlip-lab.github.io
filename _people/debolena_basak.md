@@ -30,7 +30,7 @@ title: Debolena Basak
 
 ### Bio:
 <p style="text-align: justify">
-Debolena is a Ph.D. student working at the intersection of vision and NLP. Her research interests encompass NLP, image captioning, and related computer vision tasks. Specifically, she is developing a novel multi-task learning framework that integrates image captioning and object detection into a unified model. she loves photography, painting, reading and traveling.
+Debolena is a Ph.D. student working at the intersection of vision and NLP. Her research interests encompass NLP, image captioning, and related computer vision tasks. Specifically, she is developing a novel multi-task learning framework that integrates image captioning and object detection into a unified model. She loves photography, painting, reading and traveling.
 </p>
 
 ### Research Interests:
