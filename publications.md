@@ -1,5 +1,5 @@
 ---
-title: Publication
+title: Publications
 permalink: /publication/
 ---
 <style>
@@ -68,7 +68,7 @@ permalink: /publication/
   </div>
   <div class="clear-fix mt-3">
     <div class="col">
-       {% if publi.img %}
+       {% if publi.img != "" %}
         <img src="/publications/images/{{ publi.img }}" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" style="float:left;width:40%" />
        {% endif %}
     <!-- <div class="col m-2"> -->
@@ -121,7 +121,7 @@ permalink: /publication/
       {% endif %}
 
       <!-- BIBTEX -->
-      {% if publi.key %}
+      {% if publi.key and publi.bibtex == 1 %}
         <li class="nav-item item">
           <a data-bs-toggle="collapse" href="#{{publi.key}}-bibtex">
             <button class="button button1"><b>BIBTEX</b></button>
