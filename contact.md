@@ -14,7 +14,7 @@ permalink: /contact/
     </div>
     <div  style="float:left; width:250px; text-align:center;">
         <h4>Email</h4>
-        <a href="mailto:{{ site.email }}">{{site.email}}</a>
+        <a href="mailto:{{ site.email }}">{{nlip[at]cse[dot]iith[dot]ac[dot]in}}</a>
     </div>
     <div  style="float:left; width:100px; text-align:center;">
         <h4>Phone</h4>
