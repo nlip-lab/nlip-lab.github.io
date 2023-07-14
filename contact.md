@@ -13,6 +13,10 @@ permalink: /contact/
         <p>{{site.address}}</p>
     </div>
     <div  style="float:left; width:250px; text-align:center;">
+        <h4>Email</h4>
+        <a href="mailto:{{ site.email }}">{{site.email}}</a>
+    </div>
+    <div  style="float:left; width:100px; text-align:center;">
         <h4>Phone</h4>
         <p>{{site.phone}}</p>
     </div>
