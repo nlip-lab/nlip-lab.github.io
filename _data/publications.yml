@@ -1,3 +1,41 @@
+- key: "trie-nlg"
+  authors: "Kaushal Kumar Maurya, Maunendra Sankar Desarkar, Manish Gupta, Puneet Agrawal"
+  title: "Trie-NLG: Trie Context Augmentation to Improve Personalized Query Auto-Completion for Short and Unseen Prefixes"
+  journal: "Journal track at European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2023)"
+  abstract: "Query auto-completion (QAC) aims at suggesting plausible completions
+for a given query prefix. Traditionally, QAC systems have leveraged tries curated from historical query logs to suggest most popular completions. In this context, there are two specific scenarios that are difficult to handle for any QAC system: short prefixes (which are inherently ambiguous) and unseen prefixes. Recently, personalized Natural Language Generation (NLG) models have been proposed to leverage previous session queries as context for addressing these two challenges. However, such NLG models suffer from two drawbacks: (1) some of the previous session queries could be noisy and irrelevant to the user intent for the current prefix, and (2) NLG models cannot directly incorporate historical query popularity. This motivates us to propose a novel NLG model for QAC, Trie-NLG, which jointly leverages popularity signals from trie and personalization signals from previous session queries. We train the Trie-NLG model by augmenting the prefix with rich context comprising of recent session queries and top trie completions. This simple modeling approach overcomes the limitations of trie-based and NLG-based approaches and leads to state-of-the-art performance. We evaluate the Trie-NLG model using two large QAC datasets. On average, our model achieves huge ∼57% and ∼14% boost in MRR over the popular trie-based lookup and the strong BART-based baseline methods, respectively."
+  year: 2023
+  month: 7
+  highlight: 1
+  img: "Trie_QAC3.png"
+  bibtex: 0
+  summary: "Query auto-completion (QAC) aims at suggesting plausible completions
+for a given query prefix. Traditionally, QAC systems have leveraged tries curated from historical query logs to suggest most popular completions. In this context, there are two specific scenarios that are difficult to handle for any QAC system: short prefixes (which are inherently ambiguous) and unseen prefixes. Recently, personalized Natural Language Generation (NLG) models have been proposed to leverage previous session queries as context for addressing these two challenges. However, such NLG models suffer from two drawbacks: (1) some of the previous session queries could be noisy and irrelevant to the user intent for the current prefix, and (2) NLG models cannot directly incorporate historical query popularity. We propose a novel NLG model for QAC, Trie-NLG, which jointly leverages popularity signals from trie and personalization signals from previous session queries. We train the Trie-NLG model by augmenting the prefix with rich context comprising of recent session queries and top trie completions. This simple modeling approach overcomes the limitations of trie-based and NLG-based approaches and leads to state-of-the-art performance. We evaluate the Trie-NLG model using two large QAC datasets. On average, our model achieves huge ∼57% and ∼14% boost in MRR over the popular trie-based lookup and the strong BART-based baseline methods, respectively."
+
+- key: "text-style-transfer"
+  authors: "Sharan Narasimhan, Pooja Shekar,  Suvodip Dey, Maunendra Sankar Desarkar"
+  title: "On Text Style Transfer via Style-Aware Masked Language Models"
+  journal: "16th International Natural Language Generation Conference (INLG 2023)"
+  abstract: "Text Style Transfer (TST) involves transforming a source sentence with a given style label to an output with another target style meanwhile preserving content and fluency. We look at a fill-in-the-blanks approach (also referred to as prototype editing), where the source sentence is stripped off all style-containing words and filled in with suitable words. This closely resembles a Masked Language Model (MLM) objective, with the added initial step of masking only relevant style words rather than BERT's random masking. We show this simple MLM, trained to reconstruct style-masked sentences back into their original style, can even transfer style by making this MLM Style-Aware. This simply involves appending the source sentence with a target style special token. The Style-Aware MLM (SA-MLM), now also accounts for the direction of style transfer and enables style transfer by simply manipulating these special tokens. To learn this n-word to n-word style reconstruction task, we use a single transformer encoder block with 8 heads, 2 layers and no auto-regressive decoder, making it non-generational. We empirically show that this lightweight encoder trained on a simple reconstruction task compares with elaborately engineered state-of-the-art TST models for even complex styles like Discourse or flow of logic, i.e. Contradiction to Entailment and vice-versa. Additionally, we introduce a more accurate attention-based style-masking step and a novel attention-surplus method to determine the position of masks from any arbitrary attribution model in O(1) time. Finally, we show that the SA-MLM arises naturally by considering a probabilistic framework for style transfer."
+  year: 2023
+  month: 7
+  highlight: 1
+  img: ""
+  bibtex: 0
+  summary: "Text Style Transfer (TST) involves transforming a source sentence with a given style label to an output with another target style meanwhile preserving content and fluency. We look at a fill-in-the-blanks approach (also referred to as prototype editing), where the source sentence is stripped off all style-containing words and filled in with suitable words. We proposed a simple MLM, trained to reconstruct style-masked sentences back into their original style, can even transfer style by making this MLM Style-Aware. We empirically show that this lightweight encoder trained on a simple reconstruction task compares with elaborately engineered state-of-the-art TST models for even complex styles like Discourse or flow of logic. Additionally, we introduce a more accurate attention-based style-masking step and a novel attention-surplus method to determine the position of masks from any arbitrary attribution model in O(1) time. Finally, we show that the SA-MLM arises naturally by considering a probabilistic framework for style transfer."
+
+- key: "dial-m"
+  authors: "Suvodip Dey and Maunendra Sankar Desarkar"
+  title: "Dial-M: A Masking-based Framework for Dialogue Evaluation"
+  journal: "24th Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2023)"
+  abstract: "In dialogue systems, automatically evaluating machine-generated responses is critical and challenging. Despite the tremendous progress in dialogue generation research, its evaluation heavily depends on human judgments. The standard word-overlapping based evaluation metrics are ineffective for dialogues. As a result, most of the recently proposed metrics are model-based and reference-free, which learn to score different aspects of a conversation. However, understanding each aspect requires a separate model, which makes them computationally expensive. To this end, we propose Dial-M, a Masking-based reference-free framework for Dialogue evaluation. The main idea is to mask the keywords of the current utterance and predict them, given the dialogue history and various conditions (like knowledge, persona, etc.), thereby making the evaluation framework simple and easily extensible for multiple datasets. Regardless of its simplicity, Dial-M achieves comparable performance to state-of-the-art metrics on several dialogue evaluation datasets. We also discuss the interpretability of our proposed metric along with error analysis."
+  year: 2023
+  month: 7
+  highlight: 1
+  img: ""
+  bibtex: 0
+  summary: "We propose Dial-M, a Masking-based reference-free framework for Dialogue evaluation. The main idea is to mask the keywords of the current utterance and predict them, given the dialogue history and various conditions (like knowledge, persona, etc.), thereby making the evaluation framework simple and easily extensible for multiple datasets. Regardless of its simplicity, Dial-M achieves comparable performance to state-of-the-art metrics on several dialogue evaluation datasets. We also discuss the interpretability of our proposed metric along with error analysis."
+
 - key: "hyperhawkes"
   authors: "Manisha Dubey, Srijith P. K., Maunendra Sankar Desarkar"
   title: "Time-to-Event Modeling with Hypernetwork based Hawkes Process"
@@ -13,6 +51,7 @@
   img: "cl_hyperhawkes.png"
   video: ""
   summary: ""
+  bibtex: 1
 
 - key: "divhsk"
   authors: "Venkatesh E, Kaushal Kumar Maurya, Deepak Kumar and Maunendra Sankar Desarkar"
@@ -36,6 +75,7 @@ created a high-quality multi-reference headline dataset from news articles"
   img: "divhsk_model_arch.png"
   # video: ""
   summary: "Diverse headline generation is an NLP task where given a news article, the goal is to generate multiple headlines that are true to the content of the article but are different among themselves. This task aims to exhibit and exploit semantically similar one-to-many relationships between a source news article and multiple target headlines. Toward this, we propose a novel model called DIVHSK. It has two components:KEYSELECT for selecting the important keywords, and SEQGEN, for finally generating the multiple diverse headlines. In KEYSELECT, we cluster the self-attention heads of the last layer of the pre-trained encoder and select the most-attentive theme and general keywords from the source article. Then, cluster-specific keyword sets guide the SEQGEN, a pre-trained encoder-decoder model, to generate diverse yet semantically similar headlines. The proposed model consistently outperformed existing literature and our strong baselines and emerged as a state-of-the-art model. We have also created a high-quality multi-reference headline dataset from news articles."
+  bibtex: 1
 
 - key: "vta"
   authors: "Arkadipta De, Maunendra Sankar Desarkar, and Asif Ekbal"
@@ -103,6 +143,7 @@ created a high-quality multi-reference headline dataset from news articles"
   video: 
   summary: "Dialogue State Tracking (DST) is primarily
 evaluated using Joint Goal Accuracy (JGA) defined as the fraction of turns where the groundtruth dialogue state exactly matches the prediction. We propose a new evaluation metric named Flexible Goal Accuracy (FGA). FGA is a generalized version of JGA. But unlike JGA, it tries to give penalized rewards to mispredictions that are locally correct i.e. the root cause of the error is an earlier turn. By doing so, FGA considers the performance of both cumulative and turn-level prediction flexibly and provides a better insight than the existing metrics. We also show that FGA is a better discriminator of DST model performance."
+  bibtex: 1
 
 - key: "time-event-modeling"
   authors: "Manisha Dubey, PK Srijith, Maunendra Sankar Desarkar"
@@ -189,7 +230,7 @@ evaluated using Joint Goal Accuracy (JGA) defined as the fraction of turns where
   img: "unsupervised-text-style-transfer.png"
   video: https://aclanthology.org/2022.naacl-main.34.mp4
   summary: "We introduce EPAAEs (Embedding Perturbed Adversarial AutoEncoders) which completes this perturbation model, by adding a finely adjustable noise component on the continuous embeddings space. We empirically show that this (a) produces a better organised latent space that clusters stylistically similar sentences together, (b) performs best on a diverse set of text style transfer tasks than similar denoising-inspired baselines, and (c) is capable of fine-grained control of Style Transfer strength."
-
+  bibtex: 1
 
 - key: "maurya-desarkar-2022-meta"
   authors: "Kaushal Maurya and Maunendra Sankar Desarkar"
@@ -206,7 +247,7 @@ evaluated using Joint Goal Accuracy (JGA) defined as the fraction of turns where
   img: "maurya-desarkar-2022-meta.png"
   video: https://aclanthology.org/2022.findings-acl.24.mp4 
   summary: "We propose a novel meta-learning framework (called Meta-XNLG) to learn shareable structures from typologically diverse languages based on meta-learning and language clustering. This is a step towards uniform cross-lingual transfer for unseen languages. We first cluster the languages based on language representations and identify the centroid language of each cluster. Then, a meta-learning algorithm is trained with all centroid languages and evaluated on the other languages in the zero-shot setting."
-
+  bibtex: 1
 
 
 
@@ -225,7 +266,7 @@ evaluated using Joint Goal Accuracy (JGA) defined as the fraction of turns where
   img: unspuervised-domain-gnn.png
   video: 
   summary: "In our experiments, we show that the proposed method outperforms state-of-the-art techniques by 2.74% weighted F1 score on average on two standard public datasets in the area of disaster management. We also report experimental results for granular actionable multilabel classification datasets in disaster domain for the first time, on which we outperform BERT by 3.00% on average w.r.t. weighted F1."
-
+  bibtex: 1
 
 
 
@@ -280,7 +321,7 @@ evaluated using Joint Goal Accuracy (JGA) defined as the fraction of turns where
   img: "maurya-etal-2021-zmbart.png"
   video: "https://aclanthology.org/2021.findings-acl.248.mp4"
   summary: "We propose an unsupervised crosslingual language generation framework (called ZmBART) that does not use any parallel or pseudo-parallel/back-translated data. In this framework, we further pre-train mBART sequence-to-sequence denoising auto-encoder model with an auxiliary task using monolingual data of three languages. The objective function of the auxiliary task is close to the target tasks which enriches the multi-lingual latent representation of mBART and provides good initialization for target tasks. Then, this model is fine-tuned with task-specific supervised English data and directly evaluated with low-resource languages in the Zero-shot setting."
-
+  bibtex: 1
 
 
 - key: "hidst"
@@ -298,7 +339,7 @@ evaluated using Joint Goal Accuracy (JGA) defined as the fraction of turns where
   img: "hidst.png"
   video: "https://www.youtube.com/watch?v=ldnP2Cn_7F0"
   summary: "In this work, we propose to address these issues using a Hierarchical DST (Hi-DST) model. At a given turn, the model first detects a change in domain followed by domain prediction if required. Then it decides suitable action for each slot in the predicted domains and finds their value accordingly. The model parameters of Hi-DST are independent of the number of domains/slots. Due to the hierarchical modeling, it achieves O(|M|+|N|) belief state prediction for a single turn where M and N are the set of unique domains and slots respectively."
-
+  bibtex: 1
 
 
 - key: "granular-classification-framework"
