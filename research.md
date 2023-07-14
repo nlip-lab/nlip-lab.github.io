@@ -233,7 +233,7 @@ permalink: /research/
     <!-- Five  -->
      <div class="accordion-item">
         <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" data-bs-parent="#accordionResearchAreas" aria-expanded="false" aria-controls="collapseFive">5. Graph Neural Networks </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" data-bs-parent="#accordionResearchAreas" aria-expanded="false" aria-controls="collapseFive">4. Graph Neural Networks </button>
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse">
             <div class="accordion-body">
@@ -247,7 +247,7 @@ permalink: /research/
     <!-- Six  -->
      <div class="accordion-item">
         <h2 class="accordion-header" id="headingSix">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" data-bs-parent="#accordionResearchAreas" aria-expanded="false" aria-controls="collapseSix">6. Image Captioning</button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" data-bs-parent="#accordionResearchAreas" aria-expanded="false" aria-controls="collapseSix">5. Image Captioning</button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse">
             <div class="accordion-body">
