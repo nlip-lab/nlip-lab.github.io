@@ -33,6 +33,7 @@ Aishwarya is a Joint Ph.D. student at IITH and Swinburne University, Australia. 
 
 ### Research Interest:
 - Natural Language Generation
-- Conversational systems
+- Controllable Text Generation
+- Responsible NLP
 - Medical NLP 
 
