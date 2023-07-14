@@ -32,7 +32,7 @@ for a given query prefix. Traditionally, QAC systems have leveraged tries curate
   year: 2023
   month: 7
   highlight: 1
-  img: ""
+  img: "dial-m_pic.png"
   bibtex: 0
   summary: "We propose Dial-M, a Masking-based reference-free framework for Dialogue evaluation. The main idea is to mask the keywords of the current utterance and predict them, given the dialogue history and various conditions (like knowledge, persona, etc.), thereby making the evaluation framework simple and easily extensible for multiple datasets. Regardless of its simplicity, Dial-M achieves comparable performance to state-of-the-art metrics on several dialogue evaluation datasets. We also discuss the interpretability of our proposed metric along with error analysis."
 
