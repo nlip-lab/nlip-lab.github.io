@@ -1,3 +1,15 @@
+- key: "clef24-diffTopK"
+  authors: "Sayanta Adhikari, Himanshu Sharma, Rupa Kumari, Shrey Satapara and Maunendra Sankar Desarkar"
+  title: "DEFAULT at CheckThat! 2024: Retrieval Augmented Classification using Differentiable Top-K Operator for Rumor Verification based on Evidence from Authorities"
+  journal: "Conference and Labs of the EvaluationForum (CLEF 2024)"
+  abstract: "We present a joint training framework to simultaneously optimize an evidence retriever and a rumor classifier in an end-to-end fashion. We show that our approach performs better than both independent and joint individually. Our experiments have shown that merging these two approaches together leads to better performance. From the results, we can conclude that our approach can retrieve relevant tweets accurately and it can extract at least one relevant tweet for all the rumor claims as Macro-F1 and Strict-Macro-F1 are the same for ColBERT-B with our Approach. Also, the results show the importance of joint training. Using the Soft Top-K operation as a differentiable approximation of the standard Top-K operation can not only encounter discontinuity but enhance the model's performance. Further, we conclude that having Soft-TopK-based reparameterization and independent training followed by joint training leads to better performance. Moreover, we observe that the classifier-guided retriever boosts the performance of the retriever, such that it outperforms the baseline by a huge margin, whereas the classifier's performance is on par with the baseline."
+  year: 2024
+  month: 7
+  highlight: 0
+  img: ""
+  bibtex: 0
+  summary: "We present a joint training framework to simultaneously optimize an evidence retriever and a rumor classifier in an end-to-end fashion. We show that our approach performs better than both independent and joint individually. Our experiments have shown that merging these two approaches together leads to better performance. From the results, we can conclude that our approach can retrieve relevant tweets accurately and it can extract at least one relevant tweet for all the rumor claims as Macro-F1 and Strict-Macro-F1 are the same for ColBERT-B with our Approach."
+
 - key: "dac"
   authors: "Aishwarya Maheswaran, Kaushal Kumar Maurya, Manish Gupta, Maunendra Sankar Desarkar"
   title: "DAC: Quantized Optimal Transport Reward-based Reinforcement Learning Approach to Detoxify Query Auto-Completion"
